@@ -30,12 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:microzed
 LIBS:kk_dac
+LIBS:kk_adc
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 30
+Sheet 1 47
 Title ""
 Date ""
 Rev ""
@@ -191,5 +192,19 @@ S 7300 1800 1150 450
 U 59CA64BD
 F0 "HVMeasurea" 60
 F1 "HVMeasure.sch" 60
+F2 "SDA" B L 7300 2200 60 
+F3 "SCL" B L 7300 2100 60 
+F4 "HV[0..15]" I R 8450 1900 60 
+F5 "HV_RTN[0..15]" I R 8450 2000 60 
+$EndSheet
+$Sheet
+S 7300 2500 1150 450 
+U 59CB9F6B
+F0 "HVMeasureb" 60
+F1 "HVMeasure.sch" 60
+F2 "SDA" B L 7300 2900 60 
+F3 "SCL" B L 7300 2800 60 
+F4 "HV[0..15]" I R 8450 2600 60 
+F5 "HV_RTN[0..15]" I R 8450 2700 60 
 $EndSheet
 $EndSCHEMATC

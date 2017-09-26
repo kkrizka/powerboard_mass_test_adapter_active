@@ -1,4 +1,4 @@
-update=Fri 22 Sep 2017 06:51:05 PM PDT
+update=Tue 26 Sep 2017 10:23:23 AM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=/home/kkrizka/Dropbox/HEP/KiCAD
@@ -58,5 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=microzed
 LibName31=kk_dac
-[general]
-version=1
+LibName32=kk_adc
