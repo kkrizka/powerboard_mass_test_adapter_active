@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 30
 Title ""
 Date ""
 Rev ""
@@ -185,5 +185,11 @@ F2 "SDA" B L 5800 2900 60
 F3 "SCL" B L 5800 2800 60 
 F4 "~CLR" B L 5800 2600 60 
 F5 "VTEST[0..15]" B R 6800 2600 60 
+$EndSheet
+$Sheet
+S 7300 1800 1150 450 
+U 59CA64BD
+F0 "HVMeasurea" 60
+F1 "HVMeasure.sch" 60
 $EndSheet
 $EndSCHEMATC

@@ -1,0 +1,706 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:microzed
+LIBS:kk_dac
+LIBS:pbv2_mass_test_adapter_active-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 30
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 900  700  0    60   BiDi ~ 0
+SDA
+Text HLabel 900  800  0    60   BiDi ~ 0
+SCL
+$Comp
+L ADS128D818 U7
+U 1 1 59C85885
+P 2100 5550
+F 0 "U7" H 1650 6450 50  0000 L CNN
+F 1 "ADS128D818" H 1500 4650 50  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 3100 4650 50  0001 C CIN
+F 3 "" H 2100 5550 50  0000 C CNN
+	1    2100 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 59C85998
+P 2100 6650
+F 0 "#PWR019" H 2100 6400 50  0001 C CNN
+F 1 "GND" H 2100 6500 50  0000 C CNN
+F 2 "" H 2100 6650 50  0001 C CNN
+F 3 "" H 2100 6650 50  0001 C CNN
+	1    2100 6650
+	1    0    0    -1  
+$EndComp
+Text Label 2700 4850 0    60   ~ 0
+SDA
+Text Label 2700 4950 0    60   ~ 0
+SCL
+$Comp
+L +3.3V #PWR020
+U 1 1 59C86FB7
+P 2100 4450
+F 0 "#PWR020" H 2100 4300 50  0001 C CNN
+F 1 "+3.3V" H 2100 4590 50  0000 C CNN
+F 2 "" H 2100 4450 50  0001 C CNN
+F 3 "" H 2100 4450 50  0001 C CNN
+	1    2100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 59C872D8
+P 1100 6300
+F 0 "C2" H 1125 6400 50  0000 L CNN
+F 1 "C" H 1125 6200 50  0000 L CNN
+F 2 "" H 1138 6150 50  0001 C CNN
+F 3 "" H 1100 6300 50  0001 C CNN
+	1    1100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R80
+U 1 1 59C878A3
+P 2950 4950
+F 0 "R80" V 3030 4950 50  0000 C CNN
+F 1 "R" V 2950 4950 50  0000 C CNN
+F 2 "" V 2880 4950 50  0001 C CNN
+F 3 "" H 2950 4950 50  0001 C CNN
+	1    2950 4950
+	1    0    0    -1  
+$EndComp
+Text Label 1450 4850 2    60   ~ 0
+VTEST0
+Text Label 1450 4950 2    60   ~ 0
+VTEST1
+Text Label 1450 5050 2    60   ~ 0
+VTEST2
+Text Label 1450 5150 2    60   ~ 0
+VTEST3
+Text Label 1450 5250 2    60   ~ 0
+VTEST4
+Text Label 1450 5350 2    60   ~ 0
+VTEST5
+Text Label 1450 5450 2    60   ~ 0
+VTEST6
+Text Label 1450 5550 2    60   ~ 0
+VTEST7
+$Sheet
+S 6700 900  900  300 
+U 59C89601
+F0 "HVLoad0" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 6700 1000 60 
+F3 "SCALED_HV" O R 7600 1000 60 
+F4 "HV_RTN" O L 6700 1100 60 
+$EndSheet
+Wire Wire Line
+	950  700  900  700 
+Wire Wire Line
+	950  800  900  800 
+Wire Wire Line
+	2100 6550 2100 6650
+Wire Wire Line
+	2650 4850 2700 4850
+Wire Wire Line
+	2650 4950 2700 4950
+Wire Wire Line
+	2100 4450 2100 4550
+Wire Wire Line
+	1100 4500 2950 4500
+Wire Wire Line
+	1100 4500 1100 6150
+Connection ~ 2100 4500
+Wire Wire Line
+	1100 6600 2100 6600
+Wire Wire Line
+	1100 6600 1100 6450
+Connection ~ 2100 6600
+Wire Wire Line
+	2700 5350 2950 5350
+Wire Wire Line
+	2950 5350 2950 5100
+Wire Wire Line
+	2950 4500 2950 4800
+Wire Wire Line
+	1500 6100 1450 6100
+Wire Wire Line
+	1450 6100 1450 6600
+Connection ~ 1450 6600
+Wire Wire Line
+	1500 6200 1450 6200
+Connection ~ 1450 6200
+Wire Wire Line
+	1500 4850 1450 4850
+Wire Wire Line
+	1450 4950 1500 4950
+Wire Wire Line
+	1450 5050 1500 5050
+Wire Wire Line
+	1450 5150 1500 5150
+Wire Wire Line
+	1450 5250 1500 5250
+Wire Wire Line
+	1450 5350 1500 5350
+Wire Wire Line
+	1450 5450 1500 5450
+Wire Wire Line
+	1450 5550 1500 5550
+NoConn ~ 1400 5850
+Wire Wire Line
+	1500 5850 1400 5850
+$Comp
+L ADS128D818 U9
+U 1 1 59CA04F6
+P 4150 5550
+F 0 "U9" H 3700 6450 50  0000 L CNN
+F 1 "ADS128D818" H 3550 4650 50  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 5150 4650 50  0001 C CIN
+F 3 "" H 4150 5550 50  0000 C CNN
+	1    4150 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 59CA04FC
+P 4150 6650
+F 0 "#PWR023" H 4150 6400 50  0001 C CNN
+F 1 "GND" H 4150 6500 50  0000 C CNN
+F 2 "" H 4150 6650 50  0001 C CNN
+F 3 "" H 4150 6650 50  0001 C CNN
+	1    4150 6650
+	1    0    0    -1  
+$EndComp
+Text Label 4750 4850 0    60   ~ 0
+SDA
+Text Label 4750 4950 0    60   ~ 0
+SCL
+$Comp
+L +3.3V #PWR024
+U 1 1 59CA0504
+P 4150 4450
+F 0 "#PWR024" H 4150 4300 50  0001 C CNN
+F 1 "+3.3V" H 4150 4590 50  0000 C CNN
+F 2 "" H 4150 4450 50  0001 C CNN
+F 3 "" H 4150 4450 50  0001 C CNN
+	1    4150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 59CA050A
+P 3150 6300
+F 0 "C4" H 3175 6400 50  0000 L CNN
+F 1 "C" H 3175 6200 50  0000 L CNN
+F 2 "" H 3188 6150 50  0001 C CNN
+F 3 "" H 3150 6300 50  0001 C CNN
+	1    3150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R82
+U 1 1 59CA0510
+P 5000 4950
+F 0 "R82" V 5080 4950 50  0000 C CNN
+F 1 "R" V 5000 4950 50  0000 C CNN
+F 2 "" V 4930 4950 50  0001 C CNN
+F 3 "" H 5000 4950 50  0001 C CNN
+	1    5000 4950
+	1    0    0    -1  
+$EndComp
+Text Label 3500 4850 2    60   ~ 0
+VTEST8
+Text Label 3500 4950 2    60   ~ 0
+VTEST9
+Text Label 3500 5050 2    60   ~ 0
+VTEST10
+Text Label 3500 5150 2    60   ~ 0
+VTEST11
+Text Label 3500 5250 2    60   ~ 0
+VTEST12
+Text Label 3500 5350 2    60   ~ 0
+VTEST13
+Text Label 3500 5450 2    60   ~ 0
+VTEST14
+Text Label 3500 5550 2    60   ~ 0
+VTEST15
+Wire Wire Line
+	4150 6550 4150 6650
+Wire Wire Line
+	4700 4850 4750 4850
+Wire Wire Line
+	4700 4950 4750 4950
+Wire Wire Line
+	4150 4450 4150 4550
+Wire Wire Line
+	3150 4500 5000 4500
+Wire Wire Line
+	3150 4500 3150 6150
+Connection ~ 4150 4500
+Wire Wire Line
+	3150 6600 4150 6600
+Wire Wire Line
+	3150 6600 3150 6450
+Connection ~ 4150 6600
+Wire Wire Line
+	4750 5350 5000 5350
+Wire Wire Line
+	5000 5350 5000 5100
+Wire Wire Line
+	5000 4500 5000 4800
+Wire Wire Line
+	3550 6100 3500 6100
+Wire Wire Line
+	3500 6100 3500 6600
+Connection ~ 3500 6600
+Wire Wire Line
+	3550 6200 3500 6200
+Connection ~ 3500 6200
+Wire Wire Line
+	3550 4850 3500 4850
+Wire Wire Line
+	3500 4950 3550 4950
+Wire Wire Line
+	3500 5050 3550 5050
+Wire Wire Line
+	3500 5150 3550 5150
+Wire Wire Line
+	3500 5250 3550 5250
+Wire Wire Line
+	3500 5350 3550 5350
+Wire Wire Line
+	3500 5450 3550 5450
+Wire Wire Line
+	3500 5550 3550 5550
+NoConn ~ 3450 5850
+Wire Wire Line
+	3550 5850 3450 5850
+Wire Wire Line
+	6700 1000 6600 1000
+Wire Wire Line
+	6700 1100 6600 1100
+Wire Wire Line
+	7600 1000 7700 1000
+Text Label 6600 1000 2    60   ~ 0
+HV0
+Text Label 6600 1100 2    60   ~ 0
+HV_RTN0
+Text Label 7700 1000 0    60   ~ 0
+SCALED_HV0
+$Sheet
+S 6700 1400 900  300 
+U 59C9CC87
+F0 "HVLoad1" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 6700 1500 60 
+F3 "SCALED_HV" O R 7600 1500 60 
+F4 "HV_RTN" O L 6700 1600 60 
+$EndSheet
+Wire Wire Line
+	6700 1500 6600 1500
+Wire Wire Line
+	6700 1600 6600 1600
+Wire Wire Line
+	7600 1500 7700 1500
+Text Label 6600 1500 2    60   ~ 0
+HV1
+Text Label 6600 1600 2    60   ~ 0
+HV_RTN1
+Text Label 7700 1500 0    60   ~ 0
+SCALED_HV1
+$Sheet
+S 6700 1900 900  300 
+U 59C9D68E
+F0 "HVLoad2" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 6700 2000 60 
+F3 "SCALED_HV" O R 7600 2000 60 
+F4 "HV_RTN" O L 6700 2100 60 
+$EndSheet
+Wire Wire Line
+	6700 2000 6600 2000
+Wire Wire Line
+	6700 2100 6600 2100
+Wire Wire Line
+	7600 2000 7700 2000
+Text Label 6600 2000 2    60   ~ 0
+HV2
+Text Label 6600 2100 2    60   ~ 0
+HV_RTN2
+Text Label 7700 2000 0    60   ~ 0
+SCALED_HV2
+$Sheet
+S 6700 2400 900  300 
+U 59C9D699
+F0 "HVLoad3" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 6700 2500 60 
+F3 "SCALED_HV" O R 7600 2500 60 
+F4 "HV_RTN" O L 6700 2600 60 
+$EndSheet
+Wire Wire Line
+	6700 2500 6600 2500
+Wire Wire Line
+	6700 2600 6600 2600
+Wire Wire Line
+	7600 2500 7700 2500
+Text Label 6600 2500 2    60   ~ 0
+HV3
+Text Label 6600 2600 2    60   ~ 0
+HV_RTN3
+Text Label 7700 2500 0    60   ~ 0
+SCALED_HV3
+$Sheet
+S 6700 2900 900  300 
+U 59C9F58E
+F0 "HVLoad4" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 6700 3000 60 
+F3 "SCALED_HV" O R 7600 3000 60 
+F4 "HV_RTN" O L 6700 3100 60 
+$EndSheet
+Wire Wire Line
+	6700 3000 6600 3000
+Wire Wire Line
+	6700 3100 6600 3100
+Wire Wire Line
+	7600 3000 7700 3000
+Text Label 6600 3000 2    60   ~ 0
+HV4
+Text Label 6600 3100 2    60   ~ 0
+HV_RTN4
+Text Label 7700 3000 0    60   ~ 0
+SCALED_HV4
+$Sheet
+S 6700 3400 900  300 
+U 59C9F599
+F0 "HVLoad5" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 6700 3500 60 
+F3 "SCALED_HV" O R 7600 3500 60 
+F4 "HV_RTN" O L 6700 3600 60 
+$EndSheet
+Wire Wire Line
+	6700 3500 6600 3500
+Wire Wire Line
+	6700 3600 6600 3600
+Wire Wire Line
+	7600 3500 7700 3500
+Text Label 6600 3500 2    60   ~ 0
+HV5
+Text Label 6600 3600 2    60   ~ 0
+HV_RTN5
+Text Label 7700 3500 0    60   ~ 0
+SCALED_HV5
+$Sheet
+S 6700 3900 900  300 
+U 59C9F5A4
+F0 "HVLoad6" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 6700 4000 60 
+F3 "SCALED_HV" O R 7600 4000 60 
+F4 "HV_RTN" O L 6700 4100 60 
+$EndSheet
+Wire Wire Line
+	6700 4000 6600 4000
+Wire Wire Line
+	6700 4100 6600 4100
+Wire Wire Line
+	7600 4000 7700 4000
+Text Label 6600 4000 2    60   ~ 0
+HV6
+Text Label 6600 4100 2    60   ~ 0
+HV_RTN6
+Text Label 7700 4000 0    60   ~ 0
+SCALED_HV6
+$Sheet
+S 6700 4400 900  300 
+U 59C9F5AF
+F0 "HVLoad7" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 6700 4500 60 
+F3 "SCALED_HV" O R 7600 4500 60 
+F4 "HV_RTN" O L 6700 4600 60 
+$EndSheet
+Wire Wire Line
+	6700 4500 6600 4500
+Wire Wire Line
+	6700 4600 6600 4600
+Wire Wire Line
+	7600 4500 7700 4500
+Text Label 6600 4500 2    60   ~ 0
+HV7
+Text Label 6600 4600 2    60   ~ 0
+HV_RTN7
+Text Label 7700 4500 0    60   ~ 0
+SCALED_HV7
+$Sheet
+S 8900 900  900  300 
+U 59CA0C58
+F0 "HVLoad8" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 8900 1000 60 
+F3 "SCALED_HV" O R 9800 1000 60 
+F4 "HV_RTN" O L 8900 1100 60 
+$EndSheet
+Wire Wire Line
+	8900 1000 8800 1000
+Wire Wire Line
+	8900 1100 8800 1100
+Wire Wire Line
+	9800 1000 9900 1000
+Text Label 8800 1000 2    60   ~ 0
+HV8
+Text Label 8800 1100 2    60   ~ 0
+HV_RTN8
+Text Label 9900 1000 0    60   ~ 0
+SCALED_HV8
+$Sheet
+S 8900 1400 900  300 
+U 59CA0C63
+F0 "HVLoad9" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 8900 1500 60 
+F3 "SCALED_HV" O R 9800 1500 60 
+F4 "HV_RTN" O L 8900 1600 60 
+$EndSheet
+Wire Wire Line
+	8900 1500 8800 1500
+Wire Wire Line
+	8900 1600 8800 1600
+Wire Wire Line
+	9800 1500 9900 1500
+Text Label 8800 1500 2    60   ~ 0
+HV9
+Text Label 8800 1600 2    60   ~ 0
+HV_RTN9
+Text Label 9900 1500 0    60   ~ 0
+SCALED_HV9
+$Sheet
+S 8900 1900 900  300 
+U 59CA0C6E
+F0 "HVLoad10" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 8900 2000 60 
+F3 "SCALED_HV" O R 9800 2000 60 
+F4 "HV_RTN" O L 8900 2100 60 
+$EndSheet
+Wire Wire Line
+	8900 2000 8800 2000
+Wire Wire Line
+	8900 2100 8800 2100
+Wire Wire Line
+	9800 2000 9900 2000
+Text Label 8800 2000 2    60   ~ 0
+HV10
+Text Label 8800 2100 2    60   ~ 0
+HV_RTN10
+Text Label 9900 2000 0    60   ~ 0
+SCALED_HV10
+$Sheet
+S 8900 2400 900  300 
+U 59CA0C79
+F0 "HVLoad11" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 8900 2500 60 
+F3 "SCALED_HV" O R 9800 2500 60 
+F4 "HV_RTN" O L 8900 2600 60 
+$EndSheet
+Wire Wire Line
+	8900 2500 8800 2500
+Wire Wire Line
+	8900 2600 8800 2600
+Wire Wire Line
+	9800 2500 9900 2500
+Text Label 8800 2500 2    60   ~ 0
+HV11
+Text Label 8800 2600 2    60   ~ 0
+HV_RTN11
+Text Label 9900 2500 0    60   ~ 0
+SCALED_HV11
+$Sheet
+S 8900 2900 900  300 
+U 59CA0C84
+F0 "HVLoad12" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 8900 3000 60 
+F3 "SCALED_HV" O R 9800 3000 60 
+F4 "HV_RTN" O L 8900 3100 60 
+$EndSheet
+Wire Wire Line
+	8900 3000 8800 3000
+Wire Wire Line
+	8900 3100 8800 3100
+Wire Wire Line
+	9800 3000 9900 3000
+Text Label 8800 3000 2    60   ~ 0
+HV12
+Text Label 8800 3100 2    60   ~ 0
+HV_RTN12
+Text Label 9900 3000 0    60   ~ 0
+SCALED_HV12
+$Sheet
+S 8900 3400 900  300 
+U 59CA0C8F
+F0 "HVLoad13" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 8900 3500 60 
+F3 "SCALED_HV" O R 9800 3500 60 
+F4 "HV_RTN" O L 8900 3600 60 
+$EndSheet
+Wire Wire Line
+	8900 3500 8800 3500
+Wire Wire Line
+	8900 3600 8800 3600
+Wire Wire Line
+	9800 3500 9900 3500
+Text Label 8800 3500 2    60   ~ 0
+HV13
+Text Label 8800 3600 2    60   ~ 0
+HV_RTN13
+Text Label 9900 3500 0    60   ~ 0
+SCALED_HV13
+$Sheet
+S 8900 3900 900  300 
+U 59CA0C9A
+F0 "HVLoad14" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 8900 4000 60 
+F3 "SCALED_HV" O R 9800 4000 60 
+F4 "HV_RTN" O L 8900 4100 60 
+$EndSheet
+Wire Wire Line
+	8900 4000 8800 4000
+Wire Wire Line
+	8900 4100 8800 4100
+Wire Wire Line
+	9800 4000 9900 4000
+Text Label 8800 4000 2    60   ~ 0
+HV14
+Text Label 8800 4100 2    60   ~ 0
+HV_RTN14
+Text Label 9900 4000 0    60   ~ 0
+SCALED_HV14
+$Sheet
+S 8900 4400 900  300 
+U 59CA0CA5
+F0 "HVLoad15" 60
+F1 "HVLoad.sch" 60
+F2 "HV" I L 8900 4500 60 
+F3 "SCALED_HV" O R 9800 4500 60 
+F4 "HV_RTN" O L 8900 4600 60 
+$EndSheet
+Wire Wire Line
+	8900 4500 8800 4500
+Wire Wire Line
+	8900 4600 8800 4600
+Wire Wire Line
+	9800 4500 9900 4500
+Text Label 8800 4500 2    60   ~ 0
+HV15
+Text Label 8800 4600 2    60   ~ 0
+HV_RTN15
+Text Label 9900 4500 0    60   ~ 0
+SCALED_HV15
+Entry Wire Line
+	1500 800  1600 900 
+Entry Wire Line
+	1500 900  1600 1000
+Entry Wire Line
+	1500 1000 1600 1100
+Entry Wire Line
+	1500 1100 1600 1200
+Entry Wire Line
+	1500 1200 1600 1300
+Entry Wire Line
+	1500 1300 1600 1400
+Entry Wire Line
+	1500 1400 1600 1500
+Entry Wire Line
+	1500 1500 1600 1600
+Entry Wire Line
+	1500 1600 1600 1700
+Entry Wire Line
+	1500 1700 1600 1800
+Entry Wire Line
+	1500 1800 1600 1900
+Entry Wire Line
+	1500 1900 1600 2000
+Entry Wire Line
+	1500 2000 1600 2100
+Entry Wire Line
+	1500 2100 1600 2200
+Entry Wire Line
+	1500 2200 1600 2300
+Entry Wire Line
+	1500 2300 1600 2400
+Entry Wire Line
+	1500 2400 1600 2500
+Entry Wire Line
+	1500 2500 1600 2600
+Entry Wire Line
+	1500 2600 1600 2700
+Entry Wire Line
+	1500 2700 1600 2800
+Entry Wire Line
+	1500 2800 1600 2900
+Entry Wire Line
+	1500 2900 1600 3000
+Entry Wire Line
+	1500 3000 1600 3100
+Entry Wire Line
+	1500 3100 1600 3200
+Entry Wire Line
+	1500 3200 1600 3300
+Entry Wire Line
+	1500 3300 1600 3400
+Entry Wire Line
+	1500 3400 1600 3500
+Entry Wire Line
+	1500 3500 1600 3600
+Entry Wire Line
+	1500 3600 1600 3700
+Entry Wire Line
+	1500 3700 1600 3800
+Entry Wire Line
+	1500 3800 1600 3900
+$EndSCHEMATC
