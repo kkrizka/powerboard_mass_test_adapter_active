@@ -31,12 +31,13 @@ LIBS:valves
 LIBS:microzed
 LIBS:kk_dac
 LIBS:kk_adc
+LIBS:kk_conn
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 15
+Sheet 5 19
 Title ""
 Date ""
 Rev ""

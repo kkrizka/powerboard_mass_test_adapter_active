@@ -1,4 +1,4 @@
-update=Tue 26 Sep 2017 10:23:23 AM PDT
+update=Mon 27 Nov 2017 02:59:52 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=microzed
 LibName31=kk_dac
 LibName32=kk_adc
+LibName33=kk_conn
