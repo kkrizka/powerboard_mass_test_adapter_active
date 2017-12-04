@@ -32,12 +32,13 @@ LIBS:microzed
 LIBS:kk_dac
 LIBS:kk_adc
 LIBS:kk_conn
+LIBS:kk_power
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 30
+Sheet 21 31
 Title ""
 Date ""
 Rev ""

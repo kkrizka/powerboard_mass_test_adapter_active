@@ -32,12 +32,13 @@ LIBS:microzed
 LIBS:kk_dac
 LIBS:kk_adc
 LIBS:kk_conn
+LIBS:kk_power
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 30
+Sheet 1 31
 Title ""
 Date ""
 Rev ""
@@ -456,4 +457,10 @@ Text Label 2800 3450 2    60   ~ 0
 HV_IN
 Text Label 2800 3550 2    60   ~ 0
 HV_IN_RTN
+$Sheet
+S 700  4900 950  450 
+U 5A25C4B7
+F0 "Power" 60
+F1 "Power.sch" 60
+$EndSheet
 $EndSCHEMATC

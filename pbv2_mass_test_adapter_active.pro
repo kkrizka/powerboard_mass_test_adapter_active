@@ -1,4 +1,4 @@
-update=Fri 01 Dec 2017 07:54:27 AM PST
+update=Mon 04 Dec 2017 11:13:18 AM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=/home/kkrizka/Dropbox/HEP/KiCAD
@@ -62,13 +72,4 @@ LibName30=microzed
 LibName31=kk_dac
 LibName32=kk_adc
 LibName33=kk_conn
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=schematic/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName34=kk_power
