@@ -428,4 +428,16 @@ F 3 "" H 7250 4850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7250 4900 7250 4850
+Wire Wire Line
+	7500 1500 6950 1500
+Text HLabel 6950 1500 0    60   Output ~ 0
+~RESET
+Wire Wire Line
+	4900 1400 5450 1400
+Wire Wire Line
+	2900 1400 2350 1400
+Text HLabel 5450 1400 2    60   BiDi ~ 0
+I2C_SCL
+Text HLabel 2350 1400 0    60   BiDi ~ 0
+I2C_SDA
 $EndSCHEMATC
