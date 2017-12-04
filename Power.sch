@@ -74,17 +74,6 @@ F 3 "" H 5300 3700 50  0001 C CNN
 $EndComp
 $Comp
 L R R?
-U 1 1 5A25A632
-P 3850 3000
-F 0 "R?" V 3930 3000 50  0000 C CNN
-F 1 "100k" V 3850 3000 50  0000 C CNN
-F 2 "" V 3780 3000 50  0001 C CNN
-F 3 "" H 3850 3000 50  0001 C CNN
-	1    3850 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R?
 U 1 1 5A25A67F
 P 5300 3050
 F 0 "R?" V 5380 3050 50  0000 C CNN
@@ -119,10 +108,6 @@ Wire Wire Line
 	5150 3250 5150 3000
 Connection ~ 5300 3250
 Connection ~ 5300 2900
-Wire Wire Line
-	4000 3000 4050 3000
-Wire Wire Line
-	3650 3000 3700 3000
 Connection ~ 3650 2900
 $Comp
 L C C?
@@ -172,7 +157,6 @@ Wire Wire Line
 	5600 3300 5600 3200
 Wire Wire Line
 	3650 3500 3650 3400
-Connection ~ 3650 3000
 $Comp
 L GND #PWR?
 U 1 1 5A25A96A
@@ -226,17 +210,6 @@ F 3 "" H 8150 3700 50  0001 C CNN
 $EndComp
 $Comp
 L R R?
-U 1 1 5A25ACFE
-P 6700 3000
-F 0 "R?" V 6780 3000 50  0000 C CNN
-F 1 "100k" V 6700 3000 50  0000 C CNN
-F 2 "" V 6630 3000 50  0001 C CNN
-F 3 "" H 6700 3000 50  0001 C CNN
-	1    6700 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R?
 U 1 1 5A25AD04
 P 8150 3050
 F 0 "R?" V 8230 3050 50  0000 C CNN
@@ -282,10 +255,6 @@ F 3 "" H 8600 2900 50  0001 C CNN
 	1    8600 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6850 3000 6900 3000
-Wire Wire Line
-	6500 3000 6550 3000
 Connection ~ 6500 2900
 $Comp
 L C C?
@@ -335,7 +304,6 @@ Wire Wire Line
 	8450 3300 8450 3200
 Wire Wire Line
 	6500 3500 6500 3400
-Connection ~ 6500 3000
 $Comp
 L GND #PWR?
 U 1 1 5A25AD3C
@@ -374,4 +342,14 @@ F 3 "" H 5750 2900 50  0001 C CNN
 	1    5750 2900
 	1    0    0    -1  
 $EndComp
+Text HLabel 3500 2300 0    60   Input ~ 0
+PWR_EN
+Wire Wire Line
+	4050 3000 4000 3000
+Wire Wire Line
+	6900 3000 6850 3000
+Text Label 4000 3000 2    60   ~ 0
+PWR_EN
+Text Label 6850 3000 2    60   ~ 0
+PWR_EN
 $EndSCHEMATC

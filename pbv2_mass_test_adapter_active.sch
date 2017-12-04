@@ -49,10 +49,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 700  800  1550 2850
+S 550  650  1550 2850
 U 59C2F489
 F0 "MicroZed" 60
 F1 "microzed.sch" 60
+F2 "PWR_EN" O R 2100 800 60 
 $EndSheet
 $Comp
 L PWR_FLAG #FLG01
@@ -80,17 +81,6 @@ F 3 "" H 3600 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 750  3600 850 
-$Comp
-L VDD #PWR03
-U 1 1 59C547AC
-P 3600 750
-F 0 "#PWR03" H 3600 600 50  0001 C CNN
-F 1 "VDD" H 3600 900 50  0000 C CNN
-F 2 "" H 3600 750 50  0001 C CNN
-F 3 "" H 3600 750 50  0001 C CNN
-	1    3600 750 
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 2600 1300 900  1400
 U 59C2F7D8
@@ -458,9 +448,29 @@ HV_IN
 Text Label 2800 3550 2    60   ~ 0
 HV_IN_RTN
 $Sheet
-S 700  4900 950  450 
+S 1150 4900 950  450 
 U 5A25C4B7
 F0 "Power" 60
 F1 "Power.sch" 60
+F2 "PWR_EN" I L 1150 5000 60 
 $EndSheet
+Wire Wire Line
+	1150 5000 1050 5000
+Text Label 1050 5000 2    60   ~ 0
+PWR_EN
+Wire Wire Line
+	2100 800  2150 800 
+Text Label 2150 800  0    60   ~ 0
+PWR_EN
+$Comp
+L +2V5 #PWR?
+U 1 1 5A2612DC
+P 3600 750
+F 0 "#PWR?" H 3600 600 50  0001 C CNN
+F 1 "+2V5" H 3600 890 50  0000 C CNN
+F 2 "" H 3600 750 50  0001 C CNN
+F 3 "" H 3600 750 50  0001 C CNN
+	1    3600 750 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
