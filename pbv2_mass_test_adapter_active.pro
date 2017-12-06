@@ -1,4 +1,4 @@
-update=Mon 04 Dec 2017 11:13:18 AM PST
+update=Tue 05 Dec 2017 04:33:56 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=/home/kkrizka/Dropbox/HEP/KiCAD
+LibDir=library
 [eeschema/libraries]
 LibName1=power
 LibName2=device

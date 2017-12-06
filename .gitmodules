@@ -1,0 +1,6 @@
+[submodule "kicad-components"]
+	path = kicad-components
+	url = git@github.com:kkrizka/kicad-components.git
+[submodule "library"]
+	path = library
+	url = git@github.com:kkrizka/kicad-components.git
