@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pbv2_mass_test_adapter_active-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 21 31
+Sheet 22 31
 Title ""
 Date ""
 Rev ""

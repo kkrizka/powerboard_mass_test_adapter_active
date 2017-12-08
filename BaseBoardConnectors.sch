@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pbv2_mass_test_adapter_active-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors

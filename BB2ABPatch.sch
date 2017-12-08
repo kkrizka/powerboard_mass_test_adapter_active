@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pbv2_mass_test_adapter_active-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -355,14 +356,14 @@ Wire Wire Line
 Wire Wire Line
 	4800 5500 5600 5500
 $Comp
-L GND #PWR0228
+L GND #PWR0240
 U 1 1 5A1DD1B7
 P 4800 5700
-AR Path="/5A1DCE07/5A1DD1B7" Ref="#PWR0228"  Part="1" 
-AR Path="/5A1CFB46/5A1DD1B7" Ref="#PWR0229"  Part="1" 
-AR Path="/5A1D0419/5A1DD1B7" Ref="#PWR0230"  Part="1" 
-AR Path="/5A1D0424/5A1DD1B7" Ref="#PWR0231"  Part="1" 
-F 0 "#PWR0228" H 4800 5450 50  0001 C CNN
+AR Path="/5A1DCE07/5A1DD1B7" Ref="#PWR0240"  Part="1" 
+AR Path="/5A1CFB46/5A1DD1B7" Ref="#PWR0241"  Part="1" 
+AR Path="/5A1D0419/5A1DD1B7" Ref="#PWR0242"  Part="1" 
+AR Path="/5A1D0424/5A1DD1B7" Ref="#PWR0243"  Part="1" 
+F 0 "#PWR0243" H 4800 5450 50  0001 C CNN
 F 1 "GND" H 4800 5550 50  0000 C CNN
 F 2 "" H 4800 5700 50  0001 C CNN
 F 3 "" H 4800 5700 50  0001 C CNN
@@ -378,7 +379,7 @@ Connection ~ 4800 5500
 Text HLabel 4700 2200 1    60   BiDi ~ 0
 SIG[0..26]
 Text HLabel 5800 4100 3    60   BiDi ~ 0
-SIGa[0..8]
+SIGa[0..15]
 Text HLabel 5700 5700 3    60   BiDi ~ 0
-SIGb[0..8]
+SIGb[0..15]
 $EndSCHEMATC
