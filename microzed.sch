@@ -30,10 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:microzed
-LIBS:kk_dac
-LIBS:kk_adc
-LIBS:kk_conn
-LIBS:kk_power
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
@@ -346,10 +342,10 @@ NoConn ~ 4900 5600
 NoConn ~ 4900 5800
 NoConn ~ 4900 5900
 $Comp
-L MicroZed-RESCUE-pbv2_mass_test_adapter_active ZED2001
+L MicroZed-RESCUE-pbv2_mass_test_adapter_active ZED1
 U 1 1 5A2B0A72
 P 3900 3450
-F 0 "ZED2001" H 3900 6050 50  0000 C CNN
+F 0 "ZED1" H 3900 6050 50  0000 C CNN
 F 1 "MicroZed" H 3900 850 50  0000 C CNN
 F 2 "zed:microzed" H 3900 3450 60  0001 C CNN
 F 3 "" H 3900 3450 60  0001 C CNN
@@ -357,10 +353,10 @@ F 3 "" H 3900 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MicroZed ZED2001
+L MicroZed ZED1
 U 2 1 5A5528C6
 P 8500 3450
-F 0 "ZED2001" H 8500 6050 50  0000 C CNN
+F 0 "ZED1" H 8500 6050 50  0000 C CNN
 F 1 "MicroZed" H 8500 850 50  0000 C CNN
 F 2 "zed:microzed" H 8500 3450 60  0001 C CNN
 F 3 "" H 8500 3450 60  0001 C CNN
