@@ -1,4 +1,4 @@
-update=Wed 07 Feb 2018 01:03:04 PM PST
+update=Thu 28 Jun 2018 10:03:00 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,7 +70,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=microzed
-LibName32=kk_dac
-LibName33=kk_adc
-LibName34=kk_conn
-LibName35=kk_power

@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 31
+Sheet 16 38
 Title ""
 Date ""
 Rev ""
@@ -54,25 +54,27 @@ F2 "VIN" I L 2000 1400 60
 F3 "VIN_RTN" O L 2000 1500 60 
 F4 "HV_IN" I L 2000 1700 60 
 F5 "HV_IN_RTN" O L 2000 1800 60 
-F6 "SDA[0..8]" B L 2000 1950 60 
-F7 "HV_OUT[0..8]" I R 3550 1700 60 
-F8 "HV_OUT_RTN[0..8]" O R 3550 1800 60 
-F9 "SCL[0..8]" B L 2000 2050 60 
-F10 "VOUT[0..8]" I R 3550 1400 60 
-F11 "VOUT_RTN[0..8]" O R 3550 1500 60 
+F6 "SDA[1..9]" B L 2000 1950 60 
+F7 "HV_OUT[1..9]" I R 3550 1700 60 
+F8 "HV_OUT_RTN[1..9]" O R 3550 1800 60 
+F9 "SCL[1..9]" B L 2000 2050 60 
+F10 "VOUT[1..9]" I R 3550 1400 60 
+F11 "VOUT_RTN[1..9]" O R 3550 1500 60 
+F12 "coilp" I R 3550 1950 60 
+F13 "coiln" O R 3550 2050 60 
 $EndSheet
 Text Label 3700 1400 0    60   ~ 0
-VOUTa[0..8]
+VOUTa[1..9]
 Text Label 3700 1500 0    60   ~ 0
-VOUT_RTNa[0..8]
+VOUT_RTNa[1..9]
 Text Label 3700 1700 0    60   ~ 0
-HV_OUTa[0..8]
+HV_OUTa[1..9]
 Text Label 3700 1800 0    60   ~ 0
-HV_OUT_RTNa[0..8]
+HV_OUT_RTNa[1..9]
 Text Label 1850 1950 2    60   ~ 0
-SDAa[0..8]
+SDAa[1..9]
 Text Label 1850 2050 2    60   ~ 0
-SCLa[0..8]
+SCLa[1..9]
 Text Label 1850 1400 2    60   ~ 0
 VIN
 Text Label 1850 1500 2    60   ~ 0
@@ -90,25 +92,27 @@ F2 "VIN" I L 2000 2500 60
 F3 "VIN_RTN" O L 2000 2600 60 
 F4 "HV_IN" I L 2000 2800 60 
 F5 "HV_IN_RTN" O L 2000 2900 60 
-F6 "SDA[0..8]" B L 2000 3050 60 
-F7 "HV_OUT[0..8]" I R 3550 2800 60 
-F8 "HV_OUT_RTN[0..8]" O R 3550 2900 60 
-F9 "SCL[0..8]" B L 2000 3150 60 
-F10 "VOUT[0..8]" I R 3550 2500 60 
-F11 "VOUT_RTN[0..8]" O R 3550 2600 60 
+F6 "SDA[1..9]" B L 2000 3050 60 
+F7 "HV_OUT[1..9]" I R 3550 2800 60 
+F8 "HV_OUT_RTN[1..9]" O R 3550 2900 60 
+F9 "SCL[1..9]" B L 2000 3150 60 
+F10 "VOUT[1..9]" I R 3550 2500 60 
+F11 "VOUT_RTN[1..9]" O R 3550 2600 60 
+F12 "coilp" I R 3550 3050 60 
+F13 "coiln" O R 3550 3150 60 
 $EndSheet
 Text Label 3700 2500 0    60   ~ 0
-VOUTb[0..8]
+VOUTb[1..9]
 Text Label 3700 2600 0    60   ~ 0
-VOUT_RTNb[0..8]
+VOUT_RTNb[1..9]
 Text Label 3700 2800 0    60   ~ 0
-HV_OUTb[0..8]
+HV_OUTb[1..9]
 Text Label 3700 2900 0    60   ~ 0
-HV_OUT_RTNb[0..8]
+HV_OUT_RTNb[1..9]
 Text Label 1850 3050 2    60   ~ 0
-SDAb[0..8]
+SDAb[1..9]
 Text Label 1850 3150 2    60   ~ 0
-SCLb[0..8]
+SCLb[1..9]
 Text Label 1850 2500 2    60   ~ 0
 VOUT
 Text Label 1850 2600 2    60   ~ 0
@@ -126,25 +130,27 @@ F2 "VIN" I L 2000 3600 60
 F3 "VIN_RTN" O L 2000 3700 60 
 F4 "HV_IN" I L 2000 3900 60 
 F5 "HV_IN_RTN" O L 2000 4000 60 
-F6 "SDA[0..8]" B L 2000 4150 60 
-F7 "HV_OUT[0..8]" I R 3550 3900 60 
-F8 "HV_OUT_RTN[0..8]" O R 3550 4000 60 
-F9 "SCL[0..8]" B L 2000 4250 60 
-F10 "VOUT[0..8]" I R 3550 3600 60 
-F11 "VOUT_RTN[0..8]" O R 3550 3700 60 
+F6 "SDA[1..9]" B L 2000 4150 60 
+F7 "HV_OUT[1..9]" I R 3550 3900 60 
+F8 "HV_OUT_RTN[1..9]" O R 3550 4000 60 
+F9 "SCL[1..9]" B L 2000 4250 60 
+F10 "VOUT[1..9]" I R 3550 3600 60 
+F11 "VOUT_RTN[1..9]" O R 3550 3700 60 
+F12 "coilp" I R 3550 4150 60 
+F13 "coiln" O R 3550 4250 60 
 $EndSheet
 Text Label 3700 3600 0    60   ~ 0
-VOUTc[0..8]
+VOUTc[1..9]
 Text Label 3700 3700 0    60   ~ 0
-VOUT_RTNc[0..8]
+VOUT_RTNc[1..9]
 Text Label 3700 3900 0    60   ~ 0
-HV_OUTc[0..8]
+HV_OUTc[1..9]
 Text Label 3700 4000 0    60   ~ 0
-HV_OUT_RTNc[0..8]
+HV_OUT_RTNc[1..9]
 Text Label 1850 4150 2    60   ~ 0
-SDAc[0..8]
+SDAc[1..9]
 Text Label 1850 4250 2    60   ~ 0
-SCLc[0..8]
+SCLc[1..9]
 Text Label 1850 3600 2    60   ~ 0
 VOUT
 Text Label 1850 3700 2    60   ~ 0
@@ -224,13 +230,13 @@ Wire Wire Line
 Wire Bus Line
 	5800 4400 5900 4400
 Text HLabel 5600 900  0    60   Input ~ 0
-VOUT[0..26]
+VOUT[1..27]
 Text Label 7000 900  0    60   ~ 0
-VOUTa[0..8]
+VOUTa[1..9]
 Text Label 7000 1000 0    60   ~ 0
-VOUTb[0..8]
+VOUTb[1..9]
 Text Label 7000 1100 0    60   ~ 0
-VOUTc[0..8]
+VOUTc[1..9]
 Wire Bus Line
 	5600 900  5700 900 
 Wire Bus Line
@@ -244,19 +250,19 @@ S 5700 800  1200 400
 U 5A21DAAB
 F0 "SheetBBCPatch3_VOUT" 60
 F1 "BBCPatch3.sch" 60
-F2 "SIG[0..26]" B L 5700 900 60 
-F3 "SIGa[0..8]" B R 6900 900 60 
-F4 "SIGb[0..8]" B R 6900 1000 60 
-F5 "SIGc[0..8]" B R 6900 1100 60 
+F2 "SIG[1..27]" B L 5700 900 60 
+F3 "SIGa[1..9]" B R 6900 900 60 
+F4 "SIGb[1..9]" B R 6900 1000 60 
+F5 "SIGc[1..9]" B R 6900 1100 60 
 $EndSheet
 Text HLabel 5600 1500 0    60   Output ~ 0
-VOUT_RTN[0..26]
+VOUT_RTN[1..27]
 Text Label 7000 1500 0    60   ~ 0
-VOUT_RTNa[0..8]
+VOUT_RTNa[1..9]
 Text Label 7000 1600 0    60   ~ 0
-VOUT_RTNb[0..8]
+VOUT_RTNb[1..9]
 Text Label 7000 1700 0    60   ~ 0
-VOUT_RTNc[0..8]
+VOUT_RTNc[1..9]
 Wire Bus Line
 	5600 1500 5700 1500
 Wire Bus Line
@@ -270,19 +276,19 @@ S 5700 1400 1200 400
 U 5A1D43DB
 F0 "SheetBBCPatch3_VOUT_RTN" 60
 F1 "BBCPatch3.sch" 60
-F2 "SIG[0..26]" B L 5700 1500 60 
-F3 "SIGa[0..8]" B R 6900 1500 60 
-F4 "SIGb[0..8]" B R 6900 1600 60 
-F5 "SIGc[0..8]" B R 6900 1700 60 
+F2 "SIG[1..27]" B L 5700 1500 60 
+F3 "SIGa[1..9]" B R 6900 1500 60 
+F4 "SIGb[1..9]" B R 6900 1600 60 
+F5 "SIGc[1..9]" B R 6900 1700 60 
 $EndSheet
 Text HLabel 5600 2200 0    60   Input ~ 0
-HV_OUT[0..26]
+HV_OUT[1..27]
 Text Label 7000 2200 0    60   ~ 0
-HV_OUTa[0..8]
+HV_OUTa[1..9]
 Text Label 7000 2300 0    60   ~ 0
-HV_OUTb[0..8]
+HV_OUTb[1..9]
 Text Label 7000 2400 0    60   ~ 0
-HV_OUTc[0..8]
+HV_OUTc[1..9]
 Wire Bus Line
 	6900 2200 7000 2200
 Wire Bus Line
@@ -294,19 +300,19 @@ S 5700 2100 1200 400
 U 5A1D52B0
 F0 "SheetBBCPatch3_HV_OUT" 60
 F1 "BBCPatch3.sch" 60
-F2 "SIG[0..26]" B L 5700 2200 60 
-F3 "SIGa[0..8]" B R 6900 2200 60 
-F4 "SIGb[0..8]" B R 6900 2300 60 
-F5 "SIGc[0..8]" B R 6900 2400 60 
+F2 "SIG[1..27]" B L 5700 2200 60 
+F3 "SIGa[1..9]" B R 6900 2200 60 
+F4 "SIGb[1..9]" B R 6900 2300 60 
+F5 "SIGc[1..9]" B R 6900 2400 60 
 $EndSheet
 Text HLabel 5600 2800 0    60   Output ~ 0
-HV_OUT_RTN[0..26]
+HV_OUT_RTN[1..27]
 Text Label 7000 2800 0    60   ~ 0
-HV_OUT_RTNa[0..8]
+HV_OUT_RTNa[1..9]
 Text Label 7000 2900 0    60   ~ 0
-HV_OUT_RTNb[0..8]
+HV_OUT_RTNb[1..9]
 Text Label 7000 3000 0    60   ~ 0
-HV_OUT_RTNc[0..8]
+HV_OUT_RTNc[1..9]
 Wire Bus Line
 	5600 2800 5700 2800
 Wire Bus Line
@@ -320,19 +326,19 @@ S 5700 2700 1200 400
 U 5A1D5B75
 F0 "SheetBBCPatch3_HV_OUT_RTN" 60
 F1 "BBCPatch3.sch" 60
-F2 "SIG[0..26]" B L 5700 2800 60 
-F3 "SIGa[0..8]" B R 6900 2800 60 
-F4 "SIGb[0..8]" B R 6900 2900 60 
-F5 "SIGc[0..8]" B R 6900 3000 60 
+F2 "SIG[1..27]" B L 5700 2800 60 
+F3 "SIGa[1..9]" B R 6900 2800 60 
+F4 "SIGb[1..9]" B R 6900 2900 60 
+F5 "SIGc[1..9]" B R 6900 3000 60 
 $EndSheet
 Text HLabel 5600 3500 0    60   BiDi ~ 0
-SCL[0..26]
+SCL[1..27]
 Text Label 7000 3500 0    60   ~ 0
-SCLa[0..8]
+SCLa[1..9]
 Text Label 7000 3600 0    60   ~ 0
-SCLb[0..8]
+SCLb[1..9]
 Text Label 7000 3700 0    60   ~ 0
-SCLc[0..8]
+SCLc[1..9]
 Wire Bus Line
 	5600 3500 5700 3500
 Wire Bus Line
@@ -346,19 +352,19 @@ S 5700 3400 1200 400
 U 5A1D71CA
 F0 "SheetBBCPatch3_SCL" 60
 F1 "BBCPatch3.sch" 60
-F2 "SIG[0..26]" B L 5700 3500 60 
-F3 "SIGa[0..8]" B R 6900 3500 60 
-F4 "SIGb[0..8]" B R 6900 3600 60 
-F5 "SIGc[0..8]" B R 6900 3700 60 
+F2 "SIG[1..27]" B L 5700 3500 60 
+F3 "SIGa[1..9]" B R 6900 3500 60 
+F4 "SIGb[1..9]" B R 6900 3600 60 
+F5 "SIGc[1..9]" B R 6900 3700 60 
 $EndSheet
 Text HLabel 5600 4100 0    60   BiDi ~ 0
-SDA[0..26]
+SDA[1..27]
 Text Label 7000 4100 0    60   ~ 0
-SDAa[0..8]
+SDAa[1..9]
 Text Label 7000 4200 0    60   ~ 0
-SDAb[0..8]
+SDAb[1..9]
 Text Label 7000 4300 0    60   ~ 0
-SDAc[0..8]
+SDAc[1..9]
 Wire Bus Line
 	5600 4100 5700 4100
 Wire Bus Line
@@ -372,11 +378,95 @@ S 5700 4000 1200 400
 U 5A1D71D8
 F0 "SheetBBCPatch3_SDA" 60
 F1 "BBCPatch3.sch" 60
-F2 "SIG[0..26]" B L 5700 4100 60 
-F3 "SIGa[0..8]" B R 6900 4100 60 
-F4 "SIGb[0..8]" B R 6900 4200 60 
-F5 "SIGc[0..8]" B R 6900 4300 60 
+F2 "SIG[1..27]" B L 5700 4100 60 
+F3 "SIGa[1..9]" B R 6900 4100 60 
+F4 "SIGb[1..9]" B R 6900 4200 60 
+F5 "SIGc[1..9]" B R 6900 4300 60 
 $EndSheet
 Wire Bus Line
 	5700 2200 5600 2200
+Wire Wire Line
+	3550 1950 3700 1950
+Wire Wire Line
+	3550 2050 3700 2050
+Wire Wire Line
+	3550 3050 3700 3050
+Wire Wire Line
+	3550 3150 3700 3150
+Wire Wire Line
+	3550 4150 3700 4150
+Wire Wire Line
+	3550 4250 3700 4250
+Text HLabel 4300 5600 2    60   Input ~ 0
+coilp[1..3]
+Text HLabel 5200 5600 2    60   Output ~ 0
+coiln[1..3]
+Text Label 3700 1950 0    60   ~ 0
+coilpa
+Text Label 3700 2050 0    60   ~ 0
+coilna
+Text Label 3700 3050 0    60   ~ 0
+coilpb
+Text Label 3700 3150 0    60   ~ 0
+coilnb
+Text Label 3700 4150 0    60   ~ 0
+coilpc
+Text Label 3700 4250 0    60   ~ 0
+coilnc
+Wire Bus Line
+	4300 5600 4250 5600
+Wire Bus Line
+	4250 5600 4250 5200
+Entry Wire Line
+	4150 5100 4250 5200
+Entry Wire Line
+	4150 5250 4250 5350
+Entry Wire Line
+	4150 5400 4250 5500
+Wire Wire Line
+	4150 5100 3700 5100
+Text Label 4150 5100 2    60   ~ 0
+coilp1
+Text Label 3800 5100 2    60   ~ 0
+coilpa
+Wire Wire Line
+	4150 5250 3700 5250
+Text Label 4150 5250 2    60   ~ 0
+coilp2
+Text Label 3800 5250 2    60   ~ 0
+coilpb
+Wire Wire Line
+	4150 5400 3700 5400
+Text Label 4150 5400 2    60   ~ 0
+coilp3
+Text Label 3800 5400 2    60   ~ 0
+coilpc
+Wire Bus Line
+	5200 5600 5150 5600
+Wire Bus Line
+	5150 5600 5150 5200
+Entry Wire Line
+	5050 5100 5150 5200
+Entry Wire Line
+	5050 5250 5150 5350
+Entry Wire Line
+	5050 5400 5150 5500
+Wire Wire Line
+	5050 5100 4600 5100
+Text Label 5050 5100 2    60   ~ 0
+coiln1
+Text Label 4700 5100 2    60   ~ 0
+coilna
+Wire Wire Line
+	5050 5250 4600 5250
+Text Label 5050 5250 2    60   ~ 0
+coiln2
+Text Label 4700 5250 2    60   ~ 0
+coilnb
+Wire Wire Line
+	5050 5400 4600 5400
+Text Label 5050 5400 2    60   ~ 0
+coiln3
+Text Label 4700 5400 2    60   ~ 0
+coilnc
 $EndSCHEMATC

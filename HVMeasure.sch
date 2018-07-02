@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 31
+Sheet 14 38
 Title ""
 Date ""
 Rev ""
@@ -87,53 +87,53 @@ Entry Wire Line
 	1500 2200 1600 2300
 Wire Wire Line
 	3650 3300 4750 3300
-Text Label 3650 3300 2    60   ~ 0
-HV_RTN0
+Text Label 3650 3900 2    60   ~ 0
+HV_RTN4
 Wire Wire Line
 	3650 3500 4750 3500
-Text Label 3650 3500 2    60   ~ 0
+Text Label 3650 3300 2    60   ~ 0
 HV_RTN1
 Wire Wire Line
 	3650 3700 4750 3700
-Text Label 3650 3700 2    60   ~ 0
+Text Label 3650 3500 2    60   ~ 0
 HV_RTN2
 Wire Wire Line
 	3650 3900 4750 3900
-Text Label 3650 3900 2    60   ~ 0
+Text Label 3650 3700 2    60   ~ 0
 HV_RTN3
 Wire Wire Line
 	1500 700  1400 700 
-Text Label 1400 700  2    60   ~ 0
-HV0
-Text Label 1400 800  2    60   ~ 0
-HV1
-Text Label 1400 900  2    60   ~ 0
-HV2
-Text Label 1400 1000 2    60   ~ 0
-HV3
-Text Label 1400 1100 2    60   ~ 0
-HV4
-Text Label 1400 1200 2    60   ~ 0
-HV5
-Text Label 1400 1300 2    60   ~ 0
-HV6
-Text Label 1400 1400 2    60   ~ 0
-HV7
-Text Label 1400 1500 2    60   ~ 0
-HV8
-Text Label 1400 1600 2    60   ~ 0
-HV9
-Text Label 1400 1700 2    60   ~ 0
-HV10
-Text Label 1400 1800 2    60   ~ 0
-HV11
-Text Label 1400 1900 2    60   ~ 0
-HV12
-Text Label 1400 2000 2    60   ~ 0
-HV13
-Text Label 1400 2100 2    60   ~ 0
-HV14
 Text Label 1400 2200 2    60   ~ 0
+HV16
+Text Label 1400 700  2    60   ~ 0
+HV1
+Text Label 1400 800  2    60   ~ 0
+HV2
+Text Label 1400 900  2    60   ~ 0
+HV3
+Text Label 1400 1000 2    60   ~ 0
+HV4
+Text Label 1400 1100 2    60   ~ 0
+HV5
+Text Label 1400 1200 2    60   ~ 0
+HV6
+Text Label 1400 1300 2    60   ~ 0
+HV7
+Text Label 1400 1400 2    60   ~ 0
+HV8
+Text Label 1400 1500 2    60   ~ 0
+HV9
+Text Label 1400 1600 2    60   ~ 0
+HV10
+Text Label 1400 1700 2    60   ~ 0
+HV11
+Text Label 1400 1800 2    60   ~ 0
+HV12
+Text Label 1400 1900 2    60   ~ 0
+HV13
+Text Label 1400 2000 2    60   ~ 0
+HV14
+Text Label 1400 2100 2    60   ~ 0
 HV15
 Wire Wire Line
 	1500 800  1400 800 
@@ -169,8 +169,8 @@ Wire Bus Line
 	1600 800  1600 2400
 Wire Bus Line
 	1600 2400 1700 2400
-Text HLabel 1700 2400 2    60   Input ~ 0
-HV[0..15]
+Text HLabel 1700 2300 2    60   Input ~ 0
+HV[1..16]
 Entry Wire Line
 	2500 700  2600 800 
 Entry Wire Line
@@ -240,38 +240,38 @@ Wire Bus Line
 Wire Bus Line
 	2600 2400 2700 2400
 Text HLabel 2700 2400 2    60   Output ~ 0
-HV_RTN[0..15]
-Text Label 2400 700  2    60   ~ 0
-HV_RTN0
-Text Label 2400 800  2    60   ~ 0
-HV_RTN1
-Text Label 2400 900  2    60   ~ 0
-HV_RTN2
-Text Label 2400 1000 2    60   ~ 0
-HV_RTN3
-Text Label 2400 1100 2    60   ~ 0
-HV_RTN4
-Text Label 2400 1200 2    60   ~ 0
-HV_RTN5
-Text Label 2400 1300 2    60   ~ 0
-HV_RTN6
-Text Label 2400 1400 2    60   ~ 0
-HV_RTN7
-Text Label 2400 1500 2    60   ~ 0
-HV_RTN8
-Text Label 2400 1600 2    60   ~ 0
-HV_RTN9
-Text Label 2400 1700 2    60   ~ 0
-HV_RTN10
-Text Label 2400 1800 2    60   ~ 0
-HV_RTN11
-Text Label 2400 1900 2    60   ~ 0
-HV_RTN12
-Text Label 2400 2000 2    60   ~ 0
-HV_RTN13
-Text Label 2400 2100 2    60   ~ 0
-HV_RTN14
+HV_RTN[1..16]
 Text Label 2400 2200 2    60   ~ 0
+HV_RTN16
+Text Label 2400 700  2    60   ~ 0
+HV_RTN1
+Text Label 2400 800  2    60   ~ 0
+HV_RTN2
+Text Label 2400 900  2    60   ~ 0
+HV_RTN3
+Text Label 2400 1000 2    60   ~ 0
+HV_RTN4
+Text Label 2400 1100 2    60   ~ 0
+HV_RTN5
+Text Label 2400 1200 2    60   ~ 0
+HV_RTN6
+Text Label 2400 1300 2    60   ~ 0
+HV_RTN7
+Text Label 2400 1400 2    60   ~ 0
+HV_RTN8
+Text Label 2400 1500 2    60   ~ 0
+HV_RTN9
+Text Label 2400 1600 2    60   ~ 0
+HV_RTN10
+Text Label 2400 1700 2    60   ~ 0
+HV_RTN11
+Text Label 2400 1800 2    60   ~ 0
+HV_RTN12
+Text Label 2400 1900 2    60   ~ 0
+HV_RTN13
+Text Label 2400 2000 2    60   ~ 0
+HV_RTN14
+Text Label 2400 2100 2    60   ~ 0
 HV_RTN15
 Wire Wire Line
 	3650 3200 3900 3200
@@ -290,8 +290,8 @@ F 3 "" H 4050 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 3200 4750 3200
-Text Label 4500 3200 2    60   ~ 0
-HV0
+Text Label 4500 3800 2    60   ~ 0
+HV4
 Wire Wire Line
 	3650 3400 3900 3400
 $Comp
@@ -309,7 +309,7 @@ F 3 "" H 4050 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 3400 4750 3400
-Text Label 4500 3400 2    60   ~ 0
+Text Label 4500 3200 2    60   ~ 0
 HV1
 Wire Wire Line
 	3650 3600 3900 3600
@@ -328,7 +328,7 @@ F 3 "" H 4050 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 3600 4750 3600
-Text Label 4500 3600 2    60   ~ 0
+Text Label 4500 3400 2    60   ~ 0
 HV2
 Wire Wire Line
 	3650 3800 3900 3800
@@ -347,7 +347,7 @@ F 3 "" H 4050 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 3800 4750 3800
-Text Label 4500 3800 2    60   ~ 0
+Text Label 4500 3600 2    60   ~ 0
 HV3
 $Comp
 L GND #PWR0215
@@ -822,19 +822,19 @@ Wire Wire Line
 	3650 3400 3650 3500
 Wire Wire Line
 	3650 5150 4750 5150
-Text Label 3650 5150 2    60   ~ 0
-HV_RTN8
+Text Label 3650 5750 2    60   ~ 0
+HV_RTN12
 Wire Wire Line
 	3650 5350 4750 5350
-Text Label 3650 5350 2    60   ~ 0
+Text Label 3650 5150 2    60   ~ 0
 HV_RTN9
 Wire Wire Line
 	3650 5550 4750 5550
-Text Label 3650 5550 2    60   ~ 0
+Text Label 3650 5350 2    60   ~ 0
 HV_RTN10
 Wire Wire Line
 	3650 5750 4750 5750
-Text Label 3650 5750 2    60   ~ 0
+Text Label 3650 5550 2    60   ~ 0
 HV_RTN11
 Wire Wire Line
 	3650 5050 3900 5050
@@ -853,8 +853,8 @@ F 3 "" H 4050 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 5050 4750 5050
-Text Label 4500 5050 2    60   ~ 0
-HV8
+Text Label 4500 5650 2    60   ~ 0
+HV12
 Wire Wire Line
 	3650 5250 3900 5250
 $Comp
@@ -872,7 +872,7 @@ F 3 "" H 4050 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 5250 4750 5250
-Text Label 4500 5250 2    60   ~ 0
+Text Label 4500 5050 2    60   ~ 0
 HV9
 Wire Wire Line
 	3650 5450 3900 5450
@@ -891,7 +891,7 @@ F 3 "" H 4050 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 5450 4750 5450
-Text Label 4500 5450 2    60   ~ 0
+Text Label 4500 5250 2    60   ~ 0
 HV10
 Wire Wire Line
 	3650 5650 3900 5650
@@ -910,7 +910,7 @@ F 3 "" H 4050 5650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 5650 4750 5650
-Text Label 4500 5650 2    60   ~ 0
+Text Label 4500 5450 2    60   ~ 0
 HV11
 Wire Wire Line
 	3650 5050 3650 5150
@@ -922,19 +922,19 @@ Wire Wire Line
 	3650 5250 3650 5350
 Wire Wire Line
 	6900 3300 8000 3300
-Text Label 6900 3300 2    60   ~ 0
-HV_RTN4
+Text Label 6900 3900 2    60   ~ 0
+HV_RTN8
 Wire Wire Line
 	6900 3500 8000 3500
-Text Label 6900 3500 2    60   ~ 0
+Text Label 6900 3300 2    60   ~ 0
 HV_RTN5
 Wire Wire Line
 	6900 3700 8000 3700
-Text Label 6900 3700 2    60   ~ 0
+Text Label 6900 3500 2    60   ~ 0
 HV_RTN6
 Wire Wire Line
 	6900 3900 8000 3900
-Text Label 6900 3900 2    60   ~ 0
+Text Label 6900 3700 2    60   ~ 0
 HV_RTN7
 Wire Wire Line
 	6900 3200 7150 3200
@@ -953,8 +953,8 @@ F 3 "" H 7300 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 3200 8000 3200
-Text Label 7750 3200 2    60   ~ 0
-HV4
+Text Label 7750 3800 2    60   ~ 0
+HV8
 Wire Wire Line
 	6900 3400 7150 3400
 $Comp
@@ -972,7 +972,7 @@ F 3 "" H 7300 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 3400 8000 3400
-Text Label 7750 3400 2    60   ~ 0
+Text Label 7750 3200 2    60   ~ 0
 HV5
 Wire Wire Line
 	6900 3600 7150 3600
@@ -991,7 +991,7 @@ F 3 "" H 7300 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 3600 8000 3600
-Text Label 7750 3600 2    60   ~ 0
+Text Label 7750 3400 2    60   ~ 0
 HV6
 Wire Wire Line
 	6900 3800 7150 3800
@@ -1010,7 +1010,7 @@ F 3 "" H 7300 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 3800 8000 3800
-Text Label 7750 3800 2    60   ~ 0
+Text Label 7750 3600 2    60   ~ 0
 HV7
 Wire Wire Line
 	6900 3200 6900 3300
@@ -1022,19 +1022,19 @@ Wire Wire Line
 	6900 3400 6900 3500
 Wire Wire Line
 	6900 5150 8000 5150
-Text Label 6900 5150 2    60   ~ 0
-HV_RTN12
+Text Label 6900 5750 2    60   ~ 0
+HV_RTN16
 Wire Wire Line
 	6900 5350 8000 5350
-Text Label 6900 5350 2    60   ~ 0
+Text Label 6900 5150 2    60   ~ 0
 HV_RTN13
 Wire Wire Line
 	6900 5550 8000 5550
-Text Label 6900 5550 2    60   ~ 0
+Text Label 6900 5350 2    60   ~ 0
 HV_RTN14
 Wire Wire Line
 	6900 5750 8000 5750
-Text Label 6900 5750 2    60   ~ 0
+Text Label 6900 5550 2    60   ~ 0
 HV_RTN15
 Wire Wire Line
 	6900 5050 7150 5050
@@ -1053,8 +1053,8 @@ F 3 "" H 7300 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 5050 8000 5050
-Text Label 7750 5050 2    60   ~ 0
-HV12
+Text Label 7750 5650 2    60   ~ 0
+HV16
 Wire Wire Line
 	6900 5250 7150 5250
 $Comp
@@ -1072,7 +1072,7 @@ F 3 "" H 7300 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 5250 8000 5250
-Text Label 7750 5250 2    60   ~ 0
+Text Label 7750 5050 2    60   ~ 0
 HV13
 Wire Wire Line
 	6900 5450 7150 5450
@@ -1091,7 +1091,7 @@ F 3 "" H 7300 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 5450 8000 5450
-Text Label 7750 5450 2    60   ~ 0
+Text Label 7750 5250 2    60   ~ 0
 HV14
 Wire Wire Line
 	6900 5650 7150 5650
@@ -1110,7 +1110,7 @@ F 3 "" H 7300 5650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 5650 8000 5650
-Text Label 7750 5650 2    60   ~ 0
+Text Label 7750 5450 2    60   ~ 0
 HV15
 Wire Wire Line
 	6900 5050 6900 5150
