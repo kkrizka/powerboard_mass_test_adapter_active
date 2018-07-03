@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 21
 Title ""
 Date ""
 Rev ""
@@ -54,31 +54,6 @@ F2 "PWR_EN" O R 2100 800 60
 F3 "~RESET" O R 2100 950 60 
 F4 "I2C_SCL" B R 2100 1150 60 
 F5 "I2C_SDA" B R 2100 1250 60 
-$EndSheet
-$Sheet
-S 2800 850  900  2000
-U 59C2F7D8
-F0 "I2C" 60
-F1 "I2C.sch" 60
-F2 "SCL" B L 2800 1150 60 
-F3 "SDA" B L 2800 1250 60 
-F4 "mSCL1" B R 3700 1450 60 
-F5 "mSDA1" B R 3700 1550 60 
-F6 "mSCL2" B R 3700 1650 60 
-F7 "mSDA2" B R 3700 1750 60 
-F8 "mSCL3" B R 3700 1850 60 
-F9 "mSDA3" B R 3700 1950 60 
-F10 "~RESET" I L 2800 950 60 
-F11 "SCL[1..9]" B R 3700 1150 60 
-F12 "SDA[1..9]" B R 3700 1250 60 
-F13 "mSCL4" B R 3700 2050 60 
-F14 "mSDA4" B R 3700 2150 60 
-F15 "mSCL5" B R 3700 2250 60 
-F16 "mSDA5" B R 3700 2350 60 
-F17 "mSCL6" B R 3700 2450 60 
-F18 "mSDA6" B R 3700 2550 60 
-F19 "mSCL7" B R 3700 2650 60 
-F20 "mSDA7" B R 3700 2750 60 
 $EndSheet
 $Sheet
 S 5300 800  1000 450 
@@ -101,34 +76,6 @@ F3 "SCL" B L 8000 1100 60
 F4 "HV[1..9]" I R 9150 900 60 
 F5 "HV_RTN[1..9]" O R 9150 1000 60 
 $EndSheet
-Wire Wire Line
-	3700 1450 3850 1450
-Wire Wire Line
-	3700 1550 3850 1550
-Wire Wire Line
-	3700 1650 3850 1650
-Text Label 3850 1450 0    60   ~ 0
-mSCL1
-Wire Wire Line
-	3700 1750 3850 1750
-Text Label 3850 1550 0    60   ~ 0
-mSDA1
-Wire Wire Line
-	3700 1850 3850 1850
-Text Label 3850 1650 0    60   ~ 0
-mSCL2
-Wire Wire Line
-	3700 1950 3850 1950
-Text Label 3850 1750 0    60   ~ 0
-mSDA2
-Wire Wire Line
-	3700 2050 3850 2050
-Text Label 3850 1850 0    60   ~ 0
-mSCL3
-Wire Wire Line
-	3700 2150 3850 2150
-Text Label 3850 1950 0    60   ~ 0
-mSDA3
 Wire Bus Line
 	3700 1150 3850 1150
 Text Label 3850 1150 0    60   ~ 0
@@ -296,34 +243,6 @@ Wire Wire Line
 	4450 3700 4900 3700
 Wire Wire Line
 	4450 3800 4900 3800
-Wire Wire Line
-	3700 2250 3850 2250
-Wire Wire Line
-	3700 2450 3850 2450
-Wire Wire Line
-	3700 2650 3850 2650
-Wire Wire Line
-	3700 2350 3850 2350
-Wire Wire Line
-	3700 2550 3850 2550
-Wire Wire Line
-	3700 2750 3850 2750
-Text Label 3850 2050 0    60   ~ 0
-mSCL4
-Text Label 3850 2250 0    60   ~ 0
-mSCL5
-Text Label 3850 2450 0    60   ~ 0
-mSCL6
-Text Label 3850 2650 0    60   ~ 0
-mSCL7
-Text Label 3850 2150 0    60   ~ 0
-mSDA4
-Text Label 3850 2350 0    60   ~ 0
-mSDA5
-Text Label 3850 2550 0    60   ~ 0
-mSDA6
-Text Label 3850 2750 0    60   ~ 0
-mSDA7
 $Comp
 L CONN_01X02 J28
 U 1 1 5B3D6B8F
@@ -343,4 +262,153 @@ F1 "ManualConnector.sch" 60
 F2 "VOUT[1..9]" I L 2900 4400 60 
 F3 "VOUT_RTN[1..9]" I L 2900 4500 60 
 $EndSheet
+$Sheet
+S 2800 850  900  800 
+U 59C2F7D8
+F0 "I2C" 60
+F1 "I2C.sch" 60
+F2 "SCL" B L 2800 1150 60 
+F3 "SDA" B L 2800 1250 60 
+F4 "~RESET" I L 2800 950 60 
+F5 "SCL[1..9]" B R 3700 1150 60 
+F6 "SDA[1..9]" B R 3700 1250 60 
+F7 "mSDA[1..7]" B R 3700 1550 60 
+F8 "mSCL[1..7]" B R 3700 1450 60 
+$EndSheet
+Wire Bus Line
+	3700 1450 3850 1450
+Wire Bus Line
+	3700 1550 3850 1550
+Text Label 3850 1450 0    60   ~ 0
+mSCL[1..7]
+Text Label 3850 1550 0    60   ~ 0
+mSDA[1..7]
+Wire Bus Line
+	2800 1900 2800 2650
+Entry Wire Line
+	2800 2050 2900 2150
+Entry Wire Line
+	2800 2150 2900 2250
+Entry Wire Line
+	2800 2250 2900 2350
+Entry Wire Line
+	2800 2350 2900 2450
+Entry Wire Line
+	2800 2450 2900 2550
+Entry Wire Line
+	2800 2550 2900 2650
+Entry Wire Line
+	2800 2650 2900 2750
+Text Label 2800 1900 2    60   ~ 0
+mSCL[1..7]
+Wire Bus Line
+	3800 1900 3800 2650
+Entry Wire Line
+	3800 2050 3900 2150
+Entry Wire Line
+	3800 2150 3900 2250
+Entry Wire Line
+	3800 2250 3900 2350
+Entry Wire Line
+	3800 2350 3900 2450
+Entry Wire Line
+	3800 2450 3900 2550
+Entry Wire Line
+	3800 2550 3900 2650
+Entry Wire Line
+	3800 2650 3900 2750
+Text Label 3800 1900 2    60   ~ 0
+mSDA[1..7]
+Text Label 2950 2150 0    60   ~ 0
+mSCL1
+Text Label 2950 2250 0    60   ~ 0
+mSCL2
+Text Label 2950 2350 0    60   ~ 0
+mSCL3
+Text Label 2950 2450 0    60   ~ 0
+mSCL4
+Text Label 2950 2550 0    60   ~ 0
+mSCL5
+Text Label 2950 2650 0    60   ~ 0
+mSCL6
+Text Label 2950 2750 0    60   ~ 0
+mSCL7
+Text Label 3950 2150 0    60   ~ 0
+mSDA1
+Text Label 3950 2250 0    60   ~ 0
+mSDA2
+Text Label 3950 2350 0    60   ~ 0
+mSDA3
+Text Label 3950 2450 0    60   ~ 0
+mSDA4
+Text Label 3950 2550 0    60   ~ 0
+mSDA5
+Text Label 3950 2650 0    60   ~ 0
+mSDA6
+Text Label 3950 2750 0    60   ~ 0
+mSDA7
+Wire Wire Line
+	2900 2150 2950 2150
+Wire Wire Line
+	2900 2250 2950 2250
+Wire Wire Line
+	2900 2350 2950 2350
+Wire Wire Line
+	2900 2450 2950 2450
+Wire Wire Line
+	2900 2550 2950 2550
+Wire Wire Line
+	2900 2650 2950 2650
+Wire Wire Line
+	2900 2750 2950 2750
+Wire Wire Line
+	3900 2150 3950 2150
+Wire Wire Line
+	3900 2250 3950 2250
+Wire Wire Line
+	3900 2350 3950 2350
+Wire Wire Line
+	3900 2450 3950 2450
+Wire Wire Line
+	3900 2550 3950 2550
+Wire Wire Line
+	3900 2650 3950 2650
+Wire Wire Line
+	3900 2750 3950 2750
+$Sheet
+S 10050 5900 1000 350 
+U 5B3EA1A2
+F0 "PMOD_I2C_7" 60
+F1 "PMOD_I2C_7.sch" 60
+F2 "SDA[1..7]" U L 10050 6150 60 
+F3 "SCL[1..7]" U L 10050 6050 60 
+$EndSheet
+Wire Bus Line
+	10050 6050 9950 6050
+Wire Bus Line
+	9950 6150 10050 6150
+Text Label 9950 6050 2    60   ~ 0
+mSCL[1..7]
+Text Label 9950 6150 2    60   ~ 0
+mSDA[1..7]
+$Sheet
+S 3050 4900 1050 300 
+U 5B3F246D
+F0 "DaisyConnector" 60
+F1 "DaisyConnector.sch" 60
+F2 "SDA" B L 3050 5100 60 
+F3 "SCL" B L 3050 5000 60 
+$EndSheet
+Text Label 2200 1150 0    60   ~ 0
+iSCL
+Text Label 2200 1250 0    60   ~ 0
+iSDA
+Wire Wire Line
+	3050 5000 3000 5000
+Wire Wire Line
+	3050 5100 3000 5100
+Text Label 3000 5000 2    60   ~ 0
+iSCL
+Text Label 3000 5100 2    60   ~ 0
+iSDA
 $EndSCHEMATC
