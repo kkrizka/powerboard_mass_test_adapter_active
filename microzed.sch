@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 38
+Sheet 2 12
 Title ""
 Date ""
 Rev ""
@@ -565,77 +565,10 @@ Wire Wire Line
 	4900 1400 5450 1400
 Wire Wire Line
 	2900 1400 2350 1400
-Wire Wire Line
-	7500 1800 6800 1800
-Text Label 6800 1800 2    60   ~ 0
-coil1
-Wire Wire Line
-	7500 1900 6800 1900
-$Comp
-L GND #PWR015
-U 1 1 5B3CA37C
-P 6800 1900
-F 0 "#PWR015" H 6800 1650 50  0001 C CNN
-F 1 "GND" H 6800 1750 50  0000 C CNN
-F 2 "" H 6800 1900 50  0001 C CNN
-F 3 "" H 6800 1900 50  0001 C CNN
-	1    6800 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 2100 6800 2100
-Text Label 6800 2100 2    60   ~ 0
-coil2
-Wire Wire Line
-	7500 2200 6800 2200
-$Comp
-L GND #PWR016
-U 1 1 5B3CA3B3
-P 6800 2200
-F 0 "#PWR016" H 6800 1950 50  0001 C CNN
-F 1 "GND" H 6800 2050 50  0000 C CNN
-F 2 "" H 6800 2200 50  0001 C CNN
-F 3 "" H 6800 2200 50  0001 C CNN
-	1    6800 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 2400 6800 2400
-Text Label 6800 2400 2    60   ~ 0
-coil3
-Wire Wire Line
-	7500 2500 6800 2500
-$Comp
-L GND #PWR017
-U 1 1 5B3CA3BC
-P 6800 2500
-F 0 "#PWR017" H 6800 2250 50  0001 C CNN
-F 1 "GND" H 6800 2350 50  0000 C CNN
-F 2 "" H 6800 2500 50  0001 C CNN
-F 3 "" H 6800 2500 50  0001 C CNN
-	1    6800 2500
-	1    0    0    -1  
-$EndComp
-Text HLabel 6050 1600 0    60   Input ~ 0
-coil[1..3]
-Entry Wire Line
-	6050 1700 6150 1800
-Entry Wire Line
-	6050 1800 6150 1900
-Entry Wire Line
-	6050 1900 6150 2000
-Wire Bus Line
-	6050 1900 6050 1600
-Wire Wire Line
-	6150 1800 6200 1800
-Wire Wire Line
-	6150 1900 6200 1900
-Wire Wire Line
-	6150 2000 6200 2000
-Text Label 6200 1800 0    60   ~ 0
-coil1
-Text Label 6200 1900 0    60   ~ 0
-coil2
-Text Label 6200 2000 0    60   ~ 0
-coil3
+NoConn ~ 7500 1800
+NoConn ~ 7500 1900
+NoConn ~ 7500 2100
+NoConn ~ 7500 2200
+NoConn ~ 7500 2400
+NoConn ~ 7500 2500
 $EndSCHEMATC

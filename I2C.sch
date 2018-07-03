@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 38
+Sheet 3 12
 Title ""
 Date ""
 Rev ""
@@ -57,9 +57,9 @@ F 3 "" H 5500 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4800 1650 2    60   ~ 0
-mSCL0
+mSCL1
 Text Label 4800 1750 2    60   ~ 0
-mSDA0
+mSDA1
 Text Label 4800 2150 2    60   ~ 0
 RESETn
 $Comp
@@ -238,713 +238,28 @@ F 3 "" H 7500 1050 50  0001 C CNN
 	1    7500 1050
 	1    0    0    -1  
 $EndComp
-Text Label 5900 1650 0    60   ~ 0
-SCL0
 Text Label 5900 1850 0    60   ~ 0
-SCL1
-Text Label 5900 2050 0    60   ~ 0
-SCL2
-Text Label 5900 2250 0    60   ~ 0
 SCL3
-Text Label 5900 2450 0    60   ~ 0
+Text Label 5900 2050 0    60   ~ 0
 SCL4
-Text Label 5900 2650 0    60   ~ 0
+Text Label 5900 2250 0    60   ~ 0
 SCL5
-Text Label 5900 2850 0    60   ~ 0
+Text Label 5900 2450 0    60   ~ 0
 SCL6
-Text Label 5900 3050 0    60   ~ 0
+Text Label 5900 2650 0    60   ~ 0
 SCL7
 Text Label 5900 1750 0    60   ~ 0
-SDA0
-Text Label 5900 1950 0    60   ~ 0
-SDA1
-Text Label 5900 2150 0    60   ~ 0
 SDA2
-Text Label 5900 2350 0    60   ~ 0
+Text Label 5900 1950 0    60   ~ 0
 SDA3
-Text Label 5900 2550 0    60   ~ 0
+Text Label 5900 2150 0    60   ~ 0
 SDA4
-Text Label 5900 2750 0    60   ~ 0
+Text Label 5900 2350 0    60   ~ 0
 SDA5
-Text Label 5900 2950 0    60   ~ 0
+Text Label 5900 2550 0    60   ~ 0
 SDA6
-Text Label 5900 3150 0    60   ~ 0
+Text Label 5900 2750 0    60   ~ 0
 SDA7
-$Comp
-L TCA9548A_TSSOP U3003
-U 1 1 59C43DC7
-P 9000 2350
-F 0 "U3003" H 8750 3150 50  0000 L CNN
-F 1 "TCA9548A_TSSOP" H 9050 3150 50  0000 L CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 10000 1450 50  0001 C CNN
-F 3 "" H 9050 2600 50  0000 C CNN
-	1    9000 2350
-	1    0    0    -1  
-$EndComp
-Text Label 8350 1650 2    60   ~ 0
-mSCL1
-Text Label 8350 1750 2    60   ~ 0
-mSDA1
-Text Label 8350 2150 2    60   ~ 0
-RESETn
-$Comp
-L R R3036
-U 1 1 59C43DD0
-P 9550 1350
-F 0 "R3036" V 9630 1350 50  0000 C CNN
-F 1 "R" V 9550 1350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 1350 50  0001 C CNN
-F 3 "" H 9550 1350 50  0001 C CNN
-	1    9550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3037
-U 1 1 59C43DD6
-P 9750 1350
-F 0 "R3037" V 9830 1350 50  0000 C CNN
-F 1 "R" V 9750 1350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9680 1350 50  0001 C CNN
-F 3 "" H 9750 1350 50  0001 C CNN
-	1    9750 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3013
-U 1 1 59C43DDC
-P 9650 1050
-F 0 "R3013" V 9730 1050 50  0000 C CNN
-F 1 "R" V 9650 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9580 1050 50  0001 C CNN
-F 3 "" H 9650 1050 50  0001 C CNN
-	1    9650 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3014
-U 1 1 59C43DE2
-P 9850 1050
-F 0 "R3014" V 9930 1050 50  0000 C CNN
-F 1 "R" V 9850 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9780 1050 50  0001 C CNN
-F 3 "" H 9850 1050 50  0001 C CNN
-	1    9850 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3038
-U 1 1 59C43DE8
-P 9950 1350
-F 0 "R3038" V 10030 1350 50  0000 C CNN
-F 1 "R" V 9950 1350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9880 1350 50  0001 C CNN
-F 3 "" H 9950 1350 50  0001 C CNN
-	1    9950 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3039
-U 1 1 59C43DEE
-P 10150 1350
-F 0 "R3039" V 10230 1350 50  0000 C CNN
-F 1 "R" V 10150 1350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10080 1350 50  0001 C CNN
-F 3 "" H 10150 1350 50  0001 C CNN
-	1    10150 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3015
-U 1 1 59C43DF4
-P 10050 1050
-F 0 "R3015" V 10130 1050 50  0000 C CNN
-F 1 "R" V 10050 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9980 1050 50  0001 C CNN
-F 3 "" H 10050 1050 50  0001 C CNN
-	1    10050 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3016
-U 1 1 59C43DFA
-P 10250 1050
-F 0 "R3016" V 10330 1050 50  0000 C CNN
-F 1 "R" V 10250 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10180 1050 50  0001 C CNN
-F 3 "" H 10250 1050 50  0001 C CNN
-	1    10250 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3040
-U 1 1 59C43E00
-P 10350 1350
-F 0 "R3040" V 10430 1350 50  0000 C CNN
-F 1 "R" V 10350 1350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10280 1350 50  0001 C CNN
-F 3 "" H 10350 1350 50  0001 C CNN
-	1    10350 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3041
-U 1 1 59C43E06
-P 10550 1350
-F 0 "R3041" V 10630 1350 50  0000 C CNN
-F 1 "R" V 10550 1350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10480 1350 50  0001 C CNN
-F 3 "" H 10550 1350 50  0001 C CNN
-	1    10550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3017
-U 1 1 59C43E0C
-P 10450 1050
-F 0 "R3017" V 10530 1050 50  0000 C CNN
-F 1 "R" V 10450 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10380 1050 50  0001 C CNN
-F 3 "" H 10450 1050 50  0001 C CNN
-	1    10450 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3018
-U 1 1 59C43E12
-P 10650 1050
-F 0 "R3018" V 10730 1050 50  0000 C CNN
-F 1 "R" V 10650 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10580 1050 50  0001 C CNN
-F 3 "" H 10650 1050 50  0001 C CNN
-	1    10650 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3042
-U 1 1 59C43E18
-P 10750 1350
-F 0 "R3042" V 10830 1350 50  0000 C CNN
-F 1 "R" V 10750 1350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10680 1350 50  0001 C CNN
-F 3 "" H 10750 1350 50  0001 C CNN
-	1    10750 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3043
-U 1 1 59C43E1E
-P 10950 1350
-F 0 "R3043" V 11030 1350 50  0000 C CNN
-F 1 "R" V 10950 1350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10880 1350 50  0001 C CNN
-F 3 "" H 10950 1350 50  0001 C CNN
-	1    10950 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3019
-U 1 1 59C43E24
-P 10850 1050
-F 0 "R3019" V 10930 1050 50  0000 C CNN
-F 1 "R" V 10850 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10780 1050 50  0001 C CNN
-F 3 "" H 10850 1050 50  0001 C CNN
-	1    10850 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3020
-U 1 1 59C43E2A
-P 11050 1050
-F 0 "R3020" V 11130 1050 50  0000 C CNN
-F 1 "R" V 11050 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10980 1050 50  0001 C CNN
-F 3 "" H 11050 1050 50  0001 C CNN
-	1    11050 1050
-	1    0    0    -1  
-$EndComp
-Text Label 9450 1650 0    60   ~ 0
-SCL8
-Text Label 9450 1850 0    60   ~ 0
-SCL9
-Text Label 9450 2050 0    60   ~ 0
-SCL10
-Text Label 9450 2250 0    60   ~ 0
-SCL11
-Text Label 9450 2450 0    60   ~ 0
-SCL12
-Text Label 9450 2650 0    60   ~ 0
-SCL13
-Text Label 9450 2850 0    60   ~ 0
-SCL14
-Text Label 9450 3050 0    60   ~ 0
-SCL15
-Text Label 9450 1750 0    60   ~ 0
-SDA8
-Text Label 9450 1950 0    60   ~ 0
-SDA9
-Text Label 9450 2150 0    60   ~ 0
-SDA10
-Text Label 9450 2350 0    60   ~ 0
-SDA11
-Text Label 9450 2550 0    60   ~ 0
-SDA12
-Text Label 9450 2750 0    60   ~ 0
-SDA13
-Text Label 9450 2950 0    60   ~ 0
-SDA14
-Text Label 9450 3150 0    60   ~ 0
-SDA15
-$Comp
-L TCA9548A_TSSOP U3004
-U 1 1 59C47D9E
-P 5450 5300
-F 0 "U3004" H 5200 6100 50  0000 L CNN
-F 1 "TCA9548A_TSSOP" H 5500 6100 50  0000 L CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 6450 4400 50  0001 C CNN
-F 3 "" H 5500 5550 50  0000 C CNN
-	1    5450 5300
-	1    0    0    -1  
-$EndComp
-Text Label 4800 4600 2    60   ~ 0
-mSCL2
-Text Label 4800 4700 2    60   ~ 0
-mSDA2
-Text Label 4800 5100 2    60   ~ 0
-RESETn
-$Comp
-L R R3062
-U 1 1 59C47DA7
-P 6000 4300
-F 0 "R3062" V 6080 4300 50  0000 C CNN
-F 1 "R" V 6000 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 5930 4300 50  0001 C CNN
-F 3 "" H 6000 4300 50  0001 C CNN
-	1    6000 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3063
-U 1 1 59C47DAD
-P 6200 4300
-F 0 "R3063" V 6280 4300 50  0000 C CNN
-F 1 "R" V 6200 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6130 4300 50  0001 C CNN
-F 3 "" H 6200 4300 50  0001 C CNN
-	1    6200 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3046
-U 1 1 59C47DB3
-P 6100 4000
-F 0 "R3046" V 6180 4000 50  0000 C CNN
-F 1 "R" V 6100 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6030 4000 50  0001 C CNN
-F 3 "" H 6100 4000 50  0001 C CNN
-	1    6100 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3047
-U 1 1 59C47DB9
-P 6300 4000
-F 0 "R3047" V 6380 4000 50  0000 C CNN
-F 1 "R" V 6300 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6230 4000 50  0001 C CNN
-F 3 "" H 6300 4000 50  0001 C CNN
-	1    6300 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3064
-U 1 1 59C47DBF
-P 6400 4300
-F 0 "R3064" V 6480 4300 50  0000 C CNN
-F 1 "R" V 6400 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6330 4300 50  0001 C CNN
-F 3 "" H 6400 4300 50  0001 C CNN
-	1    6400 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3065
-U 1 1 59C47DC5
-P 6600 4300
-F 0 "R3065" V 6680 4300 50  0000 C CNN
-F 1 "R" V 6600 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6530 4300 50  0001 C CNN
-F 3 "" H 6600 4300 50  0001 C CNN
-	1    6600 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3048
-U 1 1 59C47DCB
-P 6500 4000
-F 0 "R3048" V 6580 4000 50  0000 C CNN
-F 1 "R" V 6500 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6430 4000 50  0001 C CNN
-F 3 "" H 6500 4000 50  0001 C CNN
-	1    6500 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3049
-U 1 1 59C47DD1
-P 6700 4000
-F 0 "R3049" V 6780 4000 50  0000 C CNN
-F 1 "R" V 6700 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6630 4000 50  0001 C CNN
-F 3 "" H 6700 4000 50  0001 C CNN
-	1    6700 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3066
-U 1 1 59C47DD7
-P 6800 4300
-F 0 "R3066" V 6880 4300 50  0000 C CNN
-F 1 "R" V 6800 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6730 4300 50  0001 C CNN
-F 3 "" H 6800 4300 50  0001 C CNN
-	1    6800 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3067
-U 1 1 59C47DDD
-P 7000 4300
-F 0 "R3067" V 7080 4300 50  0000 C CNN
-F 1 "R" V 7000 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6930 4300 50  0001 C CNN
-F 3 "" H 7000 4300 50  0001 C CNN
-	1    7000 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3050
-U 1 1 59C47DE3
-P 6900 4000
-F 0 "R3050" V 6980 4000 50  0000 C CNN
-F 1 "R" V 6900 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 6830 4000 50  0001 C CNN
-F 3 "" H 6900 4000 50  0001 C CNN
-	1    6900 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3051
-U 1 1 59C47DE9
-P 7100 4000
-F 0 "R3051" V 7180 4000 50  0000 C CNN
-F 1 "R" V 7100 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7030 4000 50  0001 C CNN
-F 3 "" H 7100 4000 50  0001 C CNN
-	1    7100 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3068
-U 1 1 59C47DEF
-P 7200 4300
-F 0 "R3068" V 7280 4300 50  0000 C CNN
-F 1 "R" V 7200 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7130 4300 50  0001 C CNN
-F 3 "" H 7200 4300 50  0001 C CNN
-	1    7200 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3069
-U 1 1 59C47DF5
-P 7400 4300
-F 0 "R3069" V 7480 4300 50  0000 C CNN
-F 1 "R" V 7400 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7330 4300 50  0001 C CNN
-F 3 "" H 7400 4300 50  0001 C CNN
-	1    7400 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3052
-U 1 1 59C47DFB
-P 7300 4000
-F 0 "R3052" V 7380 4000 50  0000 C CNN
-F 1 "R" V 7300 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7230 4000 50  0001 C CNN
-F 3 "" H 7300 4000 50  0001 C CNN
-	1    7300 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3053
-U 1 1 59C47E01
-P 7500 4000
-F 0 "R3053" V 7580 4000 50  0000 C CNN
-F 1 "R" V 7500 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7430 4000 50  0001 C CNN
-F 3 "" H 7500 4000 50  0001 C CNN
-	1    7500 4000
-	1    0    0    -1  
-$EndComp
-Text Label 5900 4600 0    60   ~ 0
-SCL16
-Text Label 5900 4800 0    60   ~ 0
-SCL17
-Text Label 5900 5000 0    60   ~ 0
-SCL18
-Text Label 5900 5200 0    60   ~ 0
-SCL19
-Text Label 5900 5400 0    60   ~ 0
-SCL20
-Text Label 5900 5600 0    60   ~ 0
-SCL21
-Text Label 5900 5800 0    60   ~ 0
-SCL22
-Text Label 5900 6000 0    60   ~ 0
-SCL23
-Text Label 5900 4700 0    60   ~ 0
-SDA16
-Text Label 5900 4900 0    60   ~ 0
-SDA17
-Text Label 5900 5100 0    60   ~ 0
-SDA18
-Text Label 5900 5300 0    60   ~ 0
-SDA19
-Text Label 5900 5500 0    60   ~ 0
-SDA20
-Text Label 5900 5700 0    60   ~ 0
-SDA21
-Text Label 5900 5900 0    60   ~ 0
-SDA22
-Text Label 5900 6100 0    60   ~ 0
-SDA23
-$Comp
-L TCA9548A_TSSOP U3005
-U 1 1 59C47E17
-P 9000 5300
-F 0 "U3005" H 8750 6100 50  0000 L CNN
-F 1 "TCA9548A_TSSOP" H 9050 6100 50  0000 L CNN
-F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 10000 4400 50  0001 C CNN
-F 3 "" H 9050 5550 50  0000 C CNN
-	1    9000 5300
-	1    0    0    -1  
-$EndComp
-Text Label 8350 4600 2    60   ~ 0
-mSCL3
-Text Label 8350 4700 2    60   ~ 0
-mSDA3
-Text Label 8350 5100 2    60   ~ 0
-RESETn
-$Comp
-L R R3070
-U 1 1 59C47E20
-P 9550 4300
-F 0 "R3070" V 9630 4300 50  0000 C CNN
-F 1 "R" V 9550 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9480 4300 50  0001 C CNN
-F 3 "" H 9550 4300 50  0001 C CNN
-	1    9550 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3071
-U 1 1 59C47E26
-P 9750 4300
-F 0 "R3071" V 9830 4300 50  0000 C CNN
-F 1 "R" V 9750 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9680 4300 50  0001 C CNN
-F 3 "" H 9750 4300 50  0001 C CNN
-	1    9750 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3054
-U 1 1 59C47E2C
-P 9650 4000
-F 0 "R3054" V 9730 4000 50  0000 C CNN
-F 1 "R" V 9650 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9580 4000 50  0001 C CNN
-F 3 "" H 9650 4000 50  0001 C CNN
-	1    9650 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3055
-U 1 1 59C47E32
-P 9850 4000
-F 0 "R3055" V 9930 4000 50  0000 C CNN
-F 1 "R" V 9850 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9780 4000 50  0001 C CNN
-F 3 "" H 9850 4000 50  0001 C CNN
-	1    9850 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3072
-U 1 1 59C47E38
-P 9950 4300
-F 0 "R3072" V 10030 4300 50  0000 C CNN
-F 1 "R" V 9950 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9880 4300 50  0001 C CNN
-F 3 "" H 9950 4300 50  0001 C CNN
-	1    9950 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3073
-U 1 1 59C47E3E
-P 10150 4300
-F 0 "R3073" V 10230 4300 50  0000 C CNN
-F 1 "R" V 10150 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10080 4300 50  0001 C CNN
-F 3 "" H 10150 4300 50  0001 C CNN
-	1    10150 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3056
-U 1 1 59C47E44
-P 10050 4000
-F 0 "R3056" V 10130 4000 50  0000 C CNN
-F 1 "R" V 10050 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 9980 4000 50  0001 C CNN
-F 3 "" H 10050 4000 50  0001 C CNN
-	1    10050 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3057
-U 1 1 59C47E4A
-P 10250 4000
-F 0 "R3057" V 10330 4000 50  0000 C CNN
-F 1 "R" V 10250 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10180 4000 50  0001 C CNN
-F 3 "" H 10250 4000 50  0001 C CNN
-	1    10250 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3074
-U 1 1 59C47E50
-P 10350 4300
-F 0 "R3074" V 10430 4300 50  0000 C CNN
-F 1 "R" V 10350 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10280 4300 50  0001 C CNN
-F 3 "" H 10350 4300 50  0001 C CNN
-	1    10350 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3075
-U 1 1 59C47E56
-P 10550 4300
-F 0 "R3075" V 10630 4300 50  0000 C CNN
-F 1 "R" V 10550 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10480 4300 50  0001 C CNN
-F 3 "" H 10550 4300 50  0001 C CNN
-	1    10550 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3058
-U 1 1 59C47E5C
-P 10450 4000
-F 0 "R3058" V 10530 4000 50  0000 C CNN
-F 1 "R" V 10450 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10380 4000 50  0001 C CNN
-F 3 "" H 10450 4000 50  0001 C CNN
-	1    10450 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3059
-U 1 1 59C47E62
-P 10650 4000
-F 0 "R3059" V 10730 4000 50  0000 C CNN
-F 1 "R" V 10650 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10580 4000 50  0001 C CNN
-F 3 "" H 10650 4000 50  0001 C CNN
-	1    10650 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3076
-U 1 1 59C47E68
-P 10750 4300
-F 0 "R3076" V 10830 4300 50  0000 C CNN
-F 1 "R" V 10750 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10680 4300 50  0001 C CNN
-F 3 "" H 10750 4300 50  0001 C CNN
-	1    10750 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3077
-U 1 1 59C47E6E
-P 10950 4300
-F 0 "R3077" V 11030 4300 50  0000 C CNN
-F 1 "R" V 10950 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10880 4300 50  0001 C CNN
-F 3 "" H 10950 4300 50  0001 C CNN
-	1    10950 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3060
-U 1 1 59C47E74
-P 10850 4000
-F 0 "R3060" V 10930 4000 50  0000 C CNN
-F 1 "R" V 10850 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10780 4000 50  0001 C CNN
-F 3 "" H 10850 4000 50  0001 C CNN
-	1    10850 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3061
-U 1 1 59C47E7A
-P 11050 4000
-F 0 "R3061" V 11130 4000 50  0000 C CNN
-F 1 "R" V 11050 4000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10980 4000 50  0001 C CNN
-F 3 "" H 11050 4000 50  0001 C CNN
-	1    11050 4000
-	1    0    0    -1  
-$EndComp
-Text Label 9450 4600 0    60   ~ 0
-SCL24
-Text Label 9450 4800 0    60   ~ 0
-SCL25
-Text Label 9450 5000 0    60   ~ 0
-SCL26
-Text Label 9450 5200 0    60   ~ 0
-SCL27
-Text Label 9450 5400 0    60   ~ 0
-SCL28
-Text Label 9450 4700 0    60   ~ 0
-SDA24
-Text Label 9450 4900 0    60   ~ 0
-SDA25
-Text Label 9450 5100 0    60   ~ 0
-SDA26
-Text Label 9450 5300 0    60   ~ 0
-SDA27
-Text Label 9450 5500 0    60   ~ 0
-SDA28
-Text Label 9450 6100 0    60   ~ 0
-SDA31
-Text Label 9450 6000 0    60   ~ 0
-SCL31
-Text Label 9450 5900 0    60   ~ 0
-SDA30
-Text Label 9450 5800 0    60   ~ 0
-SCL30
-Text Label 9450 5700 0    60   ~ 0
-SDA29
-Text Label 9450 5600 0    60   ~ 0
-SCL29
 Entry Wire Line
 	800  7000 900  7100
 Entry Wire Line
@@ -963,106 +278,26 @@ Entry Wire Line
 	1500 7000 1600 7100
 Entry Wire Line
 	1600 7000 1700 7100
-Entry Wire Line
-	1700 7000 1800 7100
-Entry Wire Line
-	1800 7000 1900 7100
-Entry Wire Line
-	1900 7000 2000 7100
-Entry Wire Line
-	2000 7000 2100 7100
-Entry Wire Line
-	2100 7000 2200 7100
-Entry Wire Line
-	2200 7000 2300 7100
-Entry Wire Line
-	2300 7000 2400 7100
-Entry Wire Line
-	2400 7000 2500 7100
-Entry Wire Line
-	2500 7000 2600 7100
-Entry Wire Line
-	2600 7000 2700 7100
-Entry Wire Line
-	2700 7000 2800 7100
-Entry Wire Line
-	2800 7000 2900 7100
-Entry Wire Line
-	2900 7000 3000 7100
-Entry Wire Line
-	3000 7000 3100 7100
-Entry Wire Line
-	3100 7000 3200 7100
-Entry Wire Line
-	3200 7000 3300 7100
-Entry Wire Line
-	3300 7000 3400 7100
-Entry Wire Line
-	3400 7000 3500 7100
-Entry Wire Line
-	3500 7000 3600 7100
-Entry Wire Line
-	3600 7000 3700 7100
-Text HLabel 4450 7100 2    60   BiDi ~ 0
-SCL[0..28]
+Text HLabel 1900 7100 2    60   BiDi ~ 0
+SCL[1..9]
 Text Label 800  6900 1    60   ~ 0
-SCL0
-Text Label 900  6900 1    60   ~ 0
 SCL1
-Text Label 1000 6900 1    60   ~ 0
+Text Label 900  6900 1    60   ~ 0
 SCL2
-Text Label 1100 6900 1    60   ~ 0
+Text Label 1000 6900 1    60   ~ 0
 SCL3
-Text Label 1200 6900 1    60   ~ 0
+Text Label 1100 6900 1    60   ~ 0
 SCL4
-Text Label 1300 6900 1    60   ~ 0
+Text Label 1200 6900 1    60   ~ 0
 SCL5
-Text Label 1400 6900 1    60   ~ 0
+Text Label 1300 6900 1    60   ~ 0
 SCL6
-Text Label 1500 6900 1    60   ~ 0
+Text Label 1400 6900 1    60   ~ 0
 SCL7
-Text Label 1600 6900 1    60   ~ 0
+Text Label 1500 6900 1    60   ~ 0
 SCL8
-Text Label 1700 6900 1    60   ~ 0
+Text Label 1600 6900 1    60   ~ 0
 SCL9
-Text Label 1800 6900 1    60   ~ 0
-SCL10
-Text Label 1900 6900 1    60   ~ 0
-SCL11
-Text Label 2000 6900 1    60   ~ 0
-SCL12
-Text Label 2100 6900 1    60   ~ 0
-SCL13
-Text Label 2200 6900 1    60   ~ 0
-SCL14
-Text Label 2300 6900 1    60   ~ 0
-SCL15
-Text Label 2400 6900 1    60   ~ 0
-SCL16
-Text Label 2500 6900 1    60   ~ 0
-SCL17
-Text Label 2600 6900 1    60   ~ 0
-SCL18
-Text Label 2700 6900 1    60   ~ 0
-SCL19
-Text Label 2800 6900 1    60   ~ 0
-SCL20
-Text Label 2900 6900 1    60   ~ 0
-SCL21
-Text Label 3000 6900 1    60   ~ 0
-SCL22
-Text Label 3100 6900 1    60   ~ 0
-SCL23
-Text Label 3200 6900 1    60   ~ 0
-SCL24
-Text Label 3300 6900 1    60   ~ 0
-SCL25
-Text Label 3400 6900 1    60   ~ 0
-SCL26
-Text Label 3500 6900 1    60   ~ 0
-SCL27
-Text Label 3600 6900 1    60   ~ 0
-SCL28
 Entry Wire Line
 	800  7500 900  7600
 Entry Wire Line
@@ -1081,137 +316,35 @@ Entry Wire Line
 	1500 7500 1600 7600
 Entry Wire Line
 	1600 7500 1700 7600
-Entry Wire Line
-	1700 7500 1800 7600
-Entry Wire Line
-	1800 7500 1900 7600
-Entry Wire Line
-	1900 7500 2000 7600
-Entry Wire Line
-	2000 7500 2100 7600
-Entry Wire Line
-	2100 7500 2200 7600
-Entry Wire Line
-	2200 7500 2300 7600
-Entry Wire Line
-	2300 7500 2400 7600
-Entry Wire Line
-	2400 7500 2500 7600
-Entry Wire Line
-	2500 7500 2600 7600
-Entry Wire Line
-	2600 7500 2700 7600
-Entry Wire Line
-	2700 7500 2800 7600
-Entry Wire Line
-	2800 7500 2900 7600
-Entry Wire Line
-	2900 7500 3000 7600
-Entry Wire Line
-	3000 7500 3100 7600
-Entry Wire Line
-	3100 7500 3200 7600
-Entry Wire Line
-	3200 7500 3300 7600
-Entry Wire Line
-	3300 7500 3400 7600
-Entry Wire Line
-	3400 7500 3500 7600
-Entry Wire Line
-	3500 7500 3600 7600
-Entry Wire Line
-	3600 7500 3700 7600
 Text Label 800  7400 1    60   ~ 0
-SDA0
-Text Label 900  7400 1    60   ~ 0
 SDA1
-Text Label 1000 7400 1    60   ~ 0
+Text Label 900  7400 1    60   ~ 0
 SDA2
-Text Label 1100 7400 1    60   ~ 0
+Text Label 1000 7400 1    60   ~ 0
 SDA3
-Text Label 1200 7400 1    60   ~ 0
+Text Label 1100 7400 1    60   ~ 0
 SDA4
-Text Label 1300 7400 1    60   ~ 0
+Text Label 1200 7400 1    60   ~ 0
 SDA5
-Text Label 1400 7400 1    60   ~ 0
+Text Label 1300 7400 1    60   ~ 0
 SDA6
-Text Label 1500 7400 1    60   ~ 0
+Text Label 1400 7400 1    60   ~ 0
 SDA7
-Text Label 1600 7400 1    60   ~ 0
+Text Label 1500 7400 1    60   ~ 0
 SDA8
-Text Label 1700 7400 1    60   ~ 0
+Text Label 1600 7400 1    60   ~ 0
 SDA9
-Text Label 1800 7400 1    60   ~ 0
-SDA10
-Text Label 1900 7400 1    60   ~ 0
-SDA11
-Text Label 2000 7400 1    60   ~ 0
-SDA12
-Text Label 2100 7400 1    60   ~ 0
-SDA13
-Text Label 2200 7400 1    60   ~ 0
-SDA14
-Text Label 2300 7400 1    60   ~ 0
-SDA15
-Text Label 2400 7400 1    60   ~ 0
-SDA16
-Text Label 2500 7400 1    60   ~ 0
-SDA17
-Text Label 2600 7400 1    60   ~ 0
-SDA18
-Text Label 2700 7400 1    60   ~ 0
-SDA19
-Text Label 2800 7400 1    60   ~ 0
-SDA20
-Text Label 2900 7400 1    60   ~ 0
-SDA21
-Text Label 3000 7400 1    60   ~ 0
-SDA22
-Text Label 3100 7400 1    60   ~ 0
-SDA23
-Text Label 3200 7400 1    60   ~ 0
-SDA24
-Text Label 3300 7400 1    60   ~ 0
-SDA25
-Text Label 3400 7400 1    60   ~ 0
-SDA26
-Text Label 3500 7400 1    60   ~ 0
-SDA27
-Text Label 3600 7400 1    60   ~ 0
-SDA28
-Text HLabel 4450 7600 2    60   BiDi ~ 0
-SDA[0..28]
+Text HLabel 1900 7600 2    60   BiDi ~ 0
+SDA[1..9]
 $Comp
-L GND #PWR018
+L GND #PWR015
 U 1 1 59C54DDD
 P 4900 3400
-F 0 "#PWR018" H 4900 3150 50  0001 C CNN
+F 0 "#PWR015" H 4900 3150 50  0001 C CNN
 F 1 "GND" H 4900 3250 50  0000 C CNN
 F 2 "" H 4900 3400 50  0001 C CNN
 F 3 "" H 4900 3400 50  0001 C CNN
 	1    4900 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR019
-U 1 1 59C5DEA2
-P 4900 6350
-F 0 "#PWR019" H 4900 6100 50  0001 C CNN
-F 1 "GND" H 4900 6200 50  0000 C CNN
-F 2 "" H 4900 6350 50  0001 C CNN
-F 3 "" H 4900 6350 50  0001 C CNN
-	1    4900 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3079
-U 1 1 59C6174D
-P 7800 5300
-F 0 "R3079" V 7880 5300 50  0000 C CNN
-F 1 "100k" V 7800 5300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7730 5300 50  0001 C CNN
-F 3 "" H 7800 5300 50  0001 C CNN
-	1    7800 5300
 	1    0    0    -1  
 $EndComp
 Text HLabel 850  1650 0    60   BiDi ~ 0
@@ -1262,17 +395,6 @@ F 1 "100k" V 4250 2350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4180 2350 50  0001 C CNN
 F 3 "" H 4250 2350 50  0001 C CNN
 	1    4250 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3078
-U 1 1 59C65FFC
-P 4250 5300
-F 0 "R3078" V 4330 5300 50  0000 C CNN
-F 1 "100k" V 4250 5300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4180 5300 50  0001 C CNN
-F 3 "" H 4250 5300 50  0001 C CNN
-	1    4250 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1396,382 +518,10 @@ Wire Wire Line
 Connection ~ 7400 800 
 Wire Wire Line
 	7500 800  7500 900 
-Connection ~ 7500 800 
-Wire Wire Line
-	8600 1650 8350 1650
-Wire Wire Line
-	8600 1750 8350 1750
-Wire Wire Line
-	8600 2150 8350 2150
-Connection ~ 8450 2650
-Wire Wire Line
-	8450 2650 8600 2650
-Wire Wire Line
-	9400 1650 9550 1650
-Wire Wire Line
-	9550 1650 9550 1500
-Wire Wire Line
-	9400 1750 9650 1750
-Wire Wire Line
-	9650 1750 9650 1200
-Wire Wire Line
-	9400 1850 9750 1850
-Wire Wire Line
-	9750 1850 9750 1500
-Wire Wire Line
-	9400 1950 9850 1950
-Wire Wire Line
-	9850 1950 9850 1200
-Wire Wire Line
-	10050 1200 10050 2150
-Wire Wire Line
-	10050 2150 9400 2150
-Wire Wire Line
-	9400 2050 9950 2050
-Wire Wire Line
-	9950 2050 9950 1500
-Wire Wire Line
-	10150 1500 10150 2250
-Wire Wire Line
-	10150 2250 9400 2250
-Wire Wire Line
-	9400 2350 10250 2350
-Wire Wire Line
-	10250 2350 10250 1200
-Wire Wire Line
-	10450 1200 10450 2550
-Wire Wire Line
-	10450 2550 9400 2550
-Wire Wire Line
-	9400 2450 10350 2450
-Wire Wire Line
-	10350 2450 10350 1500
-Wire Wire Line
-	10550 1500 10550 2650
-Wire Wire Line
-	10550 2650 9400 2650
-Wire Wire Line
-	9400 2850 10750 2850
-Wire Wire Line
-	10750 2850 10750 1500
-Wire Wire Line
-	10950 1500 10950 3050
-Wire Wire Line
-	10950 3050 9400 3050
-Wire Wire Line
-	9400 3150 11050 3150
-Wire Wire Line
-	11050 3150 11050 1200
-Wire Wire Line
-	10850 1200 10850 2950
-Wire Wire Line
-	10850 2950 9400 2950
-Wire Wire Line
-	9400 2750 10650 2750
-Wire Wire Line
-	10650 2750 10650 1200
-Wire Wire Line
-	10350 800  10350 1200
-Wire Wire Line
-	10150 800  10150 1200
-Wire Wire Line
-	9950 800  9950 1200
-Wire Wire Line
-	9750 800  9750 1200
-Wire Wire Line
-	9550 800  9550 1200
-Wire Wire Line
-	9650 800  9650 900 
-Wire Wire Line
-	9850 800  9850 900 
-Wire Wire Line
-	10050 800  10050 900 
-Wire Wire Line
-	10250 800  10250 900 
-Wire Wire Line
-	10450 800  10450 900 
-Wire Wire Line
-	10550 800  10550 1200
-Wire Wire Line
-	10650 800  10650 900 
-Wire Wire Line
-	10750 800  10750 1200
-Wire Wire Line
-	10850 800  10850 900 
-Wire Wire Line
-	10950 800  10950 1200
-Wire Wire Line
-	11050 800  11050 900 
-Wire Wire Line
-	9000 700  9000 1450
-Connection ~ 5450 700 
-Connection ~ 9550 800 
-Connection ~ 9650 800 
-Connection ~ 9750 800 
-Connection ~ 9850 800 
-Connection ~ 9950 800 
-Connection ~ 10050 800 
-Connection ~ 10150 800 
-Connection ~ 10250 800 
-Connection ~ 10350 800 
-Connection ~ 10450 800 
-Connection ~ 10550 800 
-Connection ~ 10650 800 
-Connection ~ 10750 800 
-Connection ~ 10850 800 
-Connection ~ 10950 800 
 Wire Wire Line
 	6000 1650 6000 1500
 Wire Wire Line
 	5850 1650 6000 1650
-Wire Wire Line
-	5450 3650 5450 4400
-Wire Wire Line
-	5050 4600 4800 4600
-Wire Wire Line
-	5050 4700 4800 4700
-Wire Wire Line
-	5050 5100 4800 5100
-Connection ~ 4900 5600
-Wire Wire Line
-	4900 5600 5050 5600
-Wire Wire Line
-	5850 4700 6100 4700
-Wire Wire Line
-	6100 4700 6100 4150
-Wire Wire Line
-	5850 4800 6200 4800
-Wire Wire Line
-	6200 4800 6200 4450
-Wire Wire Line
-	5850 4900 6300 4900
-Wire Wire Line
-	6300 4900 6300 4150
-Wire Wire Line
-	6500 4150 6500 5100
-Wire Wire Line
-	6500 5100 5850 5100
-Wire Wire Line
-	5850 5000 6400 5000
-Wire Wire Line
-	6400 5000 6400 4450
-Wire Wire Line
-	6600 4450 6600 5200
-Wire Wire Line
-	6600 5200 5850 5200
-Wire Wire Line
-	5850 5300 6700 5300
-Wire Wire Line
-	6700 5300 6700 4150
-Wire Wire Line
-	6900 4150 6900 5500
-Wire Wire Line
-	6900 5500 5850 5500
-Wire Wire Line
-	5850 5400 6800 5400
-Wire Wire Line
-	6800 5400 6800 4450
-Wire Wire Line
-	7000 4450 7000 5600
-Wire Wire Line
-	7000 5600 5850 5600
-Wire Wire Line
-	5850 5800 7200 5800
-Wire Wire Line
-	7200 5800 7200 4450
-Wire Wire Line
-	7400 4450 7400 6000
-Wire Wire Line
-	7400 6000 5850 6000
-Wire Wire Line
-	5850 6100 7500 6100
-Wire Wire Line
-	7500 6100 7500 4150
-Wire Wire Line
-	7300 4150 7300 5900
-Wire Wire Line
-	7300 5900 5850 5900
-Wire Wire Line
-	5850 5700 7100 5700
-Wire Wire Line
-	7100 5700 7100 4150
-Wire Wire Line
-	6800 3750 6800 4150
-Connection ~ 6800 3750
-Wire Wire Line
-	6600 3750 6600 4150
-Connection ~ 6600 3750
-Wire Wire Line
-	6400 3750 6400 4150
-Connection ~ 6400 3750
-Wire Wire Line
-	6200 3750 6200 4150
-Connection ~ 6200 3750
-Wire Wire Line
-	6000 4150 6000 3750
-Connection ~ 6000 3750
-Wire Wire Line
-	6100 3750 6100 3850
-Connection ~ 6100 3750
-Wire Wire Line
-	6300 3750 6300 3850
-Connection ~ 6300 3750
-Wire Wire Line
-	6500 3750 6500 3850
-Connection ~ 6500 3750
-Wire Wire Line
-	6700 3750 6700 3850
-Connection ~ 6700 3750
-Wire Wire Line
-	6900 3750 6900 3850
-Connection ~ 6900 3750
-Wire Wire Line
-	7000 3750 7000 4150
-Connection ~ 7000 3750
-Wire Wire Line
-	7100 3750 7100 3850
-Connection ~ 7100 3750
-Wire Wire Line
-	7200 3750 7200 4150
-Connection ~ 7200 3750
-Wire Wire Line
-	7300 3750 7300 3850
-Connection ~ 7300 3750
-Wire Wire Line
-	7400 3750 7400 4150
-Connection ~ 7400 3750
-Wire Wire Line
-	7500 3750 7500 3850
-Connection ~ 7500 3750
-Wire Wire Line
-	8600 4600 8350 4600
-Wire Wire Line
-	8600 4700 8350 4700
-Wire Wire Line
-	8600 5100 8350 5100
-Connection ~ 8450 5600
-Wire Wire Line
-	8450 5600 8600 5600
-Wire Wire Line
-	9400 4600 9550 4600
-Wire Wire Line
-	9550 4600 9550 4450
-Wire Wire Line
-	9400 4700 9650 4700
-Wire Wire Line
-	9650 4700 9650 4150
-Wire Wire Line
-	9400 4800 9750 4800
-Wire Wire Line
-	9750 4800 9750 4450
-Wire Wire Line
-	9400 4900 9850 4900
-Wire Wire Line
-	9850 4900 9850 4150
-Wire Wire Line
-	10050 4150 10050 5100
-Wire Wire Line
-	10050 5100 9400 5100
-Wire Wire Line
-	9400 5000 9950 5000
-Wire Wire Line
-	9950 5000 9950 4450
-Wire Wire Line
-	10150 4450 10150 5200
-Wire Wire Line
-	10150 5200 9400 5200
-Wire Wire Line
-	9400 5300 10250 5300
-Wire Wire Line
-	10250 5300 10250 4150
-Wire Wire Line
-	10450 4150 10450 5500
-Wire Wire Line
-	10450 5500 9400 5500
-Wire Wire Line
-	9400 5400 10350 5400
-Wire Wire Line
-	10350 5400 10350 4450
-Wire Wire Line
-	10350 3750 10350 4150
-Wire Wire Line
-	10150 3750 10150 4150
-Wire Wire Line
-	9950 3750 9950 4150
-Wire Wire Line
-	9750 3750 9750 4150
-Wire Wire Line
-	9550 3750 9550 4150
-Wire Wire Line
-	9650 3750 9650 3850
-Wire Wire Line
-	9850 3750 9850 3850
-Wire Wire Line
-	10050 3750 10050 3850
-Wire Wire Line
-	10250 3750 10250 3850
-Wire Wire Line
-	10450 3750 10450 3850
-Wire Wire Line
-	10550 3750 10550 4150
-Wire Wire Line
-	10650 3750 10650 3850
-Wire Wire Line
-	10750 3750 10750 4150
-Wire Wire Line
-	10850 3750 10850 3850
-Wire Wire Line
-	10950 3750 10950 4150
-Wire Wire Line
-	11050 3750 11050 3850
-Wire Wire Line
-	9000 3650 9000 4400
-Connection ~ 5450 3650
-Connection ~ 9550 3750
-Connection ~ 9650 3750
-Connection ~ 9750 3750
-Connection ~ 9850 3750
-Connection ~ 9950 3750
-Connection ~ 10050 3750
-Connection ~ 10150 3750
-Connection ~ 10250 3750
-Connection ~ 10350 3750
-Connection ~ 10450 3750
-Connection ~ 10550 3750
-Connection ~ 10650 3750
-Connection ~ 10750 3750
-Connection ~ 10850 3750
-Connection ~ 10950 3750
-Wire Wire Line
-	6000 4600 6000 4450
-Wire Wire Line
-	5850 4600 6000 4600
-Wire Wire Line
-	11050 6100 11050 4150
-Wire Wire Line
-	10950 4450 10950 6000
-Wire Wire Line
-	10850 4150 10850 5900
-Wire Wire Line
-	10750 5800 10750 4450
-Wire Wire Line
-	10650 5700 10650 4150
-Wire Wire Line
-	10550 4450 10550 5600
-Wire Wire Line
-	9400 6100 11050 6100
-Wire Wire Line
-	10850 5900 9400 5900
-Wire Wire Line
-	10950 6000 9400 6000
-Wire Wire Line
-	9400 5800 10750 5800
-Wire Wire Line
-	9400 5700 10650 5700
-Wire Wire Line
-	10550 5600 9400 5600
-Wire Bus Line
-	900  7100 4450 7100
 Wire Wire Line
 	800  7000 800  6900
 Wire Wire Line
@@ -1791,48 +541,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 7000 1600 6900
 Wire Wire Line
-	1700 7000 1700 6900
-Wire Wire Line
-	1800 7000 1800 6900
-Wire Wire Line
-	1900 7000 1900 6900
-Wire Wire Line
-	2000 7000 2000 6900
-Wire Wire Line
-	2100 7000 2100 6900
-Wire Wire Line
-	2200 7000 2200 6900
-Wire Wire Line
-	2300 7000 2300 6900
-Wire Wire Line
-	2400 7000 2400 6900
-Wire Wire Line
-	2500 7000 2500 6900
-Wire Wire Line
-	2600 7000 2600 6900
-Wire Wire Line
-	2700 7000 2700 6900
-Wire Wire Line
-	2800 7000 2800 6900
-Wire Wire Line
-	2900 7000 2900 6900
-Wire Wire Line
-	3000 7000 3000 6900
-Wire Wire Line
-	3100 7000 3100 6900
-Wire Wire Line
-	3200 7000 3200 6900
-Wire Wire Line
-	3300 7000 3300 6900
-Wire Wire Line
-	3400 7000 3400 6900
-Wire Wire Line
-	3500 7000 3500 6900
-Wire Wire Line
-	3600 7000 3600 6900
-Wire Bus Line
-	900  7600 4450 7600
-Wire Wire Line
 	800  7500 800  7400
 Wire Wire Line
 	900  7500 900  7400
@@ -1851,70 +559,8 @@ Wire Wire Line
 Wire Wire Line
 	1600 7500 1600 7400
 Wire Wire Line
-	1700 7500 1700 7400
-Wire Wire Line
-	1800 7500 1800 7400
-Wire Wire Line
-	1900 7500 1900 7400
-Wire Wire Line
-	2000 7500 2000 7400
-Wire Wire Line
-	2100 7500 2100 7400
-Wire Wire Line
-	2200 7500 2200 7400
-Wire Wire Line
-	2300 7500 2300 7400
-Wire Wire Line
-	2400 7500 2400 7400
-Wire Wire Line
-	2500 7500 2500 7400
-Wire Wire Line
-	2600 7500 2600 7400
-Wire Wire Line
-	2700 7500 2700 7400
-Wire Wire Line
-	2800 7500 2800 7400
-Wire Wire Line
-	2900 7500 2900 7400
-Wire Wire Line
-	3000 7500 3000 7400
-Wire Wire Line
-	3100 7500 3100 7400
-Wire Wire Line
-	3200 7500 3200 7400
-Wire Wire Line
-	3300 7500 3300 7400
-Wire Wire Line
-	3400 7500 3400 7400
-Wire Wire Line
-	3500 7500 3500 7400
-Wire Wire Line
-	3600 7500 3600 7400
-Wire Wire Line
-	3900 800  3900 700 
-Wire Wire Line
 	4900 2650 4900 3400
 Connection ~ 4900 3350
-Connection ~ 5450 3350
-Wire Wire Line
-	8450 3350 8450 2650
-Connection ~ 8450 3350
-Wire Wire Line
-	3900 3750 3900 3650
-Wire Wire Line
-	4900 5600 4900 6350
-Connection ~ 4900 6300
-Wire Wire Line
-	8450 6300 8450 5600
-Connection ~ 8450 6300
-Connection ~ 5450 6300
-Wire Wire Line
-	8600 5800 7800 5800
-Wire Wire Line
-	7800 5800 7800 5450
-Wire Wire Line
-	7800 3650 7800 5150
-Connection ~ 7800 3650
 Wire Wire Line
 	850  1650 1500 1650
 Wire Wire Line
@@ -1942,50 +588,6 @@ Wire Wire Line
 	4250 2850 4250 2500
 Wire Wire Line
 	4250 2200 4250 700 
-Wire Wire Line
-	5050 5800 4250 5800
-Wire Wire Line
-	4250 5800 4250 5450
-Wire Wire Line
-	4250 5150 4250 3650
-Wire Wire Line
-	4100 700  9000 700 
-Wire Wire Line
-	3900 800  11050 800 
-Wire Wire Line
-	4100 3650 9000 3650
-Wire Wire Line
-	3900 3750 11050 3750
-Wire Wire Line
-	7800 2200 7800 700 
-$Comp
-L R R3045
-U 1 1 59C65AC7
-P 7800 2350
-F 0 "R3045" V 7880 2350 50  0000 C CNN
-F 1 "100k" V 7800 2350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7730 2350 50  0001 C CNN
-F 3 "" H 7800 2350 50  0001 C CNN
-	1    7800 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 2850 7800 2500
-Wire Wire Line
-	8600 2850 7800 2850
-Wire Wire Line
-	8600 2750 8450 2750
-Connection ~ 8450 2750
-Wire Wire Line
-	4900 3350 9000 3350
-Wire Wire Line
-	4900 6300 9000 6300
-Wire Wire Line
-	8600 5700 8450 5700
-Connection ~ 8450 5700
-Wire Wire Line
-	5050 5700 4900 5700
-Connection ~ 4900 5700
 $Comp
 L TCA9548A_TSSOP U3001
 U 1 1 59C6864F
@@ -2113,15 +715,13 @@ Text Label 2350 2550 0    60   ~ 0
 mSDA4
 Text Label 2350 2750 0    60   ~ 0
 mSDA5
-Text Label 2350 2950 0    60   ~ 0
-mSDA6
 Text Label 2350 3150 0    60   ~ 0
 mSDA7
 $Comp
-L GND #PWR020
+L GND #PWR016
 U 1 1 59C686C8
 P 1350 3400
-F 0 "#PWR020" H 1350 3150 50  0001 C CNN
+F 0 "#PWR016" H 1350 3150 50  0001 C CNN
 F 1 "GND" H 1350 3250 50  0000 C CNN
 F 2 "" H 1350 3400 50  0001 C CNN
 F 3 "" H 1350 3400 50  0001 C CNN
@@ -2174,9 +774,6 @@ Wire Wire Line
 	2650 700  2650 1200
 Connection ~ 2650 700 
 Wire Wire Line
-	2550 700  2550 900 
-Connection ~ 2550 700 
-Wire Wire Line
 	2750 700  2750 900 
 Connection ~ 2750 700 
 Wire Wire Line
@@ -2194,36 +791,29 @@ Connection ~ 1050 1650
 Connection ~ 1250 1750
 Connection ~ 1450 2150
 Wire Wire Line
-	850  700  3150 700 
-Wire Wire Line
 	3150 700  3150 900 
 Wire Wire Line
-	2450 1200 2450 700 
-Connection ~ 2450 700 
+	2300 2450 3400 2450
 Wire Wire Line
-	2300 2450 2350 2450
+	2300 2550 3400 2550
 Wire Wire Line
-	2300 2550 2350 2550
+	2300 2650 3400 2650
 Wire Wire Line
-	2350 2650 2300 2650
+	2300 2750 3400 2750
 Wire Wire Line
-	2300 2750 2350 2750
+	2300 2850 3400 2850
 Wire Wire Line
-	2350 2850 2300 2850
+	2300 2950 3400 2950
 Wire Wire Line
-	2300 2950 2350 2950
+	2300 3050 3400 3050
 Wire Wire Line
-	2350 3050 2300 3050
-Wire Wire Line
-	2300 3150 2350 3150
+	2300 3150 3400 3150
 Wire Wire Line
 	1900 3350 1350 3350
 Wire Wire Line
 	1500 2850 1350 2850
 Connection ~ 1350 2850
 Connection ~ 2450 1650
-Text HLabel 3400 1650 2    60   BiDi ~ 0
-mSCL0
 Connection ~ 2550 1750
 Connection ~ 2650 1850
 Connection ~ 2750 1950
@@ -2231,8 +821,6 @@ Connection ~ 2850 2050
 Connection ~ 2950 2150
 Connection ~ 3050 2250
 Connection ~ 3150 2350
-Text HLabel 3400 1750 2    60   BiDi ~ 0
-mSDA0
 Text HLabel 3400 1850 2    60   BiDi ~ 0
 mSCL1
 Text HLabel 3400 1950 2    60   BiDi ~ 0
@@ -2246,75 +834,83 @@ mSCL3
 Text HLabel 3400 2350 2    60   BiDi ~ 0
 mSDA3
 $Comp
-L +3.3V #PWR021
+L +3.3V #PWR017
 U 1 1 59C829A8
 P 850 700
-F 0 "#PWR021" H 850 550 50  0001 C CNN
+F 0 "#PWR017" H 850 550 50  0001 C CNN
 F 1 "+3.3V" H 850 840 50  0000 C CNN
 F 2 "" H 850 700 50  0001 C CNN
 F 3 "" H 850 700 50  0001 C CNN
 	1    850  700 
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3.3V #PWR022
-U 1 1 59C831F1
-P 4100 700
-F 0 "#PWR022" H 4100 550 50  0001 C CNN
-F 1 "+3.3V" H 4100 840 50  0000 C CNN
-F 2 "" H 4100 700 50  0001 C CNN
-F 3 "" H 4100 700 50  0001 C CNN
-	1    4100 700 
-	1    0    0    -1  
-$EndComp
 Connection ~ 4250 700 
-Connection ~ 7800 700 
-$Comp
-L +3.3V #PWR023
-U 1 1 59C83F7E
-P 4100 3650
-F 0 "#PWR023" H 4100 3500 50  0001 C CNN
-F 1 "+3.3V" H 4100 3790 50  0000 C CNN
-F 2 "" H 4100 3650 50  0001 C CNN
-F 3 "" H 4100 3650 50  0001 C CNN
-	1    4100 3650
-	1    0    0    -1  
-$EndComp
-Connection ~ 4250 3650
-$Comp
-L +2V5 #PWR024
-U 1 1 5A1F406C
-P 3900 700
-F 0 "#PWR024" H 3900 550 50  0001 C CNN
-F 1 "+2V5" H 3900 840 50  0000 C CNN
-F 2 "" H 3900 700 50  0001 C CNN
-F 3 "" H 3900 700 50  0001 C CNN
-	1    3900 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L +2V5 #PWR025
-U 1 1 5A1F4128
-P 3900 3650
-F 0 "#PWR025" H 3900 3500 50  0001 C CNN
-F 1 "+2V5" H 3900 3790 50  0000 C CNN
-F 2 "" H 3900 3650 50  0001 C CNN
-F 3 "" H 3900 3650 50  0001 C CNN
-	1    3900 3650
-	1    0    0    -1  
-$EndComp
 Text Label 1250 2150 2    60   ~ 0
 RESETn
 Wire Wire Line
 	1500 2150 1250 2150
 Text Label 1600 6400 0    60   ~ 0
 ~RESET
-NoConn ~ 2350 2450
-NoConn ~ 2350 2550
-NoConn ~ 2350 2650
-NoConn ~ 2350 2750
-NoConn ~ 2350 2850
-NoConn ~ 2350 2950
-NoConn ~ 2350 3050
-NoConn ~ 2350 3150
+Wire Bus Line
+	900  7600 1900 7600
+Wire Bus Line
+	900  7100 1900 7100
+Text Label 5900 1650 0    60   ~ 0
+SCL2
+Wire Wire Line
+	600  800  600  700 
+$Comp
+L +1V2 #PWR018
+U 1 1 5B3C7153
+P 600 700
+F 0 "#PWR018" H 600 550 50  0001 C CNN
+F 1 "+1V2" H 600 840 50  0000 C CNN
+F 2 "" H 600 700 50  0001 C CNN
+F 3 "" H 600 700 50  0001 C CNN
+	1    600  700 
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 700 
+Wire Wire Line
+	7500 800  600  800 
+Wire Wire Line
+	5450 700  850  700 
+Text Label 3400 1650 0    60   ~ 0
+SCL1
+Text Label 3400 1750 0    60   ~ 0
+SDA1
+Wire Wire Line
+	2450 1200 2450 800 
+Connection ~ 2450 800 
+Wire Wire Line
+	2550 900  2550 800 
+Connection ~ 2550 800 
+Text HLabel 3400 2450 2    60   BiDi ~ 0
+mSCL4
+Text HLabel 3400 2550 2    60   BiDi ~ 0
+mSDA4
+Text HLabel 3400 2650 2    60   BiDi ~ 0
+mSCL5
+Text HLabel 3400 2750 2    60   BiDi ~ 0
+mSDA5
+Text HLabel 3400 2850 2    60   BiDi ~ 0
+mSCL6
+Text HLabel 3400 2950 2    60   BiDi ~ 0
+mSDA6
+Text Label 2350 2950 0    60   ~ 0
+mSDA6
+Text HLabel 3400 3050 2    60   BiDi ~ 0
+mSCL7
+Text HLabel 3400 3150 2    60   BiDi ~ 0
+mSDA7
+Wire Wire Line
+	5450 3350 4900 3350
+Text Label 5900 2850 0    60   ~ 0
+SCL8
+Text Label 5900 3050 0    60   ~ 0
+SCL9
+Text Label 5900 2950 0    60   ~ 0
+SDA8
+Text Label 5900 3150 0    60   ~ 0
+SDA9
 $EndSCHEMATC
