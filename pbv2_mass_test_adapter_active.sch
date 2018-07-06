@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:microzed
 LIBS:lbl_adc
+LIBS:lbl_current
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
@@ -118,41 +119,43 @@ HV_OUT[1..9]
 Text Label 9300 1000 0    60   ~ 0
 HV_OUT_RTN[1..9]
 $Sheet
-S 700  4000 650  600 
+S 1000 4050 800  600 
 U 5A1D3CA0
 F0 "PowerConnectors" 60
 F1 "PowerConnectors.sch" 60
-F2 "VIN" I R 1350 4100 60 
-F3 "HV_IN" I R 1350 4400 60 
-F4 "HV_IN_RTN" O R 1350 4500 60 
-F5 "VIN_RTN" O R 1350 4200 60 
+F2 "VIN" I R 1800 4150 60 
+F3 "HV_IN" I R 1800 4450 60 
+F4 "HV_IN_RTN" O R 1800 4550 60 
+F5 "VIN_RTN" O R 1800 4250 60 
+F6 "SCL" I L 1000 4150 60 
+F7 "SDA" B L 1000 4250 60 
 $EndSheet
 Wire Wire Line
-	1350 4100 1450 4100
+	1800 4150 1900 4150
 Wire Wire Line
-	1350 4400 1450 4400
+	1800 4450 1900 4450
 Wire Wire Line
-	1350 4500 1450 4500
+	1800 4550 1900 4550
 Wire Wire Line
-	1350 4200 1450 4200
-Text Label 1450 4100 0    60   ~ 0
+	1800 4250 1900 4250
+Text Label 1900 4150 0    60   ~ 0
 VIN
-Text Label 1450 4200 0    60   ~ 0
+Text Label 1900 4250 0    60   ~ 0
 VIN_RTN
-Text Label 1450 4400 0    60   ~ 0
+Text Label 1900 4450 0    60   ~ 0
 HV_IN
-Text Label 1450 4500 0    60   ~ 0
+Text Label 1900 4550 0    60   ~ 0
 HV_IN_RTN
 $Sheet
-S 1150 4900 950  450 
+S 1000 4900 950  450 
 U 5A25C4B7
 F0 "Power" 60
 F1 "Power.sch" 60
-F2 "PWR_EN" I L 1150 5000 60 
+F2 "PWR_EN" I L 1000 5000 60 
 $EndSheet
 Wire Wire Line
-	1150 5000 1050 5000
-Text Label 1050 5000 2    60   ~ 0
+	1000 5000 900  5000
+Text Label 900  5000 2    60   ~ 0
 PWR_EN
 Wire Wire Line
 	2100 800  2150 800 
@@ -175,12 +178,12 @@ Wire Wire Line
 Wire Wire Line
 	2100 1250 2800 1250
 Wire Bus Line
-	2900 4400 2850 4400
+	3200 4400 3150 4400
 Wire Bus Line
-	2900 4500 2850 4500
-Text Label 2850 4400 2    60   ~ 0
+	3200 4500 3150 4500
+Text Label 3150 4400 2    60   ~ 0
 VOUT[1..9]
-Text Label 2850 4500 2    60   ~ 0
+Text Label 3150 4500 2    60   ~ 0
 VOUT_RTN[1..9]
 $Sheet
 S 2900 3050 1550 850 
@@ -256,12 +259,12 @@ F 3 "" H 5100 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 2900 4300 1200 300 
+S 3200 4300 1200 300 
 U 5B3D95B1
 F0 "ManualConnector" 60
 F1 "ManualConnector.sch" 60
-F2 "VOUT[1..9]" I L 2900 4400 60 
-F3 "VOUT_RTN[1..9]" I L 2900 4500 60 
+F2 "VOUT[1..9]" I L 3200 4400 60 
+F3 "VOUT_RTN[1..9]" I L 3200 4500 60 
 $EndSheet
 $Sheet
 S 2800 850  900  800 
@@ -393,23 +396,31 @@ mSCL[1..7]
 Text Label 9950 6150 2    60   ~ 0
 mSDA[1..7]
 $Sheet
-S 3050 4900 1050 300 
+S 3200 4900 1050 300 
 U 5B3F246D
 F0 "DaisyConnector" 60
 F1 "DaisyConnector.sch" 60
-F2 "SDA" B L 3050 5100 60 
-F3 "SCL" B L 3050 5000 60 
+F2 "SDA" B L 3200 5100 60 
+F3 "SCL" B L 3200 5000 60 
 $EndSheet
 Text Label 2200 1150 0    60   ~ 0
 iSCL
 Text Label 2200 1250 0    60   ~ 0
 iSDA
 Wire Wire Line
-	3050 5000 3000 5000
+	3200 5000 3150 5000
 Wire Wire Line
-	3050 5100 3000 5100
-Text Label 3000 5000 2    60   ~ 0
+	3200 5100 3150 5100
+Text Label 3150 5000 2    60   ~ 0
 iSCL
-Text Label 3000 5100 2    60   ~ 0
+Text Label 3150 5100 2    60   ~ 0
 iSDA
+Wire Wire Line
+	1000 4150 900  4150
+Wire Wire Line
+	1000 4250 900  4250
+Text Label 900  4150 2    60   ~ 0
+mSCL2
+Text Label 900  4250 2    60   ~ 0
+mSDA2
 $EndSCHEMATC

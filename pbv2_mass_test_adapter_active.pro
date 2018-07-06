@@ -1,4 +1,4 @@
-update=Tue 03 Jul 2018 03:31:17 PM PDT
+update=Tue 03 Jul 2018 05:00:34 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=microzed
 LibName32=library/lbl_adc
+LibName33=library/lbl_current
