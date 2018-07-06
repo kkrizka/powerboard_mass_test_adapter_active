@@ -95,12 +95,12 @@ $EndComp
 $Comp
 L +5V #PWR05
 U 1 1 5A2600F2
-P 9750 1450
-F 0 "#PWR05" H 9750 1300 50  0001 C CNN
-F 1 "+5V" H 9750 1590 50  0000 C CNN
-F 2 "" H 9750 1450 50  0001 C CNN
-F 3 "" H 9750 1450 50  0001 C CNN
-	1    9750 1450
+P 10650 1500
+F 0 "#PWR05" H 10650 1350 50  0001 C CNN
+F 1 "+5V" H 10650 1640 50  0000 C CNN
+F 2 "" H 10650 1500 50  0001 C CNN
+F 3 "" H 10650 1500 50  0001 C CNN
+	1    10650 1500
 	-1   0    0    -1  
 $EndComp
 Text HLabel 10100 1400 2    60   Output ~ 0
@@ -151,14 +151,13 @@ F 3 "" H 5450 6250 50  0001 C CNN
 $EndComp
 Text HLabel 6950 1500 0    60   Output ~ 0
 ~RESET
-Text HLabel 5450 1400 2    60   BiDi ~ 0
+Text HLabel 6950 1300 0    60   Output ~ 0
 I2C_SCL
-Text HLabel 2350 1400 0    60   BiDi ~ 0
+Text HLabel 10100 1300 2    60   BiDi ~ 0
 I2C_SDA
 NoConn ~ 9500 1000
 NoConn ~ 9500 1100
 NoConn ~ 9500 1200
-NoConn ~ 9500 1300
 NoConn ~ 9500 1600
 NoConn ~ 9500 3300
 NoConn ~ 9500 3400
@@ -180,7 +179,6 @@ NoConn ~ 9500 5900
 NoConn ~ 7500 1000
 NoConn ~ 7500 1100
 NoConn ~ 7500 1200
-NoConn ~ 7500 1300
 NoConn ~ 7500 1400
 NoConn ~ 7500 1600
 NoConn ~ 7500 3300
@@ -299,10 +297,6 @@ Wire Wire Line
 Wire Wire Line
 	9500 3800 9750 3800
 Connection ~ 9750 3800
-Wire Wire Line
-	9500 1500 9750 1500
-Wire Wire Line
-	9750 1500 9750 1450
 Wire Wire Line
 	9500 1400 10100 1400
 Wire Wire Line
@@ -475,10 +469,6 @@ Wire Wire Line
 	7250 4900 7250 4850
 Wire Wire Line
 	7500 1500 6950 1500
-Wire Wire Line
-	4900 1400 5450 1400
-Wire Wire Line
-	2900 1400 2350 1400
 $Comp
 L CONN_02X10 J10
 U 1 1 5B3FDB47
@@ -716,4 +706,12 @@ F 3 "" H 9750 5750 50  0001 C CNN
 	1    9750 5750
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4900 1400
+NoConn ~ 2900 1400
+Wire Wire Line
+	6950 1300 7500 1300
+Wire Wire Line
+	9500 1300 10100 1300
+Wire Wire Line
+	9500 1500 10650 1500
 $EndSCHEMATC
