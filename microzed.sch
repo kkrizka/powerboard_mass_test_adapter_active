@@ -33,6 +33,8 @@ LIBS:microzed
 LIBS:lbl_adc
 LIBS:lbl_current
 LIBS:lbl_power
+LIBS:lbl_dac
+LIBS:Analog_ADC
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
@@ -256,17 +258,6 @@ F 1 "MicroZed" H 3900 850 50  0000 C CNN
 F 2 "zed:microzed" H 3900 3450 60  0001 C CNN
 F 3 "" H 3900 3450 60  0001 C CNN
 	1    3900 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MicroZed ZED2002
-U 2 1 5A5528C6
-P 8500 3450
-F 0 "ZED2002" H 8500 6050 50  0000 C CNN
-F 1 "MicroZed" H 8500 850 50  0000 C CNN
-F 2 "zed:microzed" H 8500 3450 60  0001 C CNN
-F 3 "" H 8500 3450 60  0001 C CNN
-	2    8500 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -714,4 +705,15 @@ Wire Wire Line
 	9500 1300 10100 1300
 Wire Wire Line
 	9500 1500 10650 1500
+$Comp
+L MicroZed ZED2001
+U 2 1 5B3FFDA9
+P 8500 3450
+F 0 "ZED2001" H 8500 6050 50  0000 C CNN
+F 1 "MicroZed" H 8500 850 50  0000 C CNN
+F 2 "" H 8500 3450 60  0001 C CNN
+F 3 "" H 8500 3450 60  0001 C CNN
+	2    8500 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

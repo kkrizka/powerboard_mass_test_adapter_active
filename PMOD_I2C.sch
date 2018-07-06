@@ -33,6 +33,8 @@ LIBS:microzed
 LIBS:lbl_adc
 LIBS:lbl_current
 LIBS:lbl_power
+LIBS:lbl_dac
+LIBS:Analog_ADC
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END

@@ -33,6 +33,8 @@ LIBS:microzed
 LIBS:lbl_adc
 LIBS:lbl_current
 LIBS:lbl_power
+LIBS:lbl_dac
+LIBS:Analog_ADC
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
@@ -64,10 +66,9 @@ U 59C5F008
 F0 "LVMeasure" 60
 F1 "LVMeasure.sch" 60
 F2 "SDA" B L 5300 1200 60 
-F3 "SCL" B L 5300 1100 60 
-F4 "VOUT[1..9]" I R 6300 900 60 
-F5 "VOUT_RTN[1..9]" O R 6300 1000 60 
-F6 "~CLR" I L 5300 900 60 
+F3 "VOUT[1..9]" I R 6300 900 60 
+F4 "VOUT_RTN[1..9]" O R 6300 1000 60 
+F5 "SCL" I L 5300 1100 60 
 $EndSheet
 $Sheet
 S 8000 800  1150 450 
@@ -165,10 +166,6 @@ PWR_EN
 Wire Wire Line
 	2100 950  2150 950 
 Text Label 2150 950  0    60   ~ 0
-~RST
-Wire Wire Line
-	5300 900  5200 900 
-Text Label 5200 900  2    60   ~ 0
 ~RST
 Wire Wire Line
 	2800 950  2700 950 
