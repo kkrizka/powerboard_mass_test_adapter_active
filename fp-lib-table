@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name zed)(type KiCad)(uri "$(KIPRJMOD)/library/zed.pretty")(options "")(descr ""))
   (lib (name lbl_conn)(type KiCad)(uri "$(KIPRJMOD)/library/lbl_conn.pretty")(options "")(descr ""))
+  (lib (name lbl_resistors)(type KiCad)(uri "$(KIPRJMOD)/library/lbl_resistors.pretty")(options "")(descr ""))
 )

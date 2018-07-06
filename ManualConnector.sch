@@ -49,136 +49,100 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_02x02_Counter_Clockwise J1
+L Conn_02x02_Counter_Clockwise J11001
 U 1 1 5B3AB4DF
 P 3700 1500
-AR Path="/5B3A4D6A/5B3AB45C/5B3AB4DF" Ref="J1"  Part="1" 
-AR Path="/5B3A4D6A/5B3ADFEF/5B3AB4DF" Ref="J10"  Part="1" 
-AR Path="/5B3A4D6A/5B3AE273/5B3AB4DF" Ref="J19"  Part="1" 
-AR Path="/5B3D95B1/5B3AB4DF" Ref="J19"  Part="1" 
-F 0 "J19" H 3750 1600 50  0000 C CNN
+F 0 "J11001" H 3750 1600 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3750 1300 50  0000 C CNN
-F 2 "" H 3700 1500 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 1500 50  0001 C CNN
 F 3 "" H 3700 1500 50  0001 C CNN
 	1    3700 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x02_Counter_Clockwise J2
+L Conn_02x02_Counter_Clockwise J11002
 U 1 1 5B3AB546
 P 3700 1900
-AR Path="/5B3A4D6A/5B3AB45C/5B3AB546" Ref="J2"  Part="1" 
-AR Path="/5B3A4D6A/5B3ADFEF/5B3AB546" Ref="J11"  Part="1" 
-AR Path="/5B3A4D6A/5B3AE273/5B3AB546" Ref="J20"  Part="1" 
-AR Path="/5B3D95B1/5B3AB546" Ref="J20"  Part="1" 
-F 0 "J20" H 3750 2000 50  0000 C CNN
+F 0 "J11002" H 3750 2000 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3750 1700 50  0000 C CNN
-F 2 "" H 3700 1900 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 1900 50  0001 C CNN
 F 3 "" H 3700 1900 50  0001 C CNN
 	1    3700 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x02_Counter_Clockwise J3
+L Conn_02x02_Counter_Clockwise J11003
 U 1 1 5B3AB563
 P 3700 2300
-AR Path="/5B3A4D6A/5B3AB45C/5B3AB563" Ref="J3"  Part="1" 
-AR Path="/5B3A4D6A/5B3ADFEF/5B3AB563" Ref="J12"  Part="1" 
-AR Path="/5B3A4D6A/5B3AE273/5B3AB563" Ref="J21"  Part="1" 
-AR Path="/5B3D95B1/5B3AB563" Ref="J21"  Part="1" 
-F 0 "J21" H 3750 2400 50  0000 C CNN
+F 0 "J11003" H 3750 2400 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3750 2100 50  0000 C CNN
-F 2 "" H 3700 2300 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 2300 50  0001 C CNN
 F 3 "" H 3700 2300 50  0001 C CNN
 	1    3700 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x02_Counter_Clockwise J4
+L Conn_02x02_Counter_Clockwise J11004
 U 1 1 5B3AB70A
 P 3700 2700
-AR Path="/5B3A4D6A/5B3AB45C/5B3AB70A" Ref="J4"  Part="1" 
-AR Path="/5B3A4D6A/5B3ADFEF/5B3AB70A" Ref="J13"  Part="1" 
-AR Path="/5B3A4D6A/5B3AE273/5B3AB70A" Ref="J22"  Part="1" 
-AR Path="/5B3D95B1/5B3AB70A" Ref="J22"  Part="1" 
-F 0 "J22" H 3750 2800 50  0000 C CNN
+F 0 "J11004" H 3750 2800 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3750 2500 50  0000 C CNN
-F 2 "" H 3700 2700 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 2700 50  0001 C CNN
 F 3 "" H 3700 2700 50  0001 C CNN
 	1    3700 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x02_Counter_Clockwise J5
+L Conn_02x02_Counter_Clockwise J11005
 U 1 1 5B3AB710
 P 3700 3100
-AR Path="/5B3A4D6A/5B3AB45C/5B3AB710" Ref="J5"  Part="1" 
-AR Path="/5B3A4D6A/5B3ADFEF/5B3AB710" Ref="J14"  Part="1" 
-AR Path="/5B3A4D6A/5B3AE273/5B3AB710" Ref="J23"  Part="1" 
-AR Path="/5B3D95B1/5B3AB710" Ref="J23"  Part="1" 
-F 0 "J23" H 3750 3200 50  0000 C CNN
+F 0 "J11005" H 3750 3200 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3750 2900 50  0000 C CNN
-F 2 "" H 3700 3100 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 3100 50  0001 C CNN
 F 3 "" H 3700 3100 50  0001 C CNN
 	1    3700 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x02_Counter_Clockwise J6
+L Conn_02x02_Counter_Clockwise J11006
 U 1 1 5B3AB716
 P 3700 3500
-AR Path="/5B3A4D6A/5B3AB45C/5B3AB716" Ref="J6"  Part="1" 
-AR Path="/5B3A4D6A/5B3ADFEF/5B3AB716" Ref="J15"  Part="1" 
-AR Path="/5B3A4D6A/5B3AE273/5B3AB716" Ref="J24"  Part="1" 
-AR Path="/5B3D95B1/5B3AB716" Ref="J24"  Part="1" 
-F 0 "J24" H 3750 3600 50  0000 C CNN
+F 0 "J11006" H 3750 3600 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3750 3300 50  0000 C CNN
-F 2 "" H 3700 3500 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 3500 50  0001 C CNN
 F 3 "" H 3700 3500 50  0001 C CNN
 	1    3700 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x02_Counter_Clockwise J7
+L Conn_02x02_Counter_Clockwise J11007
 U 1 1 5B3AB860
 P 3700 3900
-AR Path="/5B3A4D6A/5B3AB45C/5B3AB860" Ref="J7"  Part="1" 
-AR Path="/5B3A4D6A/5B3ADFEF/5B3AB860" Ref="J16"  Part="1" 
-AR Path="/5B3A4D6A/5B3AE273/5B3AB860" Ref="J25"  Part="1" 
-AR Path="/5B3D95B1/5B3AB860" Ref="J25"  Part="1" 
-F 0 "J25" H 3750 4000 50  0000 C CNN
+F 0 "J11007" H 3750 4000 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3750 3700 50  0000 C CNN
-F 2 "" H 3700 3900 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 3900 50  0001 C CNN
 F 3 "" H 3700 3900 50  0001 C CNN
 	1    3700 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x02_Counter_Clockwise J8
+L Conn_02x02_Counter_Clockwise J11008
 U 1 1 5B3AB866
 P 3700 4300
-AR Path="/5B3A4D6A/5B3AB45C/5B3AB866" Ref="J8"  Part="1" 
-AR Path="/5B3A4D6A/5B3ADFEF/5B3AB866" Ref="J17"  Part="1" 
-AR Path="/5B3A4D6A/5B3AE273/5B3AB866" Ref="J26"  Part="1" 
-AR Path="/5B3D95B1/5B3AB866" Ref="J26"  Part="1" 
-F 0 "J26" H 3750 4400 50  0000 C CNN
+F 0 "J11008" H 3750 4400 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3750 4100 50  0000 C CNN
-F 2 "" H 3700 4300 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 4300 50  0001 C CNN
 F 3 "" H 3700 4300 50  0001 C CNN
 	1    3700 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x02_Counter_Clockwise J9
+L Conn_02x02_Counter_Clockwise J11009
 U 1 1 5B3AB86C
 P 3700 4700
-AR Path="/5B3A4D6A/5B3AB45C/5B3AB86C" Ref="J9"  Part="1" 
-AR Path="/5B3A4D6A/5B3ADFEF/5B3AB86C" Ref="J18"  Part="1" 
-AR Path="/5B3A4D6A/5B3AE273/5B3AB86C" Ref="J27"  Part="1" 
-AR Path="/5B3D95B1/5B3AB86C" Ref="J27"  Part="1" 
-F 0 "J27" H 3750 4800 50  0000 C CNN
+F 0 "J11009" H 3750 4800 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3750 4500 50  0000 C CNN
-F 2 "" H 3700 4700 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 4700 50  0001 C CNN
 F 3 "" H 3700 4700 50  0001 C CNN
 	1    3700 4700
 	1    0    0    -1  
