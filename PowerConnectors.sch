@@ -34,7 +34,6 @@ LIBS:lbl_adc
 LIBS:lbl_current
 LIBS:lbl_power
 LIBS:lbl_dac
-LIBS:Analog_ADC
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
@@ -62,7 +61,7 @@ F 3 "" H 3150 350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LEMO2 J8003
+L LEMO2-RESCUE-pbv2_mass_test_adapter_active J8003
 U 1 1 5A1D3DB4
 P 3150 5550
 F 0 "J8003" H 3150 5750 50  0000 C CNN
@@ -174,7 +173,7 @@ U 1 1 5A266076
 P 2850 3050
 F 0 "L8001" V 2800 3050 50  0000 C CNN
 F 1 "72nH" V 2925 3050 50  0000 C CNN
-F 2 "Inductors_SMD:L_Wuerth_HCM-7050" H 2850 3050 50  0001 C CNN
+F 2 "Inductors:Inductor_Wurth_HCI-7050" H 2850 3050 50  0001 C CNN
 F 3 "" H 2850 3050 50  0001 C CNN
 	1    2850 3050
 	1    0    0    -1  
@@ -378,9 +377,11 @@ m5V_p
 Wire Wire Line
 	2750 1600 2900 1600
 $Comp
-L INA138 U8002
+L INA138-RESCUE-pbv2_mass_test_adapter_active U8002
 U 1 1 5B3EC8E6
 P 6000 1700
+AR Path="/5B3EC8E6" Ref="U8002"  Part="1" 
+AR Path="/5A1D3CA0/5B3EC8E6" Ref="U8002"  Part="1" 
 F 0 "U8002" H 5650 1400 60  0000 C CNN
 F 1 "INA138" H 5750 1950 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 5900 1700 60  0001 C CNN
@@ -427,9 +428,11 @@ Wire Wire Line
 Text Label 6500 1700 0    60   ~ 0
 p5V_curr
 $Comp
-L INA138 U8004
+L INA138-RESCUE-pbv2_mass_test_adapter_active U8004
 U 1 1 5B3EC9E1
 P 8350 1700
+AR Path="/5B3EC9E1" Ref="U8004"  Part="1" 
+AR Path="/5A1D3CA0/5B3EC9E1" Ref="U8004"  Part="1" 
 F 0 "U8004" H 8000 1400 60  0000 C CNN
 F 1 "INA138" H 8100 1950 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 8250 1700 60  0001 C CNN
@@ -796,9 +799,11 @@ F 3 "" H 5100 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INA138 U8003
+L INA138-RESCUE-pbv2_mass_test_adapter_active U8003
 U 1 1 5B3FFF67
 P 6000 3400
+AR Path="/5B3FFF67" Ref="U8003"  Part="1" 
+AR Path="/5A1D3CA0/5B3FFF67" Ref="U8003"  Part="1" 
 F 0 "U8003" H 6100 3750 50  0000 L CNN
 F 1 "INA138" H 6100 3650 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 6050 3150 50  0001 L CNN

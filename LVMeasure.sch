@@ -34,7 +34,6 @@ LIBS:lbl_adc
 LIBS:lbl_current
 LIBS:lbl_power
 LIBS:lbl_dac
-LIBS:Analog_ADC
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
@@ -282,20 +281,18 @@ VOUT_RTN7
 Text Label 8700 5100 0    60   ~ 0
 VOUT_RTN8
 Text Label 8050 4400 0    60   ~ 0
-VOUT_RTNa0
-Text Label 8050 4500 0    60   ~ 0
 VOUT_RTNa1
-Text Label 8050 4600 0    60   ~ 0
+Text Label 8050 4500 0    60   ~ 0
 VOUT_RTNa2
-Text Label 8050 4700 0    60   ~ 0
+Text Label 8050 4600 0    60   ~ 0
 VOUT_RTNa3
-Text Label 8050 4800 0    60   ~ 0
-VOUT_RTNb0
-Text Label 8050 4900 0    60   ~ 0
-VOUT_RTNb1
-Text Label 8050 5000 0    60   ~ 0
-VOUT_RTNb2
 Text Label 8050 5100 0    60   ~ 0
+VOUT_RTNb4
+Text Label 8050 4800 0    60   ~ 0
+VOUT_RTNb1
+Text Label 8050 4900 0    60   ~ 0
+VOUT_RTNb2
+Text Label 8050 5000 0    60   ~ 0
 VOUT_RTNb3
 Text Label 8000 1450 0    60   ~ 0
 VOUT_RTNa[1..4]
@@ -432,12 +429,6 @@ Wire Bus Line
 	7800 1900 8000 1900
 Wire Bus Line
 	7800 2050 8000 2050
-Wire Bus Line
-	9250 1300 9050 1300
-Wire Bus Line
-	10450 1300 10650 1300
-Wire Bus Line
-	10450 1450 10650 1450
 Text Label 7250 4200 3    60   ~ 0
 VDACb[1..4]
 Wire Bus Line
@@ -1500,7 +1491,7 @@ Text Label 1000 2150 2    60   ~ 0
 SCL
 Text Label 2750 2150 2    60   ~ 0
 SCL
-Text Label 5700 2050 0    60   ~ 0
+Text Label 5700 2150 0    60   ~ 0
 VDAC9
 $Comp
 L C C3011
@@ -1524,8 +1515,6 @@ F 3 "" H 4500 1550 50  0001 C CNN
 	1    4500 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 2050 5700 2050
 Wire Wire Line
 	4550 2050 4500 2050
 Wire Wire Line
@@ -1622,7 +1611,6 @@ Text Label 4500 2050 2    60   ~ 0
 SDA
 Text Label 4500 2150 2    60   ~ 0
 SCL
-NoConn ~ 5550 2150
 NoConn ~ 5550 2250
 NoConn ~ 5550 2350
 $Comp
@@ -1630,7 +1618,7 @@ L R R3004
 U 1 1 5B404CF3
 P 2600 2450
 F 0 "R3004" V 2680 2450 50  0000 C CNN
-F 1 "R" V 2600 2450 50  0000 C CNN
+F 1 "100k" V 2600 2450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 2530 2450 50  0001 C CNN
 F 3 "" H 2600 2450 50  0001 C CNN
 	1    2600 2450
@@ -1656,7 +1644,7 @@ L R R3008
 U 1 1 5B405880
 P 4350 2550
 F 0 "R3008" V 4430 2550 50  0000 C CNN
-F 1 "R" V 4350 2550 50  0000 C CNN
+F 1 "100k" V 4350 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4280 2550 50  0001 C CNN
 F 3 "" H 4350 2550 50  0001 C CNN
 	1    4350 2550
@@ -1677,4 +1665,15 @@ F 3 "" H 4200 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 2700 4350 2700
+Wire Wire Line
+	9050 1300 9250 1300
+Wire Wire Line
+	5700 2150 5550 2150
+NoConn ~ 5550 2050
+Text Label 8050 4700 0    60   ~ 0
+VOUT_RTNa4
+Wire Wire Line
+	10650 1300 10450 1300
+Wire Wire Line
+	10450 1450 10650 1450
 $EndSCHEMATC

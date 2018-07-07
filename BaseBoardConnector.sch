@@ -34,7 +34,6 @@ LIBS:lbl_adc
 LIBS:lbl_current
 LIBS:lbl_power
 LIBS:lbl_dac
-LIBS:Analog_ADC
 LIBS:pbv2_mass_test_adapter_active-cache
 EELAYER 25 0
 EELAYER END
@@ -668,7 +667,7 @@ U 1 1 5A1EC014
 P 5350 2950
 F 0 "J10001" H 5350 4650 50  0000 C CNN
 F 1 "CONN_03X32" V 5500 3000 50  0000 C CNN
-F 2 "lbl_conn:CONN_03X32" H 4450 3000 50  0001 C CNN
+F 2 "lbl_conn:DIN-SIGNAL_R096FS-3_0C1-2" H 4450 3000 50  0001 C CNN
 F 3 "" H 4450 3000 50  0001 C CNN
 	1    5350 2950
 	1    0    0    -1  
