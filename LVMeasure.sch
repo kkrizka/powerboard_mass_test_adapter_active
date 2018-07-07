@@ -232,9 +232,9 @@ Text Label 8250 2500 0    60   ~ 0
 VOUTa1
 Text Label 8250 2600 0    60   ~ 0
 VOUTa2
-Text Label 8250 2700 0    60   ~ 0
-VOUTa4
 Text Label 8250 2800 0    60   ~ 0
+VOUTa4
+Text Label 8250 2700 0    60   ~ 0
 VOUTa3
 Text Label 8250 2900 0    60   ~ 0
 VOUTb1
@@ -1220,13 +1220,13 @@ F 3 "" H 4000 4350 50  0001 C CNN
 	1    4000 4350
 	1    0    0    -1  
 $EndComp
-Text Label 2200 2050 0    60   ~ 0
+Text Label 2200 2350 0    60   ~ 0
 VDAC4
 Text Label 2200 2150 0    60   ~ 0
 VDAC1
 Text Label 2200 2250 0    60   ~ 0
 VDAC2
-Text Label 2200 2350 0    60   ~ 0
+Text Label 2200 2050 0    60   ~ 0
 VDAC3
 $Comp
 L C C3001
@@ -1353,11 +1353,11 @@ Wire Wire Line
 Wire Wire Line
 	1050 2400 1000 2400
 Connection ~ 1000 2400
-Text Label 3950 2050 0    60   ~ 0
-VDAC5
 Text Label 3950 2150 0    60   ~ 0
-VDAC6
+VDAC5
 Text Label 3950 2250 0    60   ~ 0
+VDAC6
+Text Label 3950 2050 0    60   ~ 0
 VDAC7
 Text Label 3950 2350 0    60   ~ 0
 VDAC8
