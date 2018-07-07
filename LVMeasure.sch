@@ -1230,13 +1230,13 @@ F 3 "" H 4000 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2200 2050 0    60   ~ 0
-VDAC1
-Text Label 2200 2150 0    60   ~ 0
-VDAC2
-Text Label 2200 2250 0    60   ~ 0
-VDAC3
-Text Label 2200 2350 0    60   ~ 0
 VDAC4
+Text Label 2200 2150 0    60   ~ 0
+VDAC1
+Text Label 2200 2250 0    60   ~ 0
+VDAC2
+Text Label 2200 2350 0    60   ~ 0
+VDAC3
 $Comp
 L C C3001
 U 1 1 5B401528
