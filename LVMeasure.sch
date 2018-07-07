@@ -444,21 +444,21 @@ F2 "VOUT1" I R 10450 1300 60
 F3 "VOUT_RTN1" I R 10450 1450 60 
 F4 "VDAC1" I L 9250 1300 60 
 $EndSheet
-Text Label 3000 4800 0    60   ~ 0
-VOUT1
 Text Label 3000 4900 0    60   ~ 0
-VOUT2
-Text Label 3000 5000 0    60   ~ 0
-VOUT3
+VOUT1
 Text Label 3000 5100 0    60   ~ 0
-VOUT4
-Text Label 3000 5200 0    60   ~ 0
-VOUT5
+VOUT2
 Text Label 3000 5300 0    60   ~ 0
-VOUT6
-Text Label 3000 5400 0    60   ~ 0
-VOUT7
+VOUT3
 Text Label 3000 5500 0    60   ~ 0
+VOUT4
+Text Label 3000 4800 0    60   ~ 0
+VOUT5
+Text Label 3000 5000 0    60   ~ 0
+VOUT6
+Text Label 3000 5200 0    60   ~ 0
+VOUT7
+Text Label 3000 5400 0    60   ~ 0
 VOUT8
 Wire Wire Line
 	2100 4300 2200 4300

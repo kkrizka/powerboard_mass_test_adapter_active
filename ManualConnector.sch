@@ -49,213 +49,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Conn_02x02_Counter_Clockwise J11001
-U 1 1 5B3AB4DF
-P 3700 1500
-F 0 "J11001" H 3750 1600 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 3750 1300 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 1500 50  0001 C CNN
-F 3 "" H 3700 1500 50  0001 C CNN
-	1    3700 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x02_Counter_Clockwise J11002
-U 1 1 5B3AB546
-P 3700 1900
-F 0 "J11002" H 3750 2000 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 3750 1700 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 1900 50  0001 C CNN
-F 3 "" H 3700 1900 50  0001 C CNN
-	1    3700 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x02_Counter_Clockwise J11003
-U 1 1 5B3AB563
-P 3700 2300
-F 0 "J11003" H 3750 2400 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 3750 2100 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 2300 50  0001 C CNN
-F 3 "" H 3700 2300 50  0001 C CNN
-	1    3700 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x02_Counter_Clockwise J11004
-U 1 1 5B3AB70A
-P 3700 2700
-F 0 "J11004" H 3750 2800 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 3750 2500 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 2700 50  0001 C CNN
-F 3 "" H 3700 2700 50  0001 C CNN
-	1    3700 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x02_Counter_Clockwise J11005
-U 1 1 5B3AB710
-P 3700 3100
-F 0 "J11005" H 3750 3200 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 3750 2900 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 3100 50  0001 C CNN
-F 3 "" H 3700 3100 50  0001 C CNN
-	1    3700 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x02_Counter_Clockwise J11006
-U 1 1 5B3AB716
-P 3700 3500
-F 0 "J11006" H 3750 3600 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 3750 3300 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 3500 50  0001 C CNN
-F 3 "" H 3700 3500 50  0001 C CNN
-	1    3700 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x02_Counter_Clockwise J11007
-U 1 1 5B3AB860
-P 3700 3900
-F 0 "J11007" H 3750 4000 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 3750 3700 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 3900 50  0001 C CNN
-F 3 "" H 3700 3900 50  0001 C CNN
-	1    3700 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x02_Counter_Clockwise J11008
-U 1 1 5B3AB866
-P 3700 4300
-F 0 "J11008" H 3750 4400 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 3750 4100 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 4300 50  0001 C CNN
-F 3 "" H 3700 4300 50  0001 C CNN
-	1    3700 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x02_Counter_Clockwise J11009
-U 1 1 5B3AB86C
-P 3700 4700
-F 0 "J11009" H 3750 4800 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 3750 4500 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_MiniFit-JR-5569-04A2_2x02x4.20mm_Angled" H 3700 4700 50  0001 C CNN
-F 3 "" H 3700 4700 50  0001 C CNN
-	1    3700 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3400 1500 3500 1500
-Wire Wire Line
-	3500 1500 3500 1600
-Wire Wire Line
-	4000 1600 4000 1500
-Wire Wire Line
-	4000 1500 4100 1500
-Wire Wire Line
-	3400 1900 3500 1900
-Wire Wire Line
-	3400 2300 3500 2300
-Wire Wire Line
-	3400 2700 3500 2700
-Wire Wire Line
-	3400 3100 3500 3100
-Wire Wire Line
-	3400 3500 3500 3500
-Wire Wire Line
-	3400 3900 3500 3900
-Wire Wire Line
-	3400 4300 3500 4300
-Wire Wire Line
-	3400 4700 3500 4700
-Wire Wire Line
-	4000 1900 4100 1900
-Wire Wire Line
-	4000 2300 4100 2300
-Wire Wire Line
-	4000 2700 4100 2700
-Wire Wire Line
-	4000 3100 4100 3100
-Wire Wire Line
-	4000 3500 4100 3500
-Wire Wire Line
-	4000 3900 4100 3900
-Wire Wire Line
-	4000 4300 4100 4300
-Wire Wire Line
-	4000 4700 4100 4700
-Wire Wire Line
-	3500 1900 3500 2000
-Wire Wire Line
-	3500 2300 3500 2400
-Wire Wire Line
-	3500 2700 3500 2800
-Wire Wire Line
-	3500 3100 3500 3200
-Wire Wire Line
-	3500 3500 3500 3600
-Wire Wire Line
-	3500 3900 3500 4000
-Wire Wire Line
-	3500 4300 3500 4400
-Wire Wire Line
-	3500 4700 3500 4800
-Wire Wire Line
-	4000 1900 4000 2000
-Wire Wire Line
-	4000 2300 4000 2400
-Wire Wire Line
-	4000 2700 4000 2800
-Wire Wire Line
-	4000 3100 4000 3200
-Wire Wire Line
-	4000 3500 4000 3600
-Wire Wire Line
-	4000 3900 4000 4000
-Wire Wire Line
-	4000 4300 4000 4400
-Wire Wire Line
-	4000 4700 4000 4800
+	3500 1500 4100 1500
 Text Label 4100 1500 0    60   ~ 0
 VOUT_RTN1
-Text Label 4100 1900 0    60   ~ 0
-VOUT_RTN2
-Text Label 4100 2300 0    60   ~ 0
-VOUT_RTN3
-Text Label 4100 2700 0    60   ~ 0
-VOUT_RTN4
-Text Label 4100 3100 0    60   ~ 0
-VOUT_RTN5
-Text Label 4100 3500 0    60   ~ 0
-VOUT_RTN6
-Text Label 4100 3900 0    60   ~ 0
-VOUT_RTN7
-Text Label 4100 4300 0    60   ~ 0
-VOUT_RTN8
-Text Label 4100 4700 0    60   ~ 0
-VOUT_RTN9
-Text Label 3400 1500 2    60   ~ 0
-VOUT1
-Text Label 3400 1900 2    60   ~ 0
-VOUT2
-Text Label 3400 2300 2    60   ~ 0
-VOUT3
-Text Label 3400 2700 2    60   ~ 0
-VOUT4
-Text Label 3400 3100 2    60   ~ 0
-VOUT5
-Text Label 3400 3500 2    60   ~ 0
-VOUT6
-Text Label 3400 3900 2    60   ~ 0
-VOUT7
-Text Label 3400 4300 2    60   ~ 0
-VOUT8
-Text Label 3400 4700 2    60   ~ 0
-VOUT9
 Text HLabel 1350 900  0    60   Input ~ 0
 VOUT[1..9]
 Entry Wire Line
@@ -371,5 +168,116 @@ VOUT_RTN7
 Text Label 1550 3000 0    60   ~ 0
 VOUT_RTN8
 Text Label 1550 3100 0    60   ~ 0
+VOUT_RTN9
+$Comp
+L Conn_02x18_Odd_Even J11001
+U 1 1 5B41F4F2
+P 3700 2300
+F 0 "J11001" H 3750 3200 50  0000 C CNN
+F 1 "Conn_02x18_Odd_Even" H 3750 1300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x18_Pitch2.54mm_SMD" H 3700 2300 50  0001 C CNN
+F 3 "" H 3700 2300 50  0001 C CNN
+	1    3700 2300
+	1    0    0    -1  
+$EndComp
+Text Label 3400 1600 2    60   ~ 0
+VOUT1
+Connection ~ 4000 1500
+Wire Wire Line
+	3400 1600 4000 1600
+Connection ~ 3500 1600
+Wire Wire Line
+	3500 1700 4100 1700
+Wire Wire Line
+	3400 1800 4000 1800
+Wire Wire Line
+	3500 1900 4100 1900
+Wire Wire Line
+	3500 2000 4000 2000
+Wire Wire Line
+	3500 2100 4100 2100
+Wire Wire Line
+	3500 2200 4000 2200
+Wire Wire Line
+	3500 2300 4100 2300
+Wire Wire Line
+	3500 2400 4000 2400
+Wire Wire Line
+	3500 2500 4100 2500
+Wire Wire Line
+	3500 2600 4000 2600
+Wire Wire Line
+	3500 2700 4100 2700
+Wire Wire Line
+	3500 2800 4000 2800
+Wire Wire Line
+	3500 2900 4100 2900
+Wire Wire Line
+	3500 3000 4000 3000
+Wire Wire Line
+	3500 3100 4100 3100
+Wire Wire Line
+	3500 3200 4000 3200
+Connection ~ 3500 1800
+Connection ~ 3500 2000
+Connection ~ 3500 2200
+Connection ~ 3500 2400
+Connection ~ 3500 2600
+Connection ~ 3500 2800
+Connection ~ 3500 3000
+Connection ~ 3500 3200
+Connection ~ 4000 1700
+Connection ~ 4000 1900
+Connection ~ 4000 2100
+Connection ~ 4000 2300
+Connection ~ 4000 2500
+Connection ~ 4000 2700
+Connection ~ 4000 2900
+Connection ~ 4000 3100
+Wire Wire Line
+	3500 2000 3400 2000
+Wire Wire Line
+	3500 2200 3400 2200
+Wire Wire Line
+	3500 2400 3400 2400
+Wire Wire Line
+	3500 2600 3400 2600
+Wire Wire Line
+	3500 2800 3400 2800
+Wire Wire Line
+	3500 3000 3400 3000
+Wire Wire Line
+	3500 3200 3400 3200
+Text Label 3400 1800 2    60   ~ 0
+VOUT2
+Text Label 3400 2000 2    60   ~ 0
+VOUT3
+Text Label 3400 2200 2    60   ~ 0
+VOUT4
+Text Label 3400 2400 2    60   ~ 0
+VOUT5
+Text Label 3400 2600 2    60   ~ 0
+VOUT6
+Text Label 3400 2800 2    60   ~ 0
+VOUT7
+Text Label 3400 3000 2    60   ~ 0
+VOUT8
+Text Label 3400 3200 2    60   ~ 0
+VOUT9
+Text Label 4100 1700 0    60   ~ 0
+VOUT_RTN2
+Text Label 4100 1900 0    60   ~ 0
+VOUT_RTN3
+Text Label 4100 2100 0    60   ~ 0
+VOUT_RTN4
+Text Label 4100 2300 0    60   ~ 0
+VOUT_RTN5
+Text Label 4100 2500 0    60   ~ 0
+VOUT_RTN6
+Text Label 4100 2700 0    60   ~ 0
+VOUT_RTN7
+Text Label 4100 2900 0    60   ~ 0
+VOUT_RTN8
+Text Label 4100 3100 0    60   ~ 0
 VOUT_RTN9
 $EndSCHEMATC
