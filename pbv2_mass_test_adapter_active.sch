@@ -393,24 +393,26 @@ mSCL[1..7]
 Text Label 9950 6150 2    60   ~ 0
 mSDA[1..7]
 $Sheet
-S 3200 4900 1050 300 
+S 3200 4900 1200 550 
 U 5B3F246D
 F0 "DaisyConnector" 60
 F1 "DaisyConnector.sch" 60
-F2 "SDA" B L 3200 5100 60 
-F3 "SCL" B L 3200 5000 60 
+F2 "SDA" B L 3200 5350 60 
+F3 "SCL" B L 3200 5250 60 
+F4 "VIN" I L 3200 5000 60 
+F5 "VIN_RTN" O L 3200 5100 60 
 $EndSheet
 Text Label 2200 1150 0    60   ~ 0
 iSCL
 Text Label 2200 1250 0    60   ~ 0
 iSDA
 Wire Wire Line
-	3200 5000 3150 5000
+	3200 5250 3150 5250
 Wire Wire Line
-	3200 5100 3150 5100
-Text Label 3150 5000 2    60   ~ 0
+	3200 5350 3150 5350
+Text Label 3150 5250 2    60   ~ 0
 iSCL
-Text Label 3150 5100 2    60   ~ 0
+Text Label 3150 5350 2    60   ~ 0
 iSDA
 Wire Wire Line
 	1000 4150 900  4150
@@ -420,4 +422,12 @@ Text Label 900  4150 2    60   ~ 0
 mSCL2
 Text Label 900  4250 2    60   ~ 0
 mSDA2
+Wire Wire Line
+	3200 5000 3150 5000
+Wire Wire Line
+	3150 5100 3200 5100
+Text Label 3150 5000 2    60   ~ 0
+VIN
+Text Label 3150 5100 2    60   ~ 0
+VIN_RTN
 $EndSCHEMATC

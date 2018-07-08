@@ -211,4 +211,23 @@ Connection ~ 2400 2750
 Wire Wire Line
 	2400 2850 2350 2850
 Connection ~ 2400 2850
+$Comp
+L Conn_02x01 J21003
+U 1 1 5B41B68F
+P 2050 900
+F 0 "J21003" H 2100 1000 50  0000 C CNN
+F 1 "Conn_02x01" H 2100 800 50  0000 C CNN
+F 2 "lbl_conn:TerminalBlock_Pheonix_MKDS5-2pol" H 2050 900 50  0001 C CNN
+F 3 "" H 2050 900 50  0001 C CNN
+	1    2050 900 
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 900  0    60   Input ~ 0
+VIN
+Text HLabel 2400 900  2    60   Output ~ 0
+VIN_RTN
+Wire Wire Line
+	1800 900  1850 900 
+Wire Wire Line
+	2350 900  2400 900 
 $EndSCHEMATC
