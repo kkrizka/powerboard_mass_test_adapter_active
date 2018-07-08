@@ -253,7 +253,7 @@ F 1 "CONN_02X01" H 3150 2250 50  0000 C CNN
 F 2 "lbl_conn:TerminalBlock_Pheonix_MKDS5-2pol" H 3150 1150 50  0001 C CNN
 F 3 "" H 3150 1150 50  0001 C CNN
 	1    3150 2350
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR0136

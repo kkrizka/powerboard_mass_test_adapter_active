@@ -452,13 +452,13 @@ Text Label 3000 5300 0    60   ~ 0
 VOUT3
 Text Label 3000 5500 0    60   ~ 0
 VOUT4
-Text Label 3000 4800 0    60   ~ 0
-VOUT5
-Text Label 3000 5000 0    60   ~ 0
-VOUT6
-Text Label 3000 5200 0    60   ~ 0
-VOUT7
 Text Label 3000 5400 0    60   ~ 0
+VOUT5
+Text Label 3000 5200 0    60   ~ 0
+VOUT6
+Text Label 3000 5000 0    60   ~ 0
+VOUT7
+Text Label 3000 4800 0    60   ~ 0
 VOUT8
 Wire Wire Line
 	2100 4300 2200 4300

@@ -1,4 +1,4 @@
-update=Fri 06 Jul 2018 08:19:44 PM PDT
+update=Sat 07 Jul 2018 09:43:15 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -74,4 +74,3 @@ LibName32=library/lbl_adc
 LibName33=library/lbl_current
 LibName34=library/lbl_power
 LibName35=library/lbl_dac
-LibName36=/home/kkrizka/Sources/kicad-symbols/Analog_ADC
