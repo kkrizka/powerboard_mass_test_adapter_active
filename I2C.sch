@@ -242,28 +242,6 @@ F 3 "" H 7500 1050 50  0001 C CNN
 	1    7500 1050
 	1    0    0    -1  
 $EndComp
-Text Label 5900 1850 0    60   ~ 0
-SCL3
-Text Label 5900 2050 0    60   ~ 0
-SCL4
-Text Label 5900 2250 0    60   ~ 0
-SCL5
-Text Label 5900 2450 0    60   ~ 0
-SCL6
-Text Label 5900 2650 0    60   ~ 0
-SCL7
-Text Label 5900 1750 0    60   ~ 0
-SDA2
-Text Label 5900 1950 0    60   ~ 0
-SDA3
-Text Label 5900 2150 0    60   ~ 0
-SDA4
-Text Label 5900 2350 0    60   ~ 0
-SDA5
-Text Label 5900 2550 0    60   ~ 0
-SDA6
-Text Label 5900 2750 0    60   ~ 0
-SDA7
 Entry Wire Line
 	800  7000 900  7100
 Entry Wire Line
@@ -800,8 +778,6 @@ Wire Bus Line
 	900  7600 1900 7600
 Wire Bus Line
 	900  7100 1900 7100
-Text Label 5900 1650 0    60   ~ 0
-SCL2
 Wire Wire Line
 	600  800  600  700 
 $Comp
@@ -821,9 +797,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 700  850  700 
 Text Label 4000 1650 0    60   ~ 0
-SCL1
+SCL9
 Text Label 4000 1750 0    60   ~ 0
-SDA1
+SDA9
 Wire Wire Line
 	2450 1200 2450 800 
 Connection ~ 2450 800 
@@ -836,14 +812,6 @@ Text HLabel 3900 7050 3    60   BiDi ~ 0
 mSDA[1..7]
 Wire Wire Line
 	5450 3350 4900 3350
-Text Label 5900 2850 0    60   ~ 0
-SCL8
-Text Label 5900 3050 0    60   ~ 0
-SCL9
-Text Label 5900 2950 0    60   ~ 0
-SDA8
-Text Label 5900 3150 0    60   ~ 0
-SDA9
 Wire Wire Line
 	2300 2850 4000 2850
 Wire Wire Line
@@ -1214,4 +1182,36 @@ F 3 "" H 850 700 50  0001 C CNN
 	1    850  700 
 	1    0    0    -1  
 $EndComp
+Text Label 5900 2250 0    60   ~ 0
+SCL1
+Text Label 5900 2050 0    60   ~ 0
+SCL2
+Text Label 5900 1850 0    60   ~ 0
+SCL3
+Text Label 5900 1650 0    60   ~ 0
+SCL4
+Text Label 5900 3050 0    60   ~ 0
+SCL5
+Text Label 5900 2850 0    60   ~ 0
+SCL6
+Text Label 5900 2650 0    60   ~ 0
+SCL7
+Text Label 5900 2450 0    60   ~ 0
+SCL8
+Text Label 5900 2350 0    60   ~ 0
+SDA1
+Text Label 5900 2150 0    60   ~ 0
+SDA2
+Text Label 5900 1950 0    60   ~ 0
+SDA3
+Text Label 5900 1750 0    60   ~ 0
+SDA4
+Text Label 5900 3150 0    60   ~ 0
+SDA5
+Text Label 5900 2950 0    60   ~ 0
+SDA6
+Text Label 5900 2750 0    60   ~ 0
+SDA7
+Text Label 5900 2550 0    60   ~ 0
+SDA8
 $EndSCHEMATC
