@@ -220,28 +220,28 @@ F 3 "" H 9250 3800 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7100 4000 8200 4000
-Text Label 8150 4000 2    60   ~ 0
+	7100 3800 8200 3800
+Text Label 8150 3900 2    60   ~ 0
 HV9
 Wire Wire Line
-	7100 4100 7350 4100
+	7100 3900 7350 3900
 $Comp
 L R R7017
 U 1 1 5A55002F
-P 7500 4100
-F 0 "R7017" V 7580 4100 50  0000 C CNN
-F 1 "30k" V 7500 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 7430 4100 50  0001 C CNN
-F 3 "" H 7500 4100 50  0001 C CNN
-	1    7500 4100
+P 7500 3900
+F 0 "R7017" V 7580 3900 50  0000 C CNN
+F 1 "30k" V 7500 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 7430 3900 50  0001 C CNN
+F 3 "" H 7500 3900 50  0001 C CNN
+	1    7500 3900
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7650 4100 8200 4100
-Text Label 8150 4100 2    60   ~ 0
+	7650 3900 8200 3900
+Text Label 8150 3800 2    60   ~ 0
 HV_RTN9
 Wire Wire Line
-	7100 4100 7100 4000
+	7100 3900 7100 3800
 Wire Bus Line
 	2500 7600 2600 7600
 Wire Bus Line
@@ -314,19 +314,19 @@ F 3 "" H 5850 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 4000 4700 4000
-Text Label 4650 4100 2    60   ~ 0
+Text Label 4650 3700 2    60   ~ 0
 HV_RTN4
 Wire Wire Line
 	3600 3800 4700 3800
-Text Label 4650 3500 2    60   ~ 0
+Text Label 4650 4100 2    60   ~ 0
 HV_RTN1
 Wire Wire Line
 	3600 3600 4700 3600
-Text Label 4650 3700 2    60   ~ 0
+Text Label 4650 3900 2    60   ~ 0
 HV_RTN2
 Wire Wire Line
 	3600 3400 4700 3400
-Text Label 4650 3900 2    60   ~ 0
+Text Label 4650 3500 2    60   ~ 0
 HV_RTN3
 Wire Wire Line
 	3600 4100 3850 4100
@@ -343,7 +343,7 @@ F 3 "" H 4000 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 4100 4700 4100
-Text Label 4650 4000 2    60   ~ 0
+Text Label 4650 3600 2    60   ~ 0
 HV4
 Wire Wire Line
 	3600 3900 3850 3900
@@ -360,7 +360,7 @@ F 3 "" H 4000 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 3900 4700 3900
-Text Label 4650 3400 2    60   ~ 0
+Text Label 4650 4000 2    60   ~ 0
 HV1
 Wire Wire Line
 	3600 3700 3850 3700
@@ -377,7 +377,7 @@ F 3 "" H 4000 3700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 3700 4700 3700
-Text Label 4650 3600 2    60   ~ 0
+Text Label 4650 3800 2    60   ~ 0
 HV2
 Wire Wire Line
 	3600 3500 3850 3500
@@ -394,7 +394,7 @@ F 3 "" H 4000 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 3500 4700 3500
-Text Label 4650 3800 2    60   ~ 0
+Text Label 4650 3400 2    60   ~ 0
 HV3
 Wire Wire Line
 	3600 4100 3600 4000
@@ -485,19 +485,19 @@ F 3 "" H 5750 6150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 6250 4700 6250
-Text Label 4650 6350 2    60   ~ 0
+Text Label 4650 5950 2    60   ~ 0
 HV_RTN8
 Wire Wire Line
 	3600 6050 4700 6050
-Text Label 4650 5750 2    60   ~ 0
+Text Label 4650 6350 2    60   ~ 0
 HV_RTN5
 Wire Wire Line
 	3600 5850 4700 5850
-Text Label 4650 5950 2    60   ~ 0
+Text Label 4650 6150 2    60   ~ 0
 HV_RTN6
 Wire Wire Line
 	3600 5650 4700 5650
-Text Label 4650 6150 2    60   ~ 0
+Text Label 4650 5750 2    60   ~ 0
 HV_RTN7
 Wire Wire Line
 	3600 6350 3850 6350
@@ -514,7 +514,7 @@ F 3 "" H 4000 6350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 6350 4700 6350
-Text Label 4650 6250 2    60   ~ 0
+Text Label 4650 5850 2    60   ~ 0
 HV8
 Wire Wire Line
 	3600 6150 3850 6150
@@ -531,7 +531,7 @@ F 3 "" H 4000 6150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 6150 4700 6150
-Text Label 4650 5650 2    60   ~ 0
+Text Label 4650 6250 2    60   ~ 0
 HV5
 Wire Wire Line
 	3600 5950 3850 5950
@@ -548,7 +548,7 @@ F 3 "" H 4000 5950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 5950 4700 5950
-Text Label 4650 5850 2    60   ~ 0
+Text Label 4650 6050 2    60   ~ 0
 HV6
 Wire Wire Line
 	3600 5750 3850 5750
@@ -565,7 +565,7 @@ F 3 "" H 4000 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4150 5750 4700 5750
-Text Label 4650 6050 2    60   ~ 0
+Text Label 4650 5650 2    60   ~ 0
 HV7
 Wire Wire Line
 	3600 6350 3600 6250
@@ -602,8 +602,6 @@ Wire Wire Line
 	5100 5100 6000 5100
 Connection ~ 5700 5150
 Connection ~ 5100 5100
-NoConn ~ 8200 3900
-NoConn ~ 8200 3800
 NoConn ~ 8200 3700
 NoConn ~ 8200 3600
 NoConn ~ 8200 3500
@@ -1297,4 +1295,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 4350 8600 4350
 NoConn ~ 8200 3400
+NoConn ~ 8200 4000
+NoConn ~ 8200 4100
 $EndSCHEMATC
