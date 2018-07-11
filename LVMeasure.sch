@@ -444,7 +444,7 @@ F2 "VOUT1" I R 10450 1300 60
 F3 "VOUT_RTN1" I R 10450 1450 60 
 F4 "VDAC1" I L 9250 1300 60 
 $EndSheet
-Text Label 5700 4800 0    60   ~ 0
+Text Label 5700 5400 0    60   ~ 0
 VOUT1
 Text Label 3000 5500 0    60   ~ 0
 VOUT2
@@ -1136,19 +1136,19 @@ F 3 "" H 5300 7550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 7550 5300 7450
-Text Label 5700 4900 0    60   ~ 0
-VNTC1
-Text Label 5700 5000 0    60   ~ 0
-VNTC2
-Text Label 5700 5100 0    60   ~ 0
-VNTC3
 Text Label 5700 5200 0    60   ~ 0
-VNTC4
+VNTC1
+Text Label 5700 5100 0    60   ~ 0
+VNTC2
+Text Label 5700 5000 0    60   ~ 0
+VNTC3
 Text Label 5700 5300 0    60   ~ 0
+VNTC4
+Text Label 5700 4800 0    60   ~ 0
 VNTC5
-Text Label 5700 5400 0    60   ~ 0
-VNTC6
 Text Label 5700 5500 0    60   ~ 0
+VNTC6
+Text Label 5700 4900 0    60   ~ 0
 VNTC7
 $Comp
 L R R3008
