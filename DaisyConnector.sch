@@ -73,28 +73,6 @@ F 3 "" H 2400 1900 50  0001 C CNN
 	1    2400 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR0202
-U 1 1 5B3F30A2
-P 1700 1350
-F 0 "#PWR0202" H 1700 1200 50  0001 C CNN
-F 1 "+5V" H 1700 1490 50  0000 C CNN
-F 2 "" H 1700 1350 50  0001 C CNN
-F 3 "" H 1700 1350 50  0001 C CNN
-	1    1700 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L -5V #PWR21002
-U 1 1 5B3F30B8
-P 1700 1550
-F 0 "#PWR21002" H 1700 1650 50  0001 C CNN
-F 1 "-5V" H 1700 1700 50  0000 C CNN
-F 2 "" H 1700 1550 50  0001 C CNN
-F 3 "" H 1700 1550 50  0001 C CNN
-	1    1700 1550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 1350 1700 1350
 Wire Wire Line
@@ -156,28 +134,6 @@ F 3 "" H 2400 2900 50  0001 C CNN
 	1    2400 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR0204
-U 1 1 5B3F91A4
-P 1700 2350
-F 0 "#PWR0204" H 1700 2200 50  0001 C CNN
-F 1 "+5V" H 1700 2490 50  0000 C CNN
-F 2 "" H 1700 2350 50  0001 C CNN
-F 3 "" H 1700 2350 50  0001 C CNN
-	1    1700 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L -5V #PWR21004
-U 1 1 5B3F91AA
-P 1700 2550
-F 0 "#PWR21004" H 1700 2650 50  0001 C CNN
-F 1 "-5V" H 1700 2700 50  0000 C CNN
-F 2 "" H 1700 2550 50  0001 C CNN
-F 3 "" H 1700 2550 50  0001 C CNN
-	1    1700 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 2350 1700 2350
 Wire Wire Line
@@ -211,4 +167,16 @@ Connection ~ 2400 2750
 Wire Wire Line
 	2400 2850 2350 2850
 Connection ~ 2400 2850
+Text Label 1700 1350 2    60   ~ 0
+raw_p5V
+Text Label 1700 2350 2    60   ~ 0
+raw_p5V
+Text Label 1700 1550 2    60   ~ 0
+raw_m5V
+Text Label 1700 2550 2    60   ~ 0
+raw_m5V
+Text HLabel 1050 800  0    60   BiDi ~ 0
+raw_p5V
+Text HLabel 1050 900  0    60   BiDi ~ 0
+raw_m5V
 $EndSCHEMATC

@@ -120,32 +120,26 @@ HV_OUT[1..9]
 Text Label 9300 1000 0    60   ~ 0
 HV_OUT_RTN[1..9]
 $Sheet
-S 1000 4050 800  600 
+S 1000 3700 900  950 
 U 5A1D3CA0
 F0 "PowerConnectors" 60
 F1 "PowerConnectors.sch" 60
-F2 "VIN" I R 1800 4150 60 
-F3 "HV_IN" I R 1800 4450 60 
-F4 "HV_IN_RTN" O R 1800 4550 60 
-F5 "VIN_RTN" O R 1800 4250 60 
-F6 "SCL" I L 1000 4150 60 
-F7 "SDA" B L 1000 4250 60 
+F2 "VIN" I R 1900 3800 60 
+F3 "HV_IN" I R 1900 4100 60 
+F4 "HV_IN_RTN" O R 1900 4200 60 
+F5 "VIN_RTN" O R 1900 3900 60 
+F6 "SCL" I L 1000 3800 60 
+F7 "SDA" B L 1000 3900 60 
+F8 "raw_p5V" O R 1900 4400 60 
+F9 "raw_m5V" O R 1900 4500 60 
 $EndSheet
-Wire Wire Line
-	1800 4150 1900 4150
-Wire Wire Line
-	1800 4450 1900 4450
-Wire Wire Line
-	1800 4550 1900 4550
-Wire Wire Line
-	1800 4250 1900 4250
-Text Label 1900 4150 0    60   ~ 0
+Text Label 2000 3800 0    60   ~ 0
 VIN
-Text Label 1900 4250 0    60   ~ 0
+Text Label 2000 3900 0    60   ~ 0
 VIN_RTN
-Text Label 1900 4450 0    60   ~ 0
+Text Label 2000 4100 0    60   ~ 0
 HV_IN
-Text Label 1900 4550 0    60   ~ 0
+Text Label 2000 4200 0    60   ~ 0
 HV_IN_RTN
 $Sheet
 S 1000 4900 950  450 
@@ -399,8 +393,8 @@ F0 "DaisyConnector" 60
 F1 "DaisyConnector.sch" 60
 F2 "SDA" B L 3200 5350 60 
 F3 "SCL" B L 3200 5250 60 
-F4 "VIN" I L 3200 5000 60 
-F5 "VIN_RTN" O L 3200 5100 60 
+F4 "raw_p5V" B L 3200 5000 60 
+F5 "raw_m5V" B L 3200 5100 60 
 $EndSheet
 Text Label 2200 1150 0    60   ~ 0
 iSCL
@@ -415,19 +409,35 @@ iSCL
 Text Label 3150 5350 2    60   ~ 0
 iSDA
 Wire Wire Line
-	1000 4150 900  4150
+	1000 3800 900  3800
 Wire Wire Line
-	1000 4250 900  4250
-Text Label 900  4150 2    60   ~ 0
+	1000 3900 900  3900
+Text Label 900  3800 2    60   ~ 0
 mSCL2
-Text Label 900  4250 2    60   ~ 0
+Text Label 900  3900 2    60   ~ 0
 mSDA2
 Wire Wire Line
 	3200 5000 3150 5000
 Wire Wire Line
 	3150 5100 3200 5100
 Text Label 3150 5000 2    60   ~ 0
-VIN
+raw_p5V
 Text Label 3150 5100 2    60   ~ 0
-VIN_RTN
+raw_m5V
+Wire Wire Line
+	1900 3800 2000 3800
+Wire Wire Line
+	1900 3900 2000 3900
+Wire Wire Line
+	1900 4100 2000 4100
+Wire Wire Line
+	1900 4200 2000 4200
+Text Label 2000 4400 0    60   ~ 0
+raw_p5V
+Text Label 2000 4500 0    60   ~ 0
+raw_m5V
+Wire Wire Line
+	1900 4400 2000 4400
+Wire Wire Line
+	1900 4500 2000 4500
 $EndSCHEMATC

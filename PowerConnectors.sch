@@ -278,7 +278,7 @@ Wire Wire Line
 	3900 1600 3900 1850
 Connection ~ 3900 1600
 Wire Wire Line
-	3500 1600 3500 1850
+	3500 1600 3500 1900
 Connection ~ 3500 1600
 Text Label 3500 1850 2    60   ~ 0
 p5V_p
@@ -296,7 +296,7 @@ F 3 "" H 2600 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2800 1600 2800 1850
+	2800 1600 2800 1900
 Connection ~ 2800 1600
 Wire Wire Line
 	2400 1600 2400 1850
@@ -796,4 +796,12 @@ Wire Wire Line
 Wire Wire Line
 	3050 2850 3450 2850
 Connection ~ 3450 2850
+Text HLabel 3550 1900 2    60   Output ~ 0
+raw_p5V
+Wire Wire Line
+	3500 1900 3550 1900
+Text HLabel 2750 1900 0    60   Output ~ 0
+raw_m5V
+Wire Wire Line
+	2800 1900 2750 1900
 $EndSCHEMATC
