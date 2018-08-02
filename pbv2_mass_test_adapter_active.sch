@@ -161,10 +161,6 @@ Wire Wire Line
 Text Label 2150 950  0    60   ~ 0
 ~RST
 Wire Wire Line
-	2800 950  2700 950 
-Text Label 2700 950  2    60   ~ 0
-~RST
-Wire Wire Line
 	2100 1150 2800 1150
 Wire Wire Line
 	2100 1250 2800 1250
@@ -250,25 +246,14 @@ F 3 "" H 5100 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 3200 4300 1200 300 
+S 3200 4300 1200 700 
 U 5B3D95B1
 F0 "ManualConnector" 60
 F1 "ManualConnector.sch" 60
 F2 "VOUT[1..9]" I L 3200 4400 60 
 F3 "VOUT_RTN[1..9]" I L 3200 4500 60 
-$EndSheet
-$Sheet
-S 2800 850  900  800 
-U 59C2F7D8
-F0 "I2C" 60
-F1 "I2C.sch" 60
-F2 "SCL" B L 2800 1150 60 
-F3 "SDA" B L 2800 1250 60 
-F4 "~RESET" I L 2800 950 60 
-F5 "SCL[1..9]" B R 3700 1150 60 
-F6 "SDA[1..9]" B R 3700 1250 60 
-F7 "mSDA[1..7]" B R 3700 1550 60 
-F8 "mSCL[1..7]" B R 3700 1450 60 
+F4 "HV_OUT[1..9]" I L 3200 4800 60 
+F5 "HV_OUT_RTN[1..9]" I L 3200 4700 60 
 $EndSheet
 Wire Bus Line
 	3700 1450 3850 1450
@@ -387,26 +372,26 @@ mSCL[1..7]
 Text Label 9950 6150 2    60   ~ 0
 mSDA[1..7]
 $Sheet
-S 3200 4900 1200 550 
+S 3200 5250 1200 550 
 U 5B3F246D
 F0 "DaisyConnector" 60
 F1 "DaisyConnector.sch" 60
-F2 "SDA" B L 3200 5350 60 
-F3 "SCL" B L 3200 5250 60 
-F4 "raw_p5V" B L 3200 5000 60 
-F5 "raw_m5V" B L 3200 5100 60 
+F2 "SDA" B L 3200 5700 60 
+F3 "SCL" B L 3200 5600 60 
+F4 "raw_p5V" B L 3200 5350 60 
+F5 "raw_m5V" B L 3200 5450 60 
 $EndSheet
 Text Label 2200 1150 0    60   ~ 0
 iSCL
 Text Label 2200 1250 0    60   ~ 0
 iSDA
 Wire Wire Line
-	3200 5250 3150 5250
+	3200 5600 3150 5600
 Wire Wire Line
-	3200 5350 3150 5350
-Text Label 3150 5250 2    60   ~ 0
+	3200 5700 3150 5700
+Text Label 3150 5600 2    60   ~ 0
 iSCL
-Text Label 3150 5350 2    60   ~ 0
+Text Label 3150 5700 2    60   ~ 0
 iSDA
 Wire Wire Line
 	1000 3800 900  3800
@@ -417,12 +402,12 @@ mSCL2
 Text Label 900  3900 2    60   ~ 0
 mSDA2
 Wire Wire Line
-	3200 5000 3150 5000
+	3200 5350 3150 5350
 Wire Wire Line
-	3150 5100 3200 5100
-Text Label 3150 5000 2    60   ~ 0
+	3150 5450 3200 5450
+Text Label 3150 5350 2    60   ~ 0
 raw_p5V
-Text Label 3150 5100 2    60   ~ 0
+Text Label 3150 5450 2    60   ~ 0
 raw_m5V
 Wire Wire Line
 	1900 3800 2000 3800
@@ -440,4 +425,24 @@ Wire Wire Line
 	1900 4400 2000 4400
 Wire Wire Line
 	1900 4500 2000 4500
+$Sheet
+S 2800 1050 900  600 
+U 59C2F7D8
+F0 "I2C" 60
+F1 "I2C.sch" 60
+F2 "SCL" B L 2800 1150 60 
+F3 "SDA" B L 2800 1250 60 
+F4 "SCL[1..9]" B R 3700 1150 60 
+F5 "SDA[1..9]" B R 3700 1250 60 
+F6 "mSDA[1..7]" B R 3700 1550 60 
+F7 "mSCL[1..7]" B R 3700 1450 60 
+$EndSheet
+Wire Bus Line
+	3200 4700 3150 4700
+Wire Bus Line
+	3150 4800 3200 4800
+Text Label 3150 4700 2    60   ~ 0
+HV_OUT[1..9]
+Text Label 3150 4800 2    60   ~ 0
+HV_OUT_RTN[1..9]
 $EndSCHEMATC
