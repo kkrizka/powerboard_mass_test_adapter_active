@@ -55,9 +55,8 @@ U 59C2F489
 F0 "MicroZed" 60
 F1 "microzed.sch" 60
 F2 "PWR_EN" O R 2100 800 60 
-F3 "~RESET" O R 2100 950 60 
-F4 "I2C_SDA" B R 2100 1250 60 
-F5 "I2C_SCL" O R 2100 1150 60 
+F3 "I2C_SDA" B R 2100 1250 60 
+F4 "I2C_SCL" O R 2100 1150 60 
 $EndSheet
 $Sheet
 S 5300 800  1000 450 
@@ -156,10 +155,6 @@ Wire Wire Line
 	2100 800  2150 800 
 Text Label 2150 800  0    60   ~ 0
 PWR_EN
-Wire Wire Line
-	2100 950  2150 950 
-Text Label 2150 950  0    60   ~ 0
-~RST
 Wire Wire Line
 	2100 1150 2800 1150
 Wire Wire Line
