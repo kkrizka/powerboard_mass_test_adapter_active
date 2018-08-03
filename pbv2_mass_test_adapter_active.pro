@@ -1,4 +1,4 @@
-update=Thu 02 Aug 2018 04:00:15 PM PDT
+update=Fri 03 Aug 2018 03:45:48 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=schematic/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=library
@@ -75,3 +65,13 @@ LibName33=library/lbl_current
 LibName34=library/lbl_power
 LibName35=library/lbl_dac
 LibName36=library/lbl_conn
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
