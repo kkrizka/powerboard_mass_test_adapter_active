@@ -41,11 +41,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 21
-Title ""
-Date ""
+Title "Powerboard v2 Massive Active Tester Board"
+Date "2018-08-03"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Lawrence Berkeley National Laboratory"
+Comment1 "Karol Krizka"
 Comment2 ""
 Comment3 ""
 Comment4 ""
