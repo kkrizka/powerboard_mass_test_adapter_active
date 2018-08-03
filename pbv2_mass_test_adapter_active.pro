@@ -1,4 +1,4 @@
-update=Tue 31 Jul 2018 10:19:43 AM PDT
+update=Thu 02 Aug 2018 04:00:15 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -74,3 +74,4 @@ LibName32=library/lbl_adc
 LibName33=library/lbl_current
 LibName34=library/lbl_power
 LibName35=library/lbl_dac
+LibName36=library/lbl_conn
