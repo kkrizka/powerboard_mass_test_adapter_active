@@ -3,4 +3,5 @@
   (lib (name lbl_conn)(type KiCad)(uri "$(KIPRJMOD)/library/lbl_conn.pretty")(options "")(descr ""))
   (lib (name lbl_resistors)(type KiCad)(uri "$(KIPRJMOD)/library/lbl_resistors.pretty")(options "")(descr ""))
   (lib (name lbl_filters)(type KiCad)(uri "$(KIPRJMOD)/library/lbl_filters.pretty")(options "")(descr ""))
+  (lib (name lbnl_logo)(type KiCad)(uri "$(KIPRJMOD)/library/lbnl_logo.pretty")(options "")(descr ""))
 )
