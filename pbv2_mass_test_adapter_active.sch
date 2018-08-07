@@ -236,7 +236,7 @@ U 1 1 5B3D6B8F
 P 5100 3750
 F 0 "J2" H 5100 3900 50  0000 C CNN
 F 1 "CONN_01X02" V 5200 3750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm_SMD" H 5100 3750 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm_SMD_Pin1Right" H 5100 3750 50  0001 C CNN
 F 3 "" H 5100 3750 50  0001 C CNN
 	1    5100 3750
 	1    0    0    -1  
